@@ -138,8 +138,6 @@
 .aws/aws_secret_access_key
 .aws/cli
 .aws/cli/cache
-.aws/cli/cache/<aws_profile_name>
-.aws/cli/cache/<profile_name>
 .aws/config
 .aws/credentials
 .aws/credentials.ini
@@ -161,8 +159,6 @@
 .azure/azure.json
 .azure/azureProfile.json
 .azure/azurestack
-.azure/azurestack/<cloud_name>
-.azure/azurestack/<cloud_name>/AccessTokens.json
 .azure/config
 .azure/container-instances
 .azure/cosmos-db
@@ -621,7 +617,6 @@
 .config/gcloud/credentials
 .config/gcloud/credentials.db
 .config/gcloud/legacy_credentials
-.config/gcloud/legacy_credentials/<user_email>/adc.json
 .config/karma.conf.coffee
 .config/karma.conf.js
 .config/karma.conf.ts
@@ -968,13 +963,10 @@
 .gcloud/application_default_credentials.json
 .gcloud/config
 .gcloud/configurations
-.gcloud/configurations/config_<config_number>
 .gcloud/configurations/config_default
 .gcloud/credentials
 .gcloud/credentials.db
 .gcloud/legacy_credentials
-.gcloud/legacy_credentials/<user_email>/adc.json
-.gcloud/secrets/<user_email>/secrets.json
 .gcp
 .gcp/gcloud
 .gcp/gcloud/application_default_credentials.json
@@ -2117,8 +2109,6 @@
 .rackspace/cloud_credentials
 .rackspace/clouds
 .rackspace/clouds.yaml
-.rackspace/clouds/<cloud_name>
-.rackspace/clouds/<cloud_name>/<user_id>
 .rackspacecloud/credentials
 .rake_tasks
 .rakeignore
