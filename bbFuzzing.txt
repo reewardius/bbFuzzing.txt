@@ -1378,6 +1378,7 @@
 .history
 .hound.yml
 .hpc
+.hprof
 .hsenv
 .ht_wsr.txt
 .hta
@@ -1901,6 +1902,7 @@
 .openstack/rc
 .openstackclirc
 .oracle_jre_usage
+.oracle_profile
 .org-id-locations
 .orig
 .oscrc
@@ -3175,6 +3177,7 @@ Cortex_XDR_troubleshoot.log
 Cortex_XDR_user_settings.conf
 Counter
 Cpanel.php
+Crash_Mode_Date_Time.dmp
 Create1n73ction.php
 Create404shellcode.php
 Create_jjw.jspx
@@ -3235,6 +3238,7 @@ DNS_records.xml
 DOC
 DOS
 DTool_Pro.php
+DansGuardian.conf
 Data
 DataIngestion.java
 DataRecovery.java
@@ -3557,6 +3561,8 @@ JWT_secrets.sh
 JWT_secrets.txt
 JWT_secrets.xml
 Jakefile
+JavaMelody/heapdump
+JavaMelody/monitoring/heapdump
 JavaShell.jsp
 Javast.jsp
 Jenkinsfile
@@ -4021,6 +4027,7 @@ Password
 Password.jsp
 Password23.jsp
 Password25.jsp
+PerfView_Date_Time.etl.zip
 PerformanceTests.kt
 Personajes
 PharoDebug.log
@@ -4177,6 +4184,8 @@ SSL_certificates.ps1
 SSL_certificates.sh
 SSL_certificates.txt
 SSL_certificates.xml
+SSL_chain.pem
+SSL_private_key.pem
 SSODAD
 STATUS.txt
 STNC_WebShell_v0.8.php
@@ -5274,6 +5283,8 @@ access_control_lists.txt
 access_control_lists.xml
 access_control_scripts.ps1
 access_control_scripts.sh
+access_credentials.json
+access_credentials_store.json
 access_default.log
 access_encryption.bat
 access_encryption.conf
@@ -5296,6 +5307,7 @@ access_key.bin
 access_key.dat
 access_key.txt
 access_key_pairs.js
+access_key_store.json
 access_keys.json
 access_keys.txt
 access_level.py
@@ -5375,6 +5387,7 @@ access_token_secret.js
 access_token_secret.json
 access_token_secret.key
 access_token_secret.txt
+access_token_store.json
 access_tokens.bat
 access_tokens.conf
 access_tokens.js
@@ -5417,6 +5430,7 @@ accountSettings.js
 accountSummary
 account_deactivate.php
 account_delete.php
+account_info.json
 account_policies.conf
 account_settings.php
 accountbalance
@@ -5515,6 +5529,7 @@ acoustic.js
 acovercos.js
 acp
 acpid
+acpid.conf
 acq.js
 acquisition_targets.xlsx
 acrabit
@@ -5680,6 +5695,7 @@ actuator/hystrix.stream
 actuator/info
 actuator/integrationgraph
 actuator/jolokia
+actuator/jvm/heapdump
 actuator/liquibase
 actuator/logfile
 actuator/loggers
@@ -6451,6 +6467,7 @@ admin_session_management.php
 admin_setting
 admin_settings
 admin_settings.js
+admin_settings.json
 admin_settings.php
 admin_settings_email.php
 admin_settings_general.php
@@ -6563,6 +6580,11 @@ adminedit
 adminer
 adminer.jsp
 adminer.php
+adminer.php.bak
+adminer.php.bkp
+adminer.php.swap
+adminer.php.swp
+adminer.php~
 adminer/.env
 adminer/adminer.php
 adminer/index.php
@@ -7381,6 +7403,7 @@ amarante.js
 amastates.js
 amateria.js
 amavis
+amavisd.conf
 amax
 amaze.js
 amazesoft
@@ -7459,6 +7482,7 @@ amyuni
 an
 anaconda
 anaconda/.env
+anacrontab.conf
 anadir.js
 anakia-task.jar
 anakia.properties
@@ -7693,6 +7717,8 @@ apache/logs/error.log
 apache/logs/error_log
 apache/zabbix.conf
 apache2-default
+apache2-mod-security.conf
+apache2-vhosts.conf
 apache2.conf
 apache2triad
 apacheAccess.log
@@ -7709,6 +7735,7 @@ apartment.js
 apboard
 apc
 apc-nrp.php
+apc.conf
 apc.php
 apc/apc.php
 apc/index.php
@@ -7945,6 +7972,8 @@ api/v3/swagger.json
 api/v3/swagger.yaml
 api/v4.0
 api/v5.0
+api/v5/actuator/dump
+api/v5/actuator/heapdump
 api/v6.0
 api/webhooks
 api/whoami
@@ -8353,6 +8382,7 @@ appdynamics-security.cfg
 appdynamics.cfg
 appdynamics.ini
 appdynamics.properties
+appdynamics/heapdump
 appel
 appendonly.conf
 appengine-generated
@@ -9093,6 +9123,7 @@ asyncwrap.js
 asyncxml.js
 at
 at.conf
+at.d
 atag.js
 atajoui.js
 atalasoft
@@ -9731,6 +9762,7 @@ av
 av.js
 ava.config.js
 avahi
+avahi-daemon.conf
 availability.php
 availabilityzones
 avalancha.js
@@ -10406,6 +10438,7 @@ backup_schedule.ps1
 backup_schedule.sh
 backup_schedule.txt
 backup_schedule.xml
+backup_scripts
 backup_scripts.bat
 backup_scripts.conf
 backup_scripts.json
@@ -12346,6 +12379,7 @@ caching_strategies.txt
 caching_strategies.xml
 cachios.js
 cacti
+cacti.conf
 cactus
 cactusoft
 cadastrar.js
@@ -14344,6 +14378,7 @@ cider
 cidlist.js
 cidr.txt
 cifield.js
+cifs.conf
 cigital
 ciherd.js
 cij.js
@@ -14496,6 +14531,7 @@ cksync.js
 claerhout
 claimlist.js
 clam
+clamav.conf
 clamd.conf
 clamd.js
 clampnode.js
@@ -14715,6 +14751,7 @@ client_cert.bin
 client_cert.pem
 client_cert.pfx
 client_certificate.bin
+client_certificate.p12
 client_certificate.pem
 client_certificate.pfx
 client_credentials.bin
@@ -14728,6 +14765,7 @@ client_id.js
 client_id.json
 client_id.txt
 client_id_secret.bin
+client_identity.json
 client_info.py
 client_info.txt
 client_info_library.py
@@ -14739,14 +14777,21 @@ client_key.js
 client_key.json
 client_key.pem
 client_key.txt
+client_keys.json
+client_keys_store.json
 client_lib
 client_max_body.conf
 client_private_cert.bin
 client_private_cert.pem
 client_private_cert.pfx
 client_private_certificate.pfx
+client_private_credentials.json
+client_private_identity.json
+client_private_info.json
 client_private_key.bin
 client_private_key.pem
+client_private_keys.json
+client_private_tokens.json
 client_records.csv
 client_secret
 client_secret.bin
@@ -14758,11 +14803,14 @@ client_secret_cert.bin
 client_secret_cert.pfx
 client_secret_key.bin
 client_secret_key.key
+client_secret_tokens.json
 client_secrets.json
 client_secrets.py
+client_secrets_store.json
 client_src
 client_token.txt
 client_tokens.db
+client_tokens.json
 client_tokens.txt
 client_zpk_secret_key
 clientc.js
@@ -15079,6 +15127,7 @@ cloud_serverless_function_configurations
 cloud_serverless_function_logs
 cloud_serverless_function_metrics
 cloud_serverless_function_triggers
+cloud_services.json
 cloud_storage_credentials.yml
 cloud_subnet_config.yml
 cloud_theme
@@ -17132,10 +17181,12 @@ connection.xlsx
 connection.yaml
 connection.yml
 connection_history.csv
+connection_info.json
 connection_policy.txt
 connection_string.txt
 connection_strings.config
 connection_strings.ini
+connection_strings.json
 connection_strings.py
 connectionstring
 connectionstrings.Development.config
@@ -18172,6 +18223,7 @@ cryptget.js
 crypto++
 crypto_policies.conf
 cryptocard
+cryptographic_keys.json
 cryptography_library.bat
 cryptography_library.conf
 cryptography_library.json
@@ -18353,6 +18405,7 @@ cuon.js
 cup.js
 cupido
 cupon.js
+cupsd.conf
 curation.js
 curdle.js
 curdpage.js
@@ -19603,6 +19656,7 @@ dbstore.js
 dbsync.js
 dbtools
 dbuild.js
+dbus.conf
 dbuser
 dbutil.js
 dbvips.js
@@ -19628,6 +19682,7 @@ dcrow.js
 dcsa.js
 dctrldb.js
 dcv.js
+ddclient.conf
 ddos
 ddos_protection_config.bat
 ddos_protection_config.conf
@@ -19679,11 +19734,19 @@ debug-debugging-configurations.json
 debug-debugging-scripts.json
 debug-debugging-tools.json
 debug-debugging-workflow.json
+debug-dump/clrheapdump
+debug-dump/heapdump
 debug-exceptions.json
+debug-inspect/clrheapdump
+debug-inspect/heapdump
+debug-inspection/heapdump
 debug-instrumentation.json
 debug-log-files.json
 debug-logging.json
 debug-memory-usage.json
+debug-memory/heapdump
+debug-monitor/clrheapdump
+debug-monitor/heapdump
 debug-output.txt
 debug-panel.asp
 debug-panel.aspx
@@ -19695,6 +19758,7 @@ debug-panel.pl
 debug-performance-monitoring.json
 debug-profiler.json
 debug-remote-debugging.json
+debug-tools/heapdump
 debug-tracing.json
 debug-watchpoints.json
 debug.asp
@@ -19719,6 +19783,8 @@ debug.ts
 debug.txt
 debug.xlsx
 debug.xml
+debug/clrheapdump
+debug/heapdump
 debug/pprof
 debug_ajax.php
 debug_audit.php
@@ -20468,6 +20534,7 @@ dgraph.js
 dgwm.js
 dh.pem
 dhamet.js
+dhclient.conf
 dhcp
 dhcp_log
 dhcpd.conf
@@ -20483,6 +20550,17 @@ dia.js
 diablo.js
 diagnav.js
 diagnostics
+diagnostics-dump/clrheapdump
+diagnostics-dump/heapdump
+diagnostics-inspect/clrheapdump
+diagnostics-inspect/heapdump
+diagnostics-inspection/heapdump
+diagnostics-memory/heapdump
+diagnostics-monitor/clrheapdump
+diagnostics-monitor/heapdump
+diagnostics-tools/heapdump
+diagnostics/clrheapdump
+diagnostics/heapdump
 diagonses.js
 diagram.jpg
 dialin
@@ -21466,6 +21544,8 @@ dous.js
 dov.js
 dovah.js
 dovecot
+dovecot-dict-quota.conf
+dovecot-sql.conf
 dovecot.conf
 dovetail.js
 dow.js
@@ -21734,10 +21814,12 @@ dump.txt
 dump.xlsx
 dump.xml
 dump.zip
+dump/heapdump
 dump_history.csv
 dumpdata.js
 dumper
 dumper.php
+dumpfile.dmp
 dumphtml.js
 dumps
 dumps.js
@@ -21830,6 +21912,7 @@ dynatrace.pid
 dynatrace.properties
 dynatrace.yaml
 dynatrace.yml
+dynatrace/heapdump
 dyncms
 dyncoldel.js
 dyncolors.js
@@ -22553,14 +22636,22 @@ encrypted.crt
 encrypted.dat
 encrypted.key
 encrypted_access_key.pem
+encrypted_access_tokens.json
+encrypted_credentials.json
 encrypted_data
 encrypted_data.bin
+encrypted_data.json
 encrypted_docs
 encrypted_files
+encrypted_identity_tokens.json
 encrypted_key.pem
+encrypted_keys.json
+encrypted_keys_store.json
 encrypted_logs
 encrypted_repository
 encrypted_resources
+encrypted_secret_tokens.json
+encrypted_secrets.json
 encryption
 encryption-config.yml
 encryption-key
@@ -22576,6 +22667,7 @@ encryption.php
 encryption.ppk
 encryption.py
 encryption.ts
+encryption_access_tokens.json
 encryption_algorithm.bat
 encryption_algorithm.conf
 encryption_algorithm.json
@@ -22592,12 +22684,14 @@ encryption_algorithms.txt
 encryption_algorithms.xml
 encryption_architecture
 encryption_audit
+encryption_authentication.json
 encryption_awareness
 encryption_cert.crt
 encryption_cert.pem
 encryption_certificate.crt
 encryption_certificate.pem
 encryption_certificate.pfx
+encryption_certificates.json
 encryption_ciphers.bat
 encryption_ciphers.conf
 encryption_ciphers.json
@@ -22612,6 +22706,10 @@ encryption_config.ps1
 encryption_config.sh
 encryption_config.txt
 encryption_config.xml
+encryption_credentials.json
+encryption_credentials_store.json
+encryption_identity_store.json
+encryption_identity_tokens.json
 encryption_iv.bat
 encryption_iv.conf
 encryption_iv.json
@@ -22636,6 +22734,7 @@ encryption_key.pem
 encryption_key.ppk
 encryption_key.txt
 encryption_key_management
+encryption_key_store.json
 encryption_keys
 encryption_keys.bat
 encryption_keys.conf
@@ -22681,6 +22780,8 @@ encryption_salt.ps1
 encryption_salt.sh
 encryption_salt.txt
 encryption_salt.xml
+encryption_secret_tokens.json
+encryption_secrets.json
 encryption_settings.bat
 encryption_settings.conf
 encryption_settings.json
@@ -22688,6 +22789,9 @@ encryption_settings.ps1
 encryption_settings.sh
 encryption_settings.txt
 encryption_settings.xml
+encryption_store.json
+encryption_token_store.json
+encryption_tokens.json
 encryption_trends
 encryption_vectors.bat
 encryption_vectors.conf
@@ -23871,6 +23975,7 @@ exigo.js
 exile.js
 exim.conf
 exim.pl
+exim4.conf
 exim_config.cfg
 existance.js
 exiting.js
@@ -24574,6 +24679,7 @@ fetchival.js
 fetchjobs.js
 fetchjson.js
 fetchlive.js
+fetchmailrc.conf
 fetchql.js
 fetchthen.js
 fetchurl.js
@@ -24928,6 +25034,8 @@ firehome.js
 firelist.js
 firestorm
 firewall
+firewall-applet.conf
+firewall-cmd
 firewall-config.yaml
 firewall-rules.txt
 firewall-rules.yaml
@@ -25974,6 +26082,7 @@ fwmon
 fwon.js
 fworks.js
 fwui.js
+fwupd.conf
 fx
 fx-app
 fx.js
@@ -26123,6 +26232,13 @@ gapxlcntr.js
 garage.js
 garagedb.js
 garanti.js
+garbage-collection-debug/heapdump
+garbage-collection-diagnostics/heapdump
+garbage-collection-dump/heapdump
+garbage-collection-inspect/heapdump
+garbage-collection-memory/heapdump
+garbage-collection-monitor/heapdump
+garbage-collection/heapdump
 garc.js
 garca.js
 gardens.js
@@ -26198,6 +26314,7 @@ gbook
 gbpass.pl
 gbx.js
 gc.js
+gc/heapdump
 gcalc.js
 gcalendar.js
 gcards
@@ -26312,6 +26429,7 @@ gdcon.js
 gde.js
 gdfl.js
 gdhome.js
+gdm.conf
 gdmain.js
 gdptype.js
 gdriving.js
@@ -26321,6 +26439,9 @@ geantino.js
 gearbox
 gearcube.js
 gearjson.js
+gearman-manager.conf
+gearman.conf
+gearmand.conf
 geav.js
 gebase.js
 geckodriver.exe
@@ -27349,6 +27470,7 @@ groovyconsole
 grosberg
 grossman
 group
+group.conf
 group_create.php
 group_delete.php
 group_edit.php
@@ -27487,6 +27609,7 @@ grpc_web_proxy.js
 grpc_web_server.js
 grpopup.js
 grsecurity
+grub
 grub.conf
 grub.js
 grumpicon.js
@@ -27505,6 +27628,7 @@ gscode.js
 gsedge.js
 gsender.js
 gshadow
+gshadow.conf
 gsiglobe.js
 gsmethod.js
 gsneg.js
@@ -28160,7 +28284,17 @@ healthped.js
 healthvis.js
 healthz
 healthz/ping
+heap-analysis/heapdump
+heap-dump-debug/heapdump
+heap-dump-diagnostics/heapdump
+heap-dump-dump/heapdump
+heap-dump-inspect/heapdump
+heap-dump-inspection/heapdump
+heap.bin
+heapanalyzer/heapdump
 heapdump
+heapdump-api/heapdump
+heapdump-rest/heapdump
 heapdump.json
 heaplib.js
 heapnode.js
@@ -28168,6 +28302,7 @@ heapsort.js
 heapster-controller.yaml
 heapster-svc.yaml
 heapster.yaml
+heapviewer/heapdump
 heart
 heartbeat.js
 heartsui.js
@@ -28801,6 +28936,7 @@ host_vars/hostname.yaml
 host_vars/hostname.yml
 hostadmin
 hostapd
+hostapd.conf
 hosters.js
 hostgrid.js
 hostgroups.cfg
@@ -28810,6 +28946,7 @@ hosting.js
 hostlists.js
 hostmapping.json
 hostname
+hostname.conf
 hostports.js
 hostquery.js
 hosts
@@ -29597,6 +29734,7 @@ identity_management_configs.txt
 identity_management_configs.xml
 identity_provider.cfg
 identity_provider.json
+identity_tokens.json
 identitybroker.php
 identitymanagement.php
 identityprovider.php
@@ -30338,6 +30476,7 @@ ineritjs.js
 inert.js
 inet
 inet.js
+inetd.conf
 inetjob.js
 inetlab
 inetsoft
@@ -30614,6 +30753,7 @@ insite
 inso
 inspect
 inspect.php
+inspect/heapdump
 inspector
 inspectre.js
 insphere.js
@@ -30838,6 +30978,7 @@ interlace.js
 interlink
 intermec.js
 intermediate.pem
+intermediateCA.crt
 intermediate_ca.crt
 internal
 internal.js
@@ -31075,6 +31216,7 @@ ip3
 ip6tables-persistent.conf
 ip6tables-rules.v6
 ip6tables.conf
+ip6tables.rules
 ipa.js
 ipad
 ipass
@@ -31107,6 +31249,7 @@ iprep/default.iprep
 iprint
 iproj.js
 ipsec-tools
+ipsec.conf
 ipsf.js
 ipsource.js
 ipsp.js
@@ -31264,6 +31407,7 @@ isprofane.js
 isqlplus
 isref.js
 issue
+issue.conf
 issues
 istio
 istio-citadel-configmap.yaml
@@ -31580,6 +31724,8 @@ javacache
 javacachedocs
 javalexer.js
 javamail.jar
+javamelody/heapdump
+javamelody/monitoring/heapdump
 javascript
 javascript.js
 javascript.json
@@ -31763,6 +31909,7 @@ jenkins.xml
 jenkins.yml
 jenkins/login
 jenkins/script
+jenkins_secrets.txt
 jenkinsfile
 jennings
 jensen
@@ -31889,6 +32036,18 @@ jflower.js
 jforum
 jfp.js
 jfqx.js
+jfr-api/heapdump
+jfr-debug/heapdump
+jfr-diagnostics/heapdump
+jfr-dump/heapdump
+jfr-inspect/heapdump
+jfr-inspection/heapdump
+jfr-memory/heapdump
+jfr-monitoring/heapdump
+jfr-rest/heapdump
+jfr/heapdump"
+jfr/jmx/heapdump
+jfr/rest/v2/jfr/heapdump
 jframe.js
 jftpgw
 jfu.js
@@ -31899,6 +32058,9 @@ jgroff
 jgrow.js
 jgs-xa
 jgsoft
+jhat/dump
+jhat/dump"
+jhat/heapdump
 jhjgubbels.nl
 ji-takz
 jia.js
@@ -32018,9 +32180,14 @@ jks
 jkstatus
 jkstatus-auth
 jku.json
+jmap/heapdump
 jmate.js
 jmb
 jmc.js
+jmc/rest/v1/jfr/heapdump
+jmc/rest/v2/jfr/dump
+jmc/rest/v2/jfr/heapdump
+jmc/rest/v2/jfr/heapdump"
 jmcce
 jmereader.js
 jmeter
@@ -32045,8 +32212,15 @@ jmsws2
 jmx
 jmx-console
 jmx-console/HtmlAdaptor
+jmx-console/heapdump
+jmx-debug/heapdump
+jmx-diagnostics/heapdump
+jmx-dump/heapdump
+jmx-inspect/heapdump
+jmx-inspection/heapdump
 jmx.d
 jmx.properties
+jmx/heapdump
 jmxduck.js
 jmxproxy
 jndi.jar
@@ -32129,6 +32303,7 @@ joldem.js
 jolicoeur.js
 jolokia
 jolokia/exec/ch.qos.logback.classic
+jolokia/heapdump
 jolokia/list
 jolokia/version
 jombik
@@ -32190,6 +32365,9 @@ jphp.js
 jpicture.js
 jpip.js
 jportal
+jprofiler/heapdump
+jprofiler/heapdump"
+jprofiler/jmx/heapdump
 jproject.js
 jpushmenu.js
 jpz.js
@@ -32433,6 +32611,7 @@ jsrsasign.js
 jsrules.js
 jssresource
 jstabs.js
+jstack/heapdump
 jstanks.js
 jstart.js
 jstatic.js
@@ -32532,7 +32711,18 @@ juzgados.js
 jval.js
 jvc.js
 jview.js
+jvisualvm/heapdump
+jvisualvm/jmx/heapdump
+jvm-debug/heapdump
+jvm-diagnostics/heapdump
+jvm-dump/heapdump
+jvm-inspect/heapdump
+jvm-inspection/heapdump
+jvm-memory/heapdump
+jvm-monitor/heapdump
+jvm-tools/heapdump
 jvm.options
+jvm/heapdump
 jvxldata.js
 jw.jspx
 jwa.js
@@ -32698,6 +32888,8 @@ jx-values.yaml
 jxhelper.js
 jxm.js
 jxr.js
+jxray/heapdump
+jxray/heapdump"
 jxrdeclib.js
 jxs.js
 jydscript.js
@@ -33387,6 +33579,7 @@ key_management_service.ps1
 key_management_service.sh
 key_management_service.txt
 key_management_service.xml
+key_pairs.json
 key_value_store_config.yml
 keybackup.js
 keybindings.json
@@ -34694,6 +34887,7 @@ ligergrid.js
 light
 lightbike.js
 lightbox
+lightdm.conf
 lightgl.js
 lighthouse
 lighthttpd.conf
@@ -35550,6 +35744,7 @@ log_rotation.ps1
 log_rotation.sh
 log_rotation.txt
 log_rotation.xml
+log_test
 logan
 logarithm.js
 logback-access.xml
@@ -35808,6 +36003,7 @@ logs/application/system.log
 logs/error.log
 logs/error_log
 logs/errors.log
+logs/heapdump
 logs/httpd/access.log
 logs/httpd/access_log
 logs/httpd/error.log
@@ -36792,8 +36988,10 @@ master/portquotes_new/admin.log
 master_key
 master_key.bin
 master_key.pem
+master_keys.json
 master_password.bin
 master_password.txt
+master_tokens.json
 masterauth.conf
 masterex.js
 masterfiles/inputs.cf
@@ -37173,7 +37371,21 @@ memoedit.js
 memorin.js
 memorium.js
 memorize.js
+memory-analysis-tools/heapdump
+memory-debug/heapdump
+memory-dump/clrheapdump
+memory-dump/heapdump
+memory-inspect/clrheapdump
+memory-inspect/heapdump
+memory-inspection/heapdump
+memory-management/heapdump
+memory-monitor/clrheapdump
+memory-monitor/heapdump
+memory-snapshot/clrheapdump
+memory-snapshot/heapdump
 memory.conf
+memory/heapdump
+memoryanalysis/heapdump
 memorydb.js
 memoryrow.js
 memouser.js
@@ -37376,6 +37588,7 @@ metrics.py
 metrics.toml
 metrics.yml
 metrics/cadvisor
+metrics/heapdump
 metrix
 metronome.js
 metscard.js
@@ -37890,6 +38103,7 @@ mod-python-system.cfg
 mod-python-user.cfg
 mod-python.cfg
 mod-query.conf
+mod-security.conf
 mod-tls.cfg
 mod-udf-system.conf
 mod-udf-user.conf
@@ -38036,6 +38250,7 @@ moditem.js
 modlogan
 modopt.js
 modpro.js
+modprobe.conf
 modprobe.d
 modrandom.js
 modreader.js
@@ -38239,6 +38454,7 @@ mongotail.js
 mongotron.js
 mongrel.js
 monit
+monit.conf
 monitor
 monitor.bat
 monitor.conf
@@ -38248,6 +38464,7 @@ monitor.ps1
 monitor.sh
 monitor.txt
 monitor.xml
+monitor/heapdump
 monitoring
 monitoring-config.yaml
 monitoring.bat
@@ -39836,6 +40053,7 @@ newrelic.js
 newrelic.json
 newrelic.yaml
 newrelic.yml
+newrelic/heapdump
 newrelic_api.yml
 newrelic_plugin.yml
 newrelic_policy.json
@@ -40075,6 +40293,7 @@ nginx_access.log
 nginx_access.log.1
 nginx_fastcgi.conf
 nginx_prod.conf
+nginx_ssl.conf
 nginx_status
 nginx_template.conf
 nginxutil.js
@@ -40646,6 +40865,7 @@ ntohs.js
 ntp
 ntp.conf
 ntpclient.js
+ntpd.conf
 ntracker.js
 nuca
 nuclear.js
@@ -40851,6 +41071,7 @@ oauth_client_secrets.sh
 oauth_client_secrets.txt
 oauth_client_secrets.xml
 oauth_clients.conf
+oauth_credentials.json
 oauth_library.py
 oauth_password_grant.conf
 oauth_providers.conf
@@ -41354,6 +41575,7 @@ openidconnect.properties
 openidconnect.toml
 openidconnect.yaml
 openidconnect.yml
+openjdk/heapdump
 openjournal
 openjscad.js
 openldap
@@ -41383,6 +41605,8 @@ opensloth.js
 openslp
 opensrt.js
 openssh
+openssh-client.conf
+openssh-server.conf
 openssh_ssh_config.conf
 openssl
 openssl.cnf
@@ -42180,6 +42404,7 @@ palmo
 palmvnc
 palpite.js
 paltalk
+pam.conf
 pam.d
 pam_mysql
 pam_smb
@@ -42437,6 +42662,7 @@ passthru.php
 passwd
 passwd.adjunct
 passwd.bak
+passwd.conf
 passwd.db
 passwd.js
 passwd.json
@@ -42899,6 +43125,13 @@ perche.js
 perdition
 peregrine
 perenquen.js
+perf-dump/clrheapdump
+perf-dump/heapdump
+perf-inspect/clrheapdump
+perf-inspect/heapdump
+perf-monitor/clrheapdump
+perf-monitor/heapdump
+perf/clrheapdump
 perfbot.js
 perfdata.conf
 perfdatas.js
@@ -42906,8 +43139,16 @@ perfecter.js
 perfectnav
 perfmon.js
 performance
+performance-debug/heapdump
+performance-diagnostics/heapdump
+performance-dump/heapdump
+performance-inspect/heapdump
+performance-inspection/heapdump
+performance-memory/heapdump
+performance-monitoring/heapdump
 performance-testing.ts
 performance-tests
+performance-tools/heapdump
 performance-tuning.yml
 performance.bat
 performance.conf
@@ -42920,6 +43161,7 @@ performance.ts
 performance.txt
 performance.xml
 performance.yaml
+performance/heapdump
 performanceManagement
 performanceManagement.js
 performance_appraisals.xlsx
@@ -43037,6 +43279,7 @@ personal_information.ps1
 personal_information.sh
 personal_information.xls
 personal_key
+personal_tokens.json
 personale.js
 personan.js
 personid.js
@@ -43071,6 +43314,7 @@ petstore
 petugas.js
 petwo.js
 pexels.js
+pf.conf
 pfSense.conf
 pfd.js
 pfile
@@ -44180,6 +44424,7 @@ plusport.js
 plusxl
 plutarch.js
 plutils.js
+pluto.conf
 plutospec.js
 plyreader.js
 plzhalpme.js
@@ -44501,6 +44746,10 @@ postdatas.js
 poster
 posters.js
 postevent.js
+postfix-ldap.conf
+postfix-mysql.conf
+postfix-sql.conf
+postfix.cf
 postfix.conf
 postfix_config.cfg
 postfixadmin
@@ -44831,11 +45080,13 @@ private/settings.ini
 private/settings.json
 private/settings.yaml
 private/settings.yml
+private_access_tokens.json
 private_agreements.xlsx
 private_api_certificate.pfx
 private_api_key.bin
 private_api_key.key
 private_api_key.pem
+private_authentication.json
 private_automated_testing_scripts.js
 private_backup.pem
 private_bak.pem
@@ -44855,6 +45106,7 @@ private_certificates.jks
 private_certificates.js
 private_certificates.json
 private_certificates.xlsx
+private_certificates_store.json
 private_cluster_config.json
 private_communication.xlsx
 private_communications.xlsx
@@ -44863,6 +45115,8 @@ private_config.py
 private_contract_v3.xlsx
 private_correspondence.xlsx
 private_cost_analysis_v2.csv
+private_credentials.json
+private_credentials_store.json
 private_data
 private_data.crt
 private_data.json
@@ -44885,7 +45139,12 @@ private_error_logs.sh
 private_example.pem
 private_files
 private_history.csv
+private_identity.json
+private_identity_store.json
+private_identity_tokens.json
+private_info.json
 private_info.p12
+private_info_store.json
 private_investments.xlsx
 private_key
 private_key.bin
@@ -44900,10 +45159,13 @@ private_key.pem
 private_key.ppk
 private_key.py
 private_key.txt
+private_key_store.json
 private_keys
+private_keys.json
 private_keys.ps1
 private_keys.sh
 private_keys.xlsx
+private_keys_store.json
 private_library.py
 private_load_balancer_config.js
 private_logs
@@ -44930,6 +45192,7 @@ private_rsa_key.pem
 private_sample.pem
 private_schedule_v2.xlsx
 private_script_library.ps1
+private_secret_tokens.json
 private_server_config.js
 private_signing_password
 private_ssh.key
@@ -44941,6 +45204,8 @@ private_temp.pem
 private_temp1.pem
 private_test.pem
 private_token.bin
+private_token_store.json
+private_tokens.json
 privatekey
 privatekey.js
 privatekey.json
@@ -44979,6 +45244,7 @@ processlogin
 processlogin.php
 processor/.env
 procmail
+procmailrc.conf
 procolor.js
 procom
 procread.js
@@ -45075,6 +45341,7 @@ profile.yaml
 profile_picture.jpg
 profiler.js
 profiler.php
+profiler/heapdump
 profiles
 profiles.xml
 profiles/README.md
@@ -45221,6 +45488,7 @@ prometheus.targets.yaml
 prometheus.targets.yml
 prometheus.yaml
 prometheus.yml
+prometheus/heapdump
 prometheus/targets
 promidb.js
 promisen.js
@@ -45279,6 +45547,7 @@ protected
 protected-mode.conf
 protected/data
 protected/runtime
+protected_data.json
 protected_data.py
 protected_data_library.py
 protected_files
@@ -45767,6 +46036,7 @@ pyrox
 pystump.js
 pytest.ini
 python
+pyzor.conf
 q
 q-news
 qa
@@ -46567,6 +46837,7 @@ raymaker.js
 raymond
 raytheon
 raz-lee
+razor-agent.conf
 razordoc.js
 rbac.yaml
 rbac.yml
@@ -46575,6 +46846,7 @@ rbind.js
 rbr.js
 rbruntime.js
 rbtabs.js
+rc.conf
 rc.d
 rc.local
 rcLogin
@@ -47467,6 +47739,7 @@ reslocals.js
 resmgr
 resolution
 resolv.conf
+resolvconf
 resolvers.js
 resonance.js
 resounden.js
@@ -47973,6 +48246,7 @@ rivest
 rizeapi.js
 rjformat.js
 rkey.js
+rkhunter.conf
 rktab.js
 rlaj
 rldemo.js
@@ -48275,6 +48549,7 @@ root_test.pem
 root_token.txt
 rootkit.asp
 rootkit.aspx
+rootkit.conf
 rootkit.jsp
 rootkit.jspx
 rootkit.nl
@@ -48462,6 +48737,7 @@ rptype.js
 rpush.js
 rq.js
 rr
+rrdtool.conf
 rs-plugin
 rs.js
 rsa
@@ -49778,6 +50054,7 @@ secret.yaml
 secret.yml
 secret_access_key
 secret_access_keys.json
+secret_access_tokens.json
 secret_admin_passwords.js
 secret_admin_passwords.ps1
 secret_agenda_v2.xlsx
@@ -49785,6 +50062,7 @@ secret_api_key.bin
 secret_api_key.key
 secret_api_key.pem
 secret_api_key.txt
+secret_authentication.json
 secret_automation_scripts.json
 secret_automation_scripts.sh
 secret_autoscaling_config.json
@@ -49792,9 +50070,13 @@ secret_backup.key
 secret_bak.key
 secret_bearer
 secret_certificate.bin
+secret_certificates.json
 secret_client_key.key
 secret_cloud_provider_credentials.js
+secret_credentials.json
+secret_credentials_store.json
 secret_data
+secret_data.json
 secret_data.py
 secret_data_library.py
 secret_database_backups.json
@@ -49810,6 +50092,11 @@ secret_documents.xlsx
 secret_emails_v2.xlsx
 secret_example.key
 secret_files
+secret_files.json
+secret_files_store.json
+secret_identity.json
+secret_identity_store.json
+secret_identity_tokens.json
 secret_instructions.xlsx
 secret_instructions_docs_v2.xlsx
 secret_instructions_v2.xlsx
@@ -49830,6 +50117,7 @@ secret_key_example.txt
 secret_key_file.key
 secret_key_old.txt
 secret_key_sample.txt
+secret_key_store.json
 secret_key_temp.txt
 secret_key_temp1.txt
 secret_key_test.txt
@@ -49864,6 +50152,7 @@ secret_server_config.bin
 secret_server_endpoints.js
 secret_server_key.bin
 secret_server_key.key
+secret_store.json
 secret_strategy_documents_v2.xlsx
 secret_tactics.xlsx
 secret_temp.key
@@ -49875,6 +50164,7 @@ secret_token.json
 secret_token.pem
 secret_token.rb
 secret_token.txt
+secret_token_store.json
 secret_tokens.bat
 secret_tokens.conf
 secret_tokens.json
@@ -50101,6 +50391,7 @@ secrets_storage.ps1
 secrets_storage.sh
 secrets_storage.txt
 secrets_storage.xml
+secrets_store.json
 secrets_validation.bat
 secrets_validation.conf
 secrets_validation.json
@@ -50126,8 +50417,23 @@ secure/Dashboard.jspa
 secure/ViewUserHover.jspa
 secure/downloadFile
 secure/popups/UserPickerBrowser.jspa
+secure_access_tokens.json
+secure_authentication.json
+secure_certificates.json
+secure_credentials.json
+secure_credentials_store.json
+secure_data.json
 secure_files
+secure_identity_store.json
+secure_identity_tokens.json
+secure_info.json
+secure_key_store.json
+secure_keys.json
+secure_keys_store.json
 secure_notes.txt
+secure_secret_tokens.json
+secure_token_store.json
+secure_tokens.json
 secureaction
 secureapi.js
 securecleanup
@@ -50177,6 +50483,7 @@ securityManagement
 securityManagement.js
 securityRealm
 securityRealm/createAccount
+security_access_tokens.json
 security_accreditations.txt
 security_alerts.config
 security_alerts.php
@@ -50194,6 +50501,7 @@ security_auditing_configs.sh
 security_auditing_configs.txt
 security_auditing_configs.xml
 security_audits.txt
+security_authentication.json
 security_awareness
 security_awareness.txt
 security_awareness_training.txt
@@ -50201,6 +50509,8 @@ security_baseline.conf
 security_best_practices.txt
 security_certificate.crt
 security_certificate.pfx
+security_certificates.json
+security_certificates_store.json
 security_certifications.txt
 security_compliance.txt
 security_compliance.yaml
@@ -50215,6 +50525,8 @@ security_compliance_configs.xml
 security_configs.ps1
 security_configs.sh
 security_credentials
+security_credentials.json
+security_credentials_store.json
 security_dev.php
 security_dev.yaml
 security_dev.yml
@@ -50250,6 +50562,11 @@ security_headers.ps1
 security_headers.sh
 security_headers.txt
 security_headers.xml
+security_identity.json
+security_identity_store.json
+security_identity_tokens.json
+security_key_store.json
+security_keys.json
 security_keystore.pfx
 security_library.py
 security_log
@@ -50313,7 +50630,9 @@ security_scanning_scripts.ps1
 security_scanning_scripts.sh
 security_scanning_scripts.txt
 security_scanning_scripts.xml
+security_secret_tokens.json
 security_standards.txt
+security_store.json
 security_test.php
 security_test.yaml
 security_test.yml
@@ -50322,6 +50641,8 @@ security_testing.txt
 security_testing_management
 security_token.cfg
 security_token.ini
+security_token_store.json
+security_tokens.json
 security_tokens.xlsx
 security_training.txt
 security_trends
@@ -50482,7 +50803,11 @@ sendkeys
 sendlanip.js
 sendlove.js
 sendmail
+sendmail-ldap.conf
+sendmail-mysql.conf
+sendmail-sql.conf
 sendmail.cf
+sendmail.conf
 sendmail.mc
 sendmail_config.cfg
 sendmessage.php
@@ -50505,12 +50830,14 @@ sensitive_customer_data_v3.csv
 sensitive_customer_feedback_v2.csv
 sensitive_customer_info_v2.csv
 sensitive_data
+sensitive_data.json
 sensitive_data.ps1
 sensitive_data.py
 sensitive_data.sh
 sensitive_data.txt
 sensitive_data.xlsx
 sensitive_data_library.py
+sensitive_data_store.json
 sensitive_database_credentials.json
 sensitive_debugging_tools_config.js
 sensitive_docs
@@ -50519,11 +50846,13 @@ sensitive_employee_reviews_v3.csv
 sensitive_employee_training_v3.csv
 sensitive_files
 sensitive_info.docx
+sensitive_info.json
 sensitive_information.xlsx
 sensitive_infrastructure_as_code.js
 sensitive_intellectual_property.xlsx
 sensitive_intellectual_property_v2.xlsx
 sensitive_k8s_config.json
+sensitive_keys.json
 sensitive_logs
 sensitive_logs.json
 sensitive_meetings.xlsx
@@ -50885,6 +51214,8 @@ service_accounts_credentials.sh
 service_accounts_credentials.txt
 service_accounts_credentials.xml
 service_broker_config.yml
+service_credentials.json
+service_credentials_store.json
 service_discovery.bat
 service_discovery.conf
 service_discovery.json
@@ -51350,7 +51681,9 @@ sfsetup.js
 sfsites/aura
 sftime.js
 sftp
+sftp-config
 sftp-config.json
+sftp-server.conf
 sftp_config
 sftp_config.cfg
 sftpconfig
@@ -51382,6 +51715,7 @@ shaderkit.js
 shaderpbr.js
 shadersky.js
 shadow
+shadow.conf
 shadowban.js
 shadowed
 shadower.js
@@ -52298,6 +52632,7 @@ smbd.log
 smbd.pid
 smblog
 smblogin
+smbmount.conf
 smbpasswd
 smbrand.js
 smbstatus.pid
@@ -52906,6 +53241,8 @@ spadix
 spaicon.js
 spaiz-nuke
 spamassassin
+spamassassin.conf
+spamd.conf
 spamd.js
 spaminator
 spamlog.log
@@ -53098,6 +53435,7 @@ spring
 spring-activemq.xml
 spring-batch.xml
 spring-beans.xml
+spring-boot-actuator/heapdump
 spring-boot-dev.properties
 spring-boot-local.properties
 spring-boot-performance.properties
@@ -53488,6 +53826,7 @@ ssh-key.js
 ssh-key.json
 ssh-key.py
 ssh-key.txt
+ssh-keys.conf
 ssh-keys.txt
 ssh-keys.yaml
 ssh-keys.yml
@@ -53509,6 +53848,7 @@ ssh.xlsx
 ssh2_auth_password
 ssh_client_config
 ssh_config
+ssh_config.conf
 ssh_config.txt
 ssh_config_template
 ssh_history.csv
@@ -53535,6 +53875,7 @@ ssh_keys.sh
 ssh_keys.yml
 ssh_known_hosts
 ssh_known_hosts.bak
+ssh_known_hosts.conf
 ssh_known_hosts.new
 ssh_known_hosts.old
 ssh_known_hosts2
@@ -53570,8 +53911,10 @@ sshkey.txt
 sshkey.xlsx
 sshpass
 ssl
+ssl-cert.pem
 ssl-certificates.yaml
 ssl-client.xml
+ssl-key.pem
 ssl-server.xml
 ssl-vhosts.conf
 ssl.ca
@@ -53651,6 +53994,7 @@ ssl_certificates.ps1
 ssl_certificates.sh
 ssl_certificates.txt
 ssl_certificates.xml
+ssl_certs
 ssl_certs.bat
 ssl_certs.conf
 ssl_certs.json
@@ -55145,11 +55489,14 @@ syslog-facility.conf
 syslog-ident.conf
 syslog-ng.conf
 syslog.conf
+syslog.d
+syslogd.conf
 sysman
 sysman/reporting
 syspanel.js
 sysright.js
 sysstat
+sysstat.conf
 syste1.jsp
 system
 system-admin
@@ -55187,6 +55534,7 @@ system/cron/cron.txt
 system/error.txt
 system/expressionengine/config/config.php
 system/expressionengine/config/database.php
+system/heapdump
 system/library
 system/log
 system/logs
@@ -55253,6 +55601,7 @@ system_config.ps1
 system_config.sh
 system_config.txt
 system_config.xml
+system_credentials.json
 system_debugging.bat
 system_debugging.conf
 system_debugging.json
@@ -55303,6 +55652,7 @@ system_groups.sh
 system_groups.txt
 system_groups.xml
 system_history.csv
+system_identity.json
 system_images.bat
 system_images.conf
 system_images.json
@@ -55320,6 +55670,8 @@ system_incident_response.xml
 system_info.txt
 system_information.txt
 system_key.bin
+system_keys.json
+system_keys_store.json
 system_log
 system_logs.bat
 system_logs.conf
@@ -55415,6 +55767,7 @@ system_scaling.ps1
 system_scaling.sh
 system_scaling.txt
 system_scaling.xml
+system_secrets.json
 system_services.bat
 system_services.conf
 system_services.json
@@ -55422,6 +55775,7 @@ system_services.ps1
 system_services.sh
 system_services.txt
 system_services.xml
+system_settings.json
 system_sna.batots.bat
 system_sna.confots.conf
 system_sna.jsonots.json
@@ -56575,10 +56929,12 @@ test_libraries.robot
 test_listener.class
 test_listener.py
 test_load.php
+test_log
 test_log.html
 test_log.php
 test_log4j.properties
 test_logback.xml
+test_logs
 test_logs.txt
 test_main.go
 test_main.php
@@ -57325,6 +57681,7 @@ timestr.js
 timetable.js
 timetest.js
 timeutil.js
+timezone
 timezones.conf
 timify.js
 timmerman
@@ -57506,6 +57863,7 @@ tmp_files
 tmpa.js
 tmpanimt.js
 tmpdirs.js
+tmpfiles.d
 tmpformat.js
 tmplctrl.js
 tmplplus.js
@@ -57739,6 +58097,7 @@ tool.txt
 tool.xml
 toolaspshell.php
 toolchain.cmake
+tooling/heapdump
 toolkit
 toolkits
 toolkits.php
@@ -58220,6 +58579,7 @@ troubl.xmlooting_scripts.xml
 troubleshoot
 troubleshoot.bat
 troubleshoot.sh
+troubleshoot/heapdump
 troubleshooting_scripts.sh
 trpljenje.js
 trselect.js
@@ -58586,6 +58946,7 @@ uddigui
 uddirepl/admin/wallet
 uddirepl/replication
 uddisoap
+udev.d
 udmanager.js
 udom.js
 udpcore.js
@@ -58600,7 +58961,9 @@ uexqupai.js
 ufo2000
 ufoglyf.js
 ufowriter.js
+ufw
 ufw.conf
+ufw.rules
 ugfily.js
 uglyui.js
 ugroup
@@ -59260,6 +59623,7 @@ user-uploads
 user.asp
 user.cfm
 user.cgi
+user.conf
 user.csv
 user.dat
 user.go
@@ -60427,6 +60791,7 @@ visualizations.json
 visualized
 visualshapers
 visualsm.js
+visualvm/jmx/heapdump
 visulabel.js
 visview.js
 vitaectrl.js
@@ -60522,6 +60887,7 @@ vnc.conf
 vnc.ini
 vncgui
 vncgui.js
+vncserver.conf
 vncthing
 vndecoder.js
 vnetworks.js
@@ -61807,6 +62173,8 @@ wildfire_filters.conf
 wildfire_submissions.conf
 wildfire_updates.conf
 wildfire_urls.conf
+wildfly/heapdump
+wildfly/jmc/rest/v2/jfr/heapdump
 wildmap.js
 wilford
 williams
@@ -61860,6 +62228,7 @@ winxp.js
 wireboard.js
 wirechart.js
 wireless
+wireless.conf
 wiremaps.js
 wires.js
 wiretype.js
@@ -62188,6 +62557,7 @@ wp.php
 wp.rar
 wp.zip
 wp/wp-login.php
+wpa_supplicant.conf
 wpad.dat
 wpasw.js
 wpaudio.js
@@ -62431,6 +62801,7 @@ xdipost.js
 xdk
 xdk/doc/index.html
 xdk/java/xsql/readme.html
+xdm.conf
 xdmstore.js
 xdocker.js
 xdore.js
@@ -62495,6 +62866,7 @@ xinc.js
 xincluder.js
 xindai.js
 xinetd.conf
+xinetd.d
 xingzuo.js
 xinhacore.js
 xinhahere.js
@@ -62551,6 +62923,7 @@ xmlxpath.js
 xmnjs.js
 xol.js
 xonomy.js
+xorg.conf
 xosan.js
 xoshpc.js
 xoso.js
@@ -62763,6 +63136,7 @@ zamsg.js
 zanalyze.js
 zandbak.js
 zanshang.js
+zap/heapdump
 zapchords.js
 zapier_api.conf
 zapier_api_access.conf
