@@ -2626,7 +2626,7 @@
 .ssh/know_hosts~
 .ssh/known_host
 .ssh/known_hosts
-.ssh/pi_rsa  
+.ssh/pi_rsa
 .ssh/pi_rsa.pub
 .ssh_backup
 .ssl
@@ -8978,7 +8978,6 @@ app/Config/database.php
 app/Http/Controllers
 app/__pycache__
 app/assets
-app/assets/images/rails.png
 app/assets/javascripts/application.js
 app/assets/stylesheets/application.css
 app/auth
@@ -9786,7 +9785,6 @@ aspwpadmin
 aspx
 aspx.go
 aspx.java
-aspx.jpg
 aspx.js
 aspx.php
 aspx.py
@@ -10044,7 +10042,6 @@ audacious
 audiences.js
 audienceview
 audio
-audio.mp3
 audio.php
 audio/.env
 audio_processing_config.yml
@@ -12176,7 +12173,6 @@ bladeenc
 blades.js
 blahz-dns
 blakley.js
-blank.gif
 blankol
 blankon/.env
 blarg.js
@@ -15491,7 +15487,6 @@ cleanup_logs.txt
 cleanup_logs.xml
 cleanups.js
 clear
-clear.gif
 clearbody.js
 clearer.js
 clearfs.js
@@ -20455,8 +20450,6 @@ db_dump.bak
 db_dump.sql
 db_eloquent.php
 db_error.php
-db_error.phpt
-db_error2.phpt
 db_example.config
 db_example.ini
 db_example.json
@@ -24491,7 +24484,6 @@ error_log.java
 error_log.js
 error_log.json
 error_log.php
-error_log.phpt
 error_log.py
 error_log.rb
 error_log.ts
@@ -25647,7 +25639,6 @@ fauxflux.js
 fauxos.js
 fauxton.js
 favicon
-favicon.gif
 favicon.ico
 favicons
 favicons/.env
@@ -30779,7 +30770,6 @@ hunkdata.js
 huoji.js
 hupblock.js
 hupubridgedoc
-huputv
 hurdle.js
 hurt.js
 husband.js
@@ -30838,7 +30828,6 @@ i18nctxSample
 i18nctxSample/docs
 iASDemos.htm
 iFolder
-iMHaPFtp.php
 iManager
 iOSInjectionProject
 iaas
@@ -30934,7 +30923,6 @@ icdbutil.js
 ice.asp
 ice.aspx
 ice.cfm
-ice.jpg
 ice.jsp
 ice.php
 icebarn.js
@@ -31246,7 +31234,6 @@ images.yaml
 images/.env
 images/Sym.php
 images/c99.php
-images/rails.png
 images2
 images?a=.js
 images_all
@@ -35807,7 +35794,7 @@ launch.ps1
 launch.sh
 launchSettings.json
 launchctl.js
-launcher 
+launcher
 launcher.js
 launching.js
 launchopi.js
@@ -36811,7 +36798,6 @@ loadgen.js
 loadhome.js
 loadhs.js
 loadimage.js
-loading.gif
 loadingui.js
 loadio.js
 loadjed.js
@@ -36941,7 +36927,6 @@ locust_settings.py
 locust_tasks.py
 locust_test_data.json
 locust_test_environment.py
-locust_test_graphs.png
 locust_test_output.xml
 locust_test_performance.csv
 locust_test_plan.py
@@ -40227,7 +40212,6 @@ moveview.js
 movewest.js
 movex.js
 movie
-movie.mp4
 moviebox.js
 moviedao.js
 moviejson.js
@@ -40490,7 +40474,6 @@ museutils.js
 musher.js
 music
 music.js
-music.mp3
 music/.env
 musicbeam.js
 musicbox
@@ -45166,7 +45149,6 @@ php.ini-orig.txt
 php.ini.sample
 php.ini_
 php.java
-php.jpg
 php.js
 php.lnk
 php.log
@@ -46188,7 +46170,6 @@ pod.yml
 podatki.js
 podcard.js
 podcast
-podcast.mp3
 podcasts
 podcasts.php
 poddisruptionbudget.yaml
@@ -46751,7 +46732,6 @@ privacy.php
 privacyware
 privat
 private
-private-bip.mp3
 private-bip.ogg
 private-data.yml
 private-key
@@ -48921,7 +48901,6 @@ recaptcha.php
 recaptchalib.php
 recastbot.js
 receipt
-receipt.jpg
 receipt.php
 recentservers.xml
 recepcion.js
@@ -50212,7 +50191,6 @@ role/vars/main.yaml
 role/vars/main.yml
 roleManagement
 roleManagement.js
-role_banner.mp4
 role_mapping.yaml
 role_mapping.yml
 roleauths.js
@@ -54621,7 +54599,6 @@ smtp_credentials.txt
 smtp_credentials.xml
 smtp_dkim.private
 smtp_domains.txt
-smtp_error.phpt
 smtp_forwarders.lst
 smtp_library.py
 smtp_logs.log
@@ -55148,7 +55125,6 @@ spacefact.js
 spaceform.js
 spacekey.js
 spacepro.js
-spacer.gif
 spaceraid.js
 spaces.yaml
 spacex.js
@@ -59276,10 +59252,7 @@ testplan_properties.xml
 testplan_report.html
 testplan_report_config.xml
 testplan_report_data.json
-testplan_report_graphs.png
-testplan_report_output.pdf
 testplan_report_summary.csv
-testplan_report_template.jrxml
 testplan_result.jtl
 testplan_variables.csv
 testpref.js
@@ -61488,18 +61461,13 @@ uploads/ajax.php
 uploads/analytics.php
 uploads/api.php
 uploads/article.docx
-uploads/audio.mp3
 uploads/auth.php
 uploads/availability.php
 uploads/backup.php
 uploads/benchmark.php
-uploads/blueprint.pdf
-uploads/brochure.pdf
 uploads/cache.php
 uploads/calendar.php
 uploads/capacity.php
-uploads/case_study.pdf
-uploads/certificate.pdf
 uploads/chart.xlsx
 uploads/chat.php
 uploads/common.php
@@ -61513,7 +61481,6 @@ uploads/database.php
 uploads/database.sql
 uploads/debug.php
 uploads/design.ai
-uploads/diagram.jpg
 uploads/document.docx
 uploads/dump.sql
 uploads/ebook.pdf
@@ -61543,21 +61510,16 @@ uploads/migration.php
 uploads/mock.php
 uploads/models.php
 uploads/monitor.php
-uploads/movie.mp4
 uploads/newsletter.pdf
 uploads/payment.php
 uploads/performance.php
 uploads/photograph.jpg
-uploads/picture.jpg
-uploads/podcast.mp3
-uploads/portfolio.pdf
 uploads/presentation.pptx
 uploads/press_release.pdf
 uploads/profile.html
 uploads/profiler.php
 uploads/program.exe
 uploads/project.zip
-uploads/proposal.docx
 uploads/prototypes.php
 uploads/receipt.jpg
 uploads/recovery.php
@@ -61592,9 +61554,6 @@ uploads/upload.php
 uploads/users.php
 uploads/utilities.php
 uploads/validation.php
-uploads/video.mp4
-uploads/webcomic.jpg
-uploads/webinar.mp4
 uploads/whitepaper.pdf
 uploads?a=.js
 uploads_backup
@@ -62778,7 +62737,6 @@ video-js.swf
 video.go
 video.java
 video.js
-video.mp4
 video.php
 video.py
 video.rb
@@ -64054,7 +64012,6 @@ webhookvalidation.php
 webhookverification.php
 webhost
 webidl.js
-webinar.mp4
 webinars
 webinars.php
 webinos.js
@@ -64087,10 +64044,6 @@ webmaster_tools
 webmasters
 webmatic
 webmd-app-updates
-webmd-interviews-obama.ics
-webmd_aka_test
-webmd_health_check_do_not_delete.gif
-webmdportal61
 webmedia
 webmethod.js
 webmethods
@@ -64266,7 +64219,6 @@ webteacher
 webterm.js
 webticket
 webticket/webticketservice.svc
-webticket/webticketservice.svcabs
 webtiming.js
 webtools
 webtools/control/xmlrpc
@@ -64346,7 +64298,6 @@ whihost.js
 whikeps.js
 whilefor.js
 whiplash.js
-white_paper_consumers_driving_the_digital_uptake.pdf
 whitedeck.js
 whitelist
 whitelist.txt
@@ -64357,7 +64308,7 @@ whitepapers.php
 whmcs
 whmcs.js
 whmcs.php
-whmcs/downloads/dz.php
+whmcs/downloads
 whoisin.js
 whoiswho.js
 whoshere.js
@@ -64435,8 +64386,6 @@ windialog.js
 windmeter.js
 windowman.js
 windows
-windows/tests/9.2.x/.env
-windows/tests/9.3.x/.env
 windspd.js
 windutils.js
 windyer.js
@@ -64521,7 +64470,6 @@ wnumb.js
 wod.js
 wojtczuk
 wolfcage.js
-wolff
 wolfnews.js
 wolfram.js
 wolters
@@ -64785,7 +64733,6 @@ wp-config.phpc
 wp-config.phpd
 wp-config.phpn
 wp-config.phporiginal
-wp-config.phptmp
 wp-config.php~
 wp-config.save
 wp-config.txt
