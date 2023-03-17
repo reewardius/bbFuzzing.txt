@@ -1043,6 +1043,7 @@
 .env.test.sample
 .env.testing
 .env.travis
+.env/actuator/env
 .env_1
 .env_backup
 .env_bak
@@ -1547,6 +1548,7 @@
 .groc.json
 .grunt
 .gruntfile.js
+.grype.yaml
 .gtkrc
 .guardfile
 .gui
@@ -2112,6 +2114,7 @@
 .my.cnf
 .mypy.ini
 .mypy_cache
+.mysql.history
 .mysql.txt
 .mysql_history
 .mysql_history_backup
@@ -3206,6 +3209,51 @@
 .zshrc_backup
 .zuul.yaml
 .zuul.yml
+/actuator
+/actuator/auditevents
+/actuator/beans
+/actuator/conditions
+/actuator/configprops
+/actuator/env
+/actuator/health
+/actuator/heapdump
+/actuator/httptrace
+/actuator/hystrix.stream
+/actuator/info
+/actuator/jolokia
+/actuator/loggers
+/actuator/mappings
+/actuator/metrics
+/actuator/scheduledtasks
+/actuator/threaddump
+/auditevents
+/autoconfig
+/beans
+/caches
+/conditions
+/configprops
+/docs
+/dump
+/env
+/flyway
+/health
+/heapdump
+/httptrace
+/info
+/intergrationgraph
+/jolokia
+/liquibase
+/logfile
+/loggers
+/mappings
+/metrics
+/prometheus
+/refresh
+/scheduledtasks
+/sessions
+/shutdown
+/threaddump
+/trace
 0.asp
 0.aspx
 0.jsp
@@ -3809,6 +3857,7 @@ DNS_records.xml
 DOC
 DOS
 DTool_Pro.php
+DWREasyAjax/dwr/index.html
 DansGuardian.conf
 Data
 DataAccess.vb
@@ -4345,6 +4394,9 @@ Login.aspx.designer.vb
 Login.aspx.vb
 Login/adminlogin.aspx
 Logs
+Logs\Application.evtx
+Logs\Security.evtx
+Logs\System.evtx
 Lotus_Domino_Admin
 MAINTAINERS.txt
 MANIFEST
@@ -4531,8 +4583,10 @@ NLog.config
 NON_EXISTING_PATH
 NSearch
 NTDaddy_v1.9.php
+NTUser.dat
 NUnit
 NetBoot
+NetSetup.LOG
 NetStorage
 NetworkFileManagerPHP.php
 News
@@ -4671,6 +4725,7 @@ Packages
 PageObjects.java
 Pagination.php
 Panda
+Panther\Unattended.xml
 Partitioner.java
 Passportjs/.env
 Password
@@ -4909,6 +4964,7 @@ Saved
 Schema.vb
 Scripts
 SearchServlet
+SecEvent.evt
 Secret
 SeleniumTest.class
 SeleniumTest.java
@@ -4999,6 +5055,7 @@ Symlink.pl
 SypexDumper_2011
 SysAdmin
 SysAdmin2
+SysEvent.evt
 Sysindex.config
 System.config
 SystemErr.log
@@ -5099,6 +5156,7 @@ UPGRADE.txt
 UPGRADE_README.txt
 UWSGI
 UnHackMe
+Unattended.xml
 UnitTests.kt
 UpServlet.class
 UpServlet.java
@@ -6666,6 +6724,7 @@ admin-config.php
 admin-config.ts
 admin-config.txt
 admin-console
+admin-console/login.seam
 admin-controllers.js
 admin-credentials
 admin-creds
@@ -7263,6 +7322,7 @@ admin_firewall_config.php
 admin_folder
 admin_forms.js
 admin_forms.php
+admin_getappInfo
 admin_helper.rb
 admin_home
 admin_home.php
@@ -7282,7 +7342,6 @@ admin_login.cgi
 admin_login.html
 admin_login.js
 admin_login.php
-admin_login.php]
 admin_login/admin.asp
 admin_login/login.asp
 admin_logon
@@ -7542,7 +7601,9 @@ administrative
 administrative/login_history
 administrativeMonitor/OldData
 administrator
+administrator-dashboard
 administrator-login
+administrator-panel
 administrator.asp
 administrator.aspx
 administrator.cfm
@@ -8782,6 +8843,7 @@ api.f
 api.go
 api.googlemapsAIza
 api.hs
+api.html
 api.ini
 api.iniig.ini
 api.java
@@ -8984,6 +9046,7 @@ api/user/current
 api/user/me
 api/users/current
 api/users/login
+api/users/search?username=_
 api/utilities
 api/v1
 api/v1.0
@@ -9099,6 +9162,7 @@ api/v2/api-docs
 api/v2/apidocs
 api/v2/auth
 api/v2/bid
+api/v2/cmdb/system/admin/admin
 api/v2/collector
 api/v2/displays
 api/v2/event
@@ -9420,6 +9484,7 @@ app/Config/core.php
 app/Config/database.php
 app/Http/Controllers
 app/__pycache__
+app/admin_getappInfo
 app/assets
 app/assets/images/rails.png
 app/assets/javascripts/application.js
@@ -9496,6 +9561,7 @@ app/etc/local.xml.template
 app/etc/local.xml.vmachine
 app/etc/local.xml.vmachine.rm
 app/frontend/.env
+app/getappInfo
 app/helpers/application_helper.rb
 app/kibana
 app/languages
@@ -10119,6 +10185,7 @@ artifactory.security.properties
 artifactory.system.properties
 artifactory.txt
 artifactory.xml
+artifactory/ui/repodata?deploy=true
 artifacts
 artifacts.xml
 artikel.js
@@ -10683,6 +10750,7 @@ authentication_tokens.ps1
 authentication_tokens.sh
 authentication_tokens.txt
 authentication_tokens.xml
+authenticationendpoint/login.do
 authenticationlogs.php
 authform.js
 authfuncs.js
@@ -12404,6 +12472,7 @@ binas.js
 binclock.js
 bind
 bind.conf
+bind.mounts
 bind9.conf
 binders.js
 bindexdal.js
@@ -13966,6 +14035,7 @@ caraml.js
 caravan.js
 caravel
 carbon.js
+carbon/admin/login.jsp
 card
 card.php
 cardamom.js
@@ -15438,6 +15508,7 @@ checkout-branch.sh
 checkout.liquid
 checkout.php
 checkouts
+checkpoint
 checkreq.js
 checkresult-aggregator.conf
 checkresult-analyzer.conf
@@ -17199,6 +17270,7 @@ common-js
 common-lisp-controller
 common.inc
 common.jsp
+common.log
 common.php
 common.xml
 common/.git/config
@@ -17587,6 +17659,7 @@ config.development.yaml
 config.development.yml
 config.dsc
 config.dt
+config.dump
 config.env
 config.example
 config.exs
@@ -18611,6 +18684,7 @@ connection_strings.config
 connection_strings.ini
 connection_strings.json
 connection_strings.py
+connections.log
 connectionstring
 connectionstrings.Development.config
 connectionstrings.Production.config
@@ -20342,6 +20416,7 @@ dashboard-adminuser.yaml
 dashboard-config.xml
 dashboard-feed
 dashboard-log
+dashboard-panel
 dashboard-test
 dashboard.conf
 dashboard.conf.backup
@@ -22147,6 +22222,7 @@ devops_tools
 devotions.js
 devoybb
 devplug.js
+devportal/apis
 devrank.js
 devrim
 devscripts
@@ -23630,6 +23706,8 @@ dwcore.js
 dwebpro
 dwes.js
 dwnoti.js
+dwr/engine.js
+dwr/index.html
 dwsync.xml
 dwtevent.js
 dwuser.js
@@ -24928,6 +25006,7 @@ environments/production/.env
 envizib.js
 envoictrl.js
 envolution
+envor
 envoy
 envoy-accesslog.yaml
 envoy-authorization.yaml
@@ -25502,6 +25581,7 @@ eul.js
 eula.txt
 eula_en.txt
 eurasia.js
+eureka
 eureka-client-application.properties
 eureka-client-archaius.properties
 eureka-client-bootstrap.properties
@@ -26033,6 +26113,7 @@ extjs/resources/charts.swf
 extlink.js
 extmongo.js
 extra
+extra\httpd-xampp.conf
 extract.js
 extrafield.log
 extralib.js
@@ -26596,6 +26677,7 @@ festively.js
 fetch
 fetch-rebase.sh
 fetch.sh
+fetch/info?inquiry=&image_Host=SSRF
 fetchapis.js
 fetchargs.js
 fetchblog.js
@@ -28570,6 +28652,7 @@ get_file.php
 get_image.php
 getabout.js
 getalias.js
+getappInfo
 getavatar.js
 getaxe.js
 getbadge.js
@@ -29911,6 +29994,7 @@ h.txting_algorithms.txt
 h.txting_parameters.txt
 h.xmling_algorithms.xml
 h.xmling_parameters.xml
+h2-console
 h2.conf
 h2console
 h4ntu_shell.php
@@ -30484,6 +30568,7 @@ heapdump
 heapdump-api/heapdump
 heapdump-rest/heapdump
 heapdump.json
+heapdumper
 heapdumps/create
 heaplib.js
 heapnode.js
@@ -33247,6 +33332,7 @@ interfaces
 interfaces.conf
 interfase.js
 intergate
+intergrationgraph
 interior.js
 interkom.js
 interlace.js
@@ -34677,6 +34763,7 @@ jolokia/exec/ch.qos.logback.classic
 jolokia/heapdump
 jolokia/list
 jolokia/version
+jolokiaor
 jombik
 jome.js
 jomposer.js
@@ -39299,6 +39386,7 @@ manual.ts
 manual.txt
 manual/.env
 manual/index.html
+manual/style/build.properties
 manuales.js
 manuallogin
 manuals
@@ -41855,6 +41943,7 @@ mysql/pma
 mysql/scripts/setup.php
 mysql/sqlmanager
 mysql/web
+mysql\bin\my.ini
 mysql_config
 mysql_debug.sql
 mysql_dump.sql
@@ -47230,6 +47319,7 @@ pma-old/index.php
 pma.php
 pma/index.php
 pma/scripts/setup.php
+pma/setup/index.php
 pma2005
 pma_old.php
 pmachine
@@ -48104,6 +48194,7 @@ product.json
 product.liquid
 product.php
 product.rb
+product/list
 productManagement.js
 product_catalog.csv
 product_costs.csv
@@ -50956,7 +51047,9 @@ rest/.env
 rest/api
 rest/api/2
 rest/api/2/dashboard?maxResults=100
+rest/api/2/mypermissions
 rest/api/2/project?maxResults=100
+rest/api/3/mypermissions
 rest/beta/repositories/go/group
 rest/tinymce/1/macro/preview
 rest/v1
@@ -51550,6 +51643,7 @@ root_temp.pem
 root_temp1.pem
 root_test.pem
 root_token.txt
+rootfs-diff.tar
 rootkit.asp
 rootkit.aspx
 rootkit.conf
@@ -52519,6 +52613,7 @@ sbin
 sblim
 sblog
 sbn.js
+sbom.json
 sbox
 sbox.js
 sbragion
@@ -53534,6 +53629,7 @@ securityManagement
 securityManagement.js
 securityRealm
 securityRealm/createAccount
+security\webdav.htpasswd
 security_access_tokens.json
 security_accreditations.txt
 security_alerts.config
@@ -53861,6 +53957,7 @@ sendmail-sql.conf
 sendmail.cf
 sendmail.conf
 sendmail.mc
+sendmail\sendmail.ini
 sendmail_config.cfg
 sendmessage.php
 sendnotif.js
@@ -56549,6 +56646,7 @@ spearhead
 spearmint/.env
 speartek
 spec
+spec.dump
 spec.js
 spec.json
 spec.wad
@@ -56739,6 +56837,7 @@ spring-security-jdbc.xml
 spring-security-jwt.xml
 spring-security-kerberos.xml
 spring-security-ldap.xml
+spring-security-oauth-resource/swagger-ui.html
 spring-security-oauth2-authorization-server.xml
 spring-security-oauth2-client.xml
 spring-security-oauth2-common.xml
@@ -56752,6 +56851,7 @@ spring-security-oauth2-web.xml
 spring-security-oauth2.xml
 spring-security-openid.xml
 spring-security-rememberme.xml
+spring-security-rest/api/swagger-ui.html
 spring-security-saml.xml
 spring-security.xml
 spring-servlet.xml
@@ -57576,6 +57676,7 @@ startpage
 startping.js
 startpost.js
 startride.js
+starts
 startup.bat
 startup.cfg
 startup.conf
@@ -57657,6 +57758,7 @@ statmap.js
 statmodel.js
 statreset.js
 stats
+stats-dump
 stats.cfg
 stats.js
 stats.json
@@ -58590,6 +58692,7 @@ svnserve.conf
 svnumbers.js
 svwiki.js
 sw.js
+sw/swagger-ui.html
 swade.js
 swagger
 swagger-callbacks.json
@@ -58874,6 +58977,10 @@ sys.jsp
 sys.properties
 sys.yml
 sys/kbd
+sys/kbd/1
+sys/kbd/2
+sys/kbd/q
+sys/kbd/r
 sys/pprof
 sys/wnd/resize
 sysadm
@@ -59875,6 +59982,7 @@ template.xml
 template.yaml
 template.yml
 template/.env
+template/swagger-ui.html
 template_engine.php
 templates
 templates.cfg
@@ -63597,6 +63705,7 @@ v1/coordinate/datacenters
 v1/coordinate/nodes
 v1/customers
 v1/data
+v1/docs
 v1/event
 v1/event/list
 v1/event/permission
@@ -63747,6 +63856,7 @@ v2/api/graphql
 v2/auction
 v2/client
 v2/collect
+v2/docs
 v2/event
 v2/events
 v2/exchange/callback/adx
@@ -63796,7 +63906,9 @@ v3.json
 v3.ts
 v3.txt
 v3/altair
+v3/api-docs
 v3/api/graphql
+v3/docs
 v3/explorer
 v3/graph
 v3/graphiql
@@ -65205,6 +65317,7 @@ web-jetty.xml
 web-labs
 web-news
 web-old.config
+web-panel
 web-provence
 web-scripts
 web-security.log
@@ -66268,6 +66381,7 @@ workshop
 worksign.js
 workspace
 workspace.xml
+workspace/main.py
 workspace/uploads
 workspaceStorage
 workspace_token.txt
@@ -66842,6 +66956,7 @@ xampp
 xampp/phpmyadmin
 xampp/phpmyadmin/index.php
 xampp/phpmyadmin/scripts/setup.php
+xampp\php\php.ini
 xandgo.js
 xapiah.js
 xaqmtotal.js
