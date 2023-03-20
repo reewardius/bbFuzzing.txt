@@ -1,4 +1,6 @@
 #/pipelineruns
+-/debug/grafana
+-/grafana
 ..%3B/monitoring
 .3t/robo-3t/robo3t.key
 .7z
@@ -2587,6 +2589,7 @@
 .scrutinizer.yml
 .scss-lint.yaml
 .scss-lint.yml
+.seam
 .secret
 .secrets
 .secrets.env
@@ -3380,6 +3383,7 @@
 503.liquid
 503.php
 529.php
+:8081
 ;norefresh
 ?Publisher
 ?debug=True
@@ -4565,6 +4569,7 @@ OA_HTML/AppsLocalLogin.jsp
 OA_HTML/PTB/mwa_readme.htm
 OA_HTML/bin/pasta.cfg
 OA_HTML/bin/sqlnet.log
+OA_HTML/iesRuntimeServlet
 OA_HTML/jsp/fnd/aoljtest.jsp
 OA_HTML/jsp/fnd/fndhelputil.jsp
 OA_HTML/jsp/fnd/fndversion.jsp
@@ -5605,6 +5610,7 @@ _adm
 _adm_
 _admin
 _admin/operations.aspx
+_admin/v1/events?
 _admin_
 _admin_file
 _adminer.php
@@ -5649,8 +5655,10 @@ _database_config.php
 _db_updates
 _dbs_info
 _debug.log
+_debug/pprof/heap?debug=1
 _debugbar
 _debugbar/open
+_debugbar/open?max=20&offset=0
 _dist
 _docs.en/readme.txt
 _email_templates.php
@@ -5674,6 +5682,7 @@ _grains
 _h5ai
 _header.php
 _helpers.tpl
+_hopefullynotexist404
 _images
 _include
 _includes
@@ -5735,6 +5744,7 @@ _phpmyadmin
 _pkginfo.txt
 _private
 _profiler
+_profiler/empty/search/results?limit=10
 _profiler/phpinfo
 _proxy
 _proxy/adminer.php
@@ -6061,6 +6071,7 @@ _wuscripts
 _www
 _wysiwyg
 _yardoc
+_zstats
 a-blog
 a-squared
 a-suivre
@@ -9053,6 +9064,7 @@ api.xsl
 api.yaml
 api.yml
 api/.env
+api/.env 
 api/.git/config
 api/.js
 api/.json
@@ -9067,7 +9079,9 @@ api/2/explore
 api/3.0
 api/__swagger__
 api/_data
+api/_hopefullynotexist404
 api/_swagger_
+api/access/api/v1/users
 api/action
 api/actuator/dump
 api/actuator/heapdump
@@ -9109,6 +9123,7 @@ api/config/running_hash
 api/config/save
 api/config_test
 api/configp
+api/console/proxy?uri=_mapping
 api/contents
 api/csp_report
 api/custom
@@ -9183,6 +9198,7 @@ api/plugin/details
 api/profile
 api/project/info
 api/properties
+api/providers
 api/proxy
 api/public
 api/public/v2
@@ -9198,6 +9214,7 @@ api/saves
 api/search/suggestions
 api/server_status
 api/servers
+api/services
 api/sessions
 api/settings
 api/silence/clear
@@ -9264,6 +9281,7 @@ api/v1/asset/asset
 api/v1/asset/assets
 api/v1/auth
 api/v1/branding.json
+api/v1/canal/config/1/1
 api/v1/catalog/filters
 api/v1/catalog/products
 api/v1/category
@@ -9340,6 +9358,7 @@ api/v1/users/current
 api/v1/visits
 api/v2
 api/v2.0
+api/v2.0/search
 api/v2.2
 api/v2/accounts
 api/v2/actuator/dump
@@ -10110,6 +10129,7 @@ application_startup.xml
 applications
 applications.js
 applications.json
+applications.pinpoint
 applications.ts
 applications.txt
 applications/init/models/db.py
@@ -12178,7 +12198,9 @@ base.rb
 base.sh
 base/admin
 base/static/c
+base/static/c:/windows/win.ini
 base_dir/.env
+base_import/static/c:/windows/win.ini
 basealert.js
 basecamp.js
 basechart.js
@@ -14801,6 +14823,7 @@ cfn-template.yml
 cformulas.js
 cfsearch.cfm
 cftp
+cfusion
 cgadmin
 cgblock.js
 cgcard.js
@@ -17010,6 +17033,7 @@ cluster.properties
 cluster.txt
 cluster.xml
 cluster/cluster
+cluster/list.query
 cluster_nodes.txt
 clustering.py
 clusterrole.tmpl
@@ -21787,6 +21811,7 @@ debug.phtml
 debug.pl
 debug.ps1
 debug.py
+debug.seam
 debug.sh
 debug.test.php
 debug.tpl
@@ -21801,11 +21826,13 @@ debug/default/view
 debug/flush
 debug/gc-heap-dump
 debug/generate-heap-dump
+debug/grafana
 debug/heapdump
 debug/info
 debug/metrics
 debug/pprof
 debug/pprof/cmdline
+debug/pprof/heap?debug=1
 debug/pprof/profile
 debug/pprof/symbol
 debug/pprof/trace
@@ -23947,6 +23974,7 @@ druid/coordinator/v1/leader
 druid/coordinator/v1/metadata/datasources
 druid/index.html
 druid/indexer/v1/taskStatus
+druid/v2/sql
 druilhe
 drummond
 drumrack.js
@@ -27023,6 +27051,7 @@ fechitas.js
 feco.js
 fed-e-task-02-01/code/grunt/.npmrc
 fed-e-task-02-01/code/gulp/.npmrc
+fed.rpc.solo.io.GlooInstanceApi/ListClusterDetails
 fedatifis.js
 federated.js
 federico
@@ -29316,6 +29345,7 @@ gitlab-ci.yml
 gitlab-credentials
 gitlab-secrets
 gitlab.rb
+gitlab/-/grafana
 gitlabapi.js
 gitleads.js
 gitlet.js
@@ -31528,6 +31558,7 @@ home.php
 home.pl
 home.ps1tml
 home.rar
+home.seam
 home.shtml
 home.tar
 home.tar.bz2
@@ -35800,6 +35831,7 @@ k8s-services.yml
 k8s-statefulset.yaml
 k8s-statefulset.yml
 k8s.yaml
+k8s/api/v1
 k8s/configmap.yaml
 k8s/configmap.yml
 k8s/deployment.yaml
@@ -39248,6 +39280,7 @@ luc.js
 luca
 lucas.js
 lucasarts
+lucee/admin/imgProcess.cfm?file=filename.cfm
 lucena.js
 lucent
 lucid.js
@@ -43316,6 +43349,7 @@ nginx-ssl.access.log
 nginx-ssl.conf
 nginx-ssl.error.log
 nginx-status
+nginx-status.html
 nginx-vhosts.conf
 nginx.cache.conf
 nginx.conf
@@ -47371,6 +47405,7 @@ pipeline.xml
 pipeline.yaml
 pipeline.yml
 pipeline.yml.template
+pipeline/apis/v1beta1/runs?page_size=5&sort_by=created_at%20desc
 pipeline_approval.yml
 pipeline_artifacts.yml
 pipeline_config.yml
@@ -53043,6 +53078,7 @@ sap
 sap/admin
 sap/bc/gui/sap/its/webgui
 sap/hana/xs/formLogin/login.html
+sap/irj/go/km/navigation
 sap/public/icman/ping
 sap/public/info
 sap/wdisp/admin
@@ -54422,6 +54458,7 @@ selenium.log
 selenium.properties
 selenium.yaml
 selenium.yml
+selenoid
 selfish-darling-backend/.env
 selfmask.js
 selftests.js
@@ -54959,6 +54996,7 @@ service.xsd
 service.xsl
 service.yaml
 service.yml
+service/extdirect/poll/rapture_State_get
 service/service-definition.yml
 service?Wsdl
 serviceAccount.json
@@ -58392,6 +58430,7 @@ static/api/swagger.json
 static/api/swagger.yaml
 static/dump.sql
 static/images
+static/nginx.conf
 static/script.js
 static/test-files
 static_configs.yml
@@ -60635,6 +60674,7 @@ telephone
 telephone.js
 telepresence
 telerik.js
+telescope/requests
 telesite
 telestream
 telesyn
@@ -63417,6 +63457,7 @@ ui
 ui-prefs.conf
 ui-text.yml
 ui/.env
+ui/api/v1/global-search/builds?jfLoader=true
 uiadmin.js
 uiapsis.js
 uiautomator.xml
@@ -64594,6 +64635,7 @@ v1/agent/members
 v1/agent/metrics
 v1/agent/metrics?format=prometheus
 v1/agent/monitor
+v1/agent/self
 v1/agent/services
 v1/altair
 v1/api
@@ -64666,6 +64708,7 @@ v1/session/list
 v1/status/leader
 v1/status/peers
 v1/storefront
+v1/submissions
 v1/subscriptions
 v1/swagger.json
 v1/sync
@@ -66482,6 +66525,7 @@ web/phpMyAdmin/scripts/setup.php
 web/phpmyadmin
 web/scripts/setup.php
 web/static/c
+web/static/c:/windows/win.ini
 web/uploads
 web/zabbix.conf.php
 web1.config
@@ -67635,6 +67679,7 @@ wp-content/plugins/.git/config
 wp-content/plugins/adminer/inc/editor/index.php
 wp-content/plugins/count-per-day/js/yc/d00.php
 wp-content/plugins/hello.php
+wp-content/plugins/hustle/views/admin/dashboard
 wp-content/site.sql
 wp-content/themes
 wp-content/themes.php
@@ -67661,6 +67706,7 @@ wp-feed.php
 wp-includes
 wp-includes/css/wp-config.php
 wp-includes/fonts/wp-config.php
+wp-includes/images
 wp-includes/js/.git/config
 wp-includes/modules/wp-config.php
 wp-includes/rss-functions.php
@@ -67759,6 +67805,7 @@ ws-client/loanCalculation.jsp
 ws.cfg
 ws.js
 ws.php
+ws/v1/cluster/info
 ws4ee
 ws4py.cfg
 wsClient.js
