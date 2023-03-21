@@ -145,6 +145,7 @@
 .angular-cli.json
 .ansible
 .ansible.cfg
+.ansible_vault_password
 .ansibleinventory
 .apdisk
 .apport-ignore.xml
@@ -492,6 +493,7 @@
 .chefignore
 .chronograf
 .chronograf.d
+.ci
 .circleci
 .circleci.yaml
 .circleci.yml
@@ -609,6 +611,7 @@
 .codacy.config.js
 .codacy.yaml
 .codacy.yml
+.codebuild
 .codecept-ignore.js
 .codecept.js
 .codeclimate-ignore-config.js
@@ -801,6 +804,7 @@
 .deployment-config.json
 .dev
 .devcontainer
+.devops
 .digitalocean
 .digitalocean/config
 .digitalocean/config.yaml
@@ -840,11 +844,14 @@
 .docker-options-testing
 .docker/.env
 .docker/config.json
+.docker/config.json.example
 .docker/daemon.json
 .docker/laravel/app/.env
 .docker/machine
 .docker/machine/machines
+.dockerbuildignore
 .dockercfg
+.dockerconfigjson
 .dockerfile
 .dockerignore
 .dockerignore-backup
@@ -854,12 +861,14 @@
 .dockerignore-staging
 .dockerignore-template
 .dockerignore-testing
+.dockerignore.example
 .docs
 .document
 .docusaurus.config.js
 .domain
 .dotfiles.boto
 .dotnet
+.drone
 .drone.env.yml
 .drone.jsonnet
 .drone.sec
@@ -919,6 +928,7 @@
 .eclipseproduct
 .ecs
 .editorconfig
+.editorconfig.example
 .eggs
 .eks
 .elasticbeanstalk
@@ -1300,20 +1310,26 @@
 .github/secrets
 .github/workflows
 .github/workflows/blank.yml
+.github/workflows/build.yml
 .github/workflows/cd.yml
 .github/workflows/ci.yaml
 .github/workflows/ci.yml
 .github/workflows/dependabot.yml
+.github/workflows/deploy.yml
 .github/workflows/docker.yml
 .github/workflows/functional-tests.yaml
 .github/workflows/functional-tests.yml
+.github/workflows/main.yml
 .github/workflows/master.yml
 .github/workflows/maven.yml
 .github/workflows/nodejs.yml
 .github/workflows/publish.yml
+.github/workflows/release.yml
+.github/workflows/test.yml
 .githubactions
 .gitignore
 .gitignore.backup
+.gitignore.example
 .gitignore.orig
 .gitignore.sample
 .gitignore.swp
@@ -1420,6 +1436,10 @@
 .gitlab-ci-yml
 .gitlab-ci-yml-template
 .gitlab-ci-yml.template
+.gitlab-ci.d
+.gitlab-ci.d/deploy
+.gitlab-ci.d/deploy/prod.yml
+.gitlab-ci.d/test
 .gitlab-ci.example.yaml
 .gitlab-ci.example.yml
 .gitlab-ci.off.yml
@@ -1431,6 +1451,7 @@
 .gitlab-ci.yaml.template
 .gitlab-ci.yml
 .gitlab-ci.yml.backup
+.gitlab-ci.yml.example
 .gitlab-ci.yml.template
 .gitlab-ci/.env
 .gitlab/issue_templates
@@ -1577,6 +1598,7 @@
 .helm/values.yaml
 .helmfile.yaml
 .helmignore
+.helmignore.example
 .heroku
 .heroku/credentials
 .heroku/creds.json
@@ -1702,6 +1724,7 @@
 .httr-oauth
 .htusers
 .hushlogin
+.husky
 .huskyignore.js
 .huskyrc
 .huskyrc-config.js
@@ -1891,18 +1914,26 @@
 .kitchen.local.yml
 .kitchen.yaml
 .kitchen.yml
+.kitchen.yml.example
 .komodotools
 .kops
 .ksh_history
 .kube
+.kube-ps1.sh
 .kube/config
+.kube/kubectl_aliases
 .kube/kubectl_plugins
 .kubecfg
 .kubeconfig
 .kubectl
+.kubectl_aliases
 .kubectx
+.kubefwd.yaml
+.kubeless
 .kubernetes
 .kubernetesconfig
+.kustomization.dev.yaml
+.kustomization.prod.yaml
 .kustomization.yaml
 .kustomization.yml
 .landscape.yaml
@@ -2031,6 +2062,7 @@
 .microsoft/powervirtualagents/credentials
 .microsoftteams/credentials
 .minikube
+.minikube.example
 .minikube/ca.crt
 .minikube/certs
 .minikube/certs/apiserver.crt
@@ -2188,6 +2220,7 @@
 .npmrc
 .npmrc.ci
 .npmrc.ci.template
+.npmrc.example
 .npmrc.template
 .nra.cache
 .nrepl-port
@@ -2600,6 +2633,8 @@
 .semver
 .sensiolabs.yml
 .sequelizerc
+.sequelizerc.js
+.sequelizerc.json
 .server-info
 .server-status
 .serverless
@@ -2750,6 +2785,7 @@
 .stack-work-local-test
 .stack-work-profiling
 .stack-work-test
+.staging.env
 .stat
 .stats
 .stestr.conf
@@ -2899,9 +2935,11 @@
 .travis.yml.enc.asc
 .travis.yml.enc.gpg
 .travis.yml.enc.gpg.asc
+.travis.yml.example
 .travis.yml.gpg
 .travis.yml.js
 .travis.yml.swp
+.travis.yml.template
 .travis.yml~
 .travis/config.yml
 .travis_build.yaml
@@ -2980,6 +3018,7 @@
 .vacation.cache
 .vagrant
 .vault
+.vault-pass
 .vault-ssh-helper.d
 .vault-ssh-helper.d/config.hcl
 .vault-ssh-helper.d/scripts
@@ -3109,6 +3148,7 @@
 .well-known/uma2-configuration
 .well-known/void
 .well-known/webfinger
+.wercker
 .wercker.yaml
 .wercker.yml
 .wfuzz
@@ -3581,6 +3621,7 @@ BundleArtifacts
 C99Shell.php
 CADfile.dwg
 CATKIN_IGNORE
+CD
 CERT.SF
 CFIDE
 CFIDE/adminapi/administrator.cfc
@@ -3616,6 +3657,10 @@ CMakeLists.txt
 CMakeLists.txt.user
 CMakeOutput.log
 CMakeScripts
+CODEBUILD_BUILD_ID
+CODEBUILD_GIT_BRANCH
+CODEBUILD_PROJECT_NAME
+CODEOWNERS
 CODE_OF_CONDUCT
 CODE_OF_CONDUCT.md
 CODE_OF_CONDUCT.txt
@@ -3690,6 +3735,7 @@ Cheffile
 ChromeDriver.exe
 Circle-CI.yaml
 Circle-CI.yml
+CircleCI
 CircleCI-config.yaml
 CircleCI-config.yml
 CircleCI.yaml
@@ -3860,10 +3906,19 @@ Dockerfile
 Dockerfile.amd64
 Dockerfile.arm32v7
 Dockerfile.arm64v8
+Dockerfile.build
+Dockerfile.build.ci
 Dockerfile.ci
+Dockerfile.ci.production
+Dockerfile.ci.staging
 Dockerfile.ci.template
 Dockerfile.debug
+Dockerfile.deploy
 Dockerfile.dev
+Dockerfile.dev.ci
+Dockerfile.dev.prod
+Dockerfile.dev.staging
+Dockerfile.dev.test
 Dockerfile.linux
 Dockerfile.prod
 Dockerfile.production
@@ -3873,12 +3928,14 @@ Dockerfile.rhel
 Dockerfile.staging
 Dockerfile.staging.template
 Dockerfile.test
+Dockerfile.test.ci
 Dockerfile.ubuntu
 Dockerfile.windows
 Dockerrun.aws.json
 Documentation
 Documents
 DriverFactory.java
+Dronefile
 Dump.rdb
 Dx.php
 DxShell.1.0.php
@@ -4030,6 +4087,8 @@ GitLab-ci.yml
 Global.asax
 Global.asax.vb
 Godeps.json
+Gopkg.lock
+Gopkg.toml
 Gruntfile.coffee
 Gruntfile.js
 Gruntfile.js.sample
@@ -4286,9 +4345,11 @@ Jenkinsfile-test
 Jenkinsfile-verify
 Jenkinsfile.agent
 Jenkinsfile.batared
+Jenkinsfile.build
 Jenkinsfile.ci
 Jenkinsfile.confared
 Jenkinsfile.credentials
+Jenkinsfile.deploy
 Jenkinsfile.docker
 Jenkinsfile.environment
 Jenkinsfile.groovy
@@ -4306,6 +4367,7 @@ Jenkinsfile.sample
 Jenkinsfile.sample.backup
 Jenkinsfile.secrets
 Jenkinsfile.shared
+Jenkinsfile.shared-library
 Jenkinsfile.stages
 Jenkinsfile.staging
 Jenkinsfile.steps
@@ -4424,6 +4486,7 @@ Makefile
 Makefile.PL
 Makefile.am
 Makefile.check
+Makefile.ci
 Makefile.clean
 Makefile.compile
 Makefile.config
@@ -5109,6 +5172,7 @@ Trace.axd
 Travel_form/.env
 Travis.yaml
 Travis.yml
+TravisCI
 TwemlowsWebShell.php
 Type.vb
 Types.java
@@ -8830,6 +8894,8 @@ ansible-vault.yaml.j2
 ansible-vault.yml
 ansible-vault.yml.j2
 ansible.cfg
+ansible.cfg.example
+ansible.cfg.example.aws
 ansible.yaml
 ansible.yaml.j2
 ansible.yml
@@ -8839,6 +8905,7 @@ ansible/push_ssh_keys.yml
 ansible/push_ssh_keys_remote.yaml
 ansible/push_ssh_keys_remote.yml
 ansible_hosts
+ansible_inventory
 ansible_playbook.yml
 ansible_vault_file.yml
 ansible_vault_password
@@ -10164,6 +10231,8 @@ appsettings.Development.json
 appsettings.Local.json
 appsettings.Production.json
 appsettings.Staging.json
+appsettings.Test.json
+appsettings.UAT.json
 appsettings.cfg
 appsettings.config
 appsettings.env
@@ -11554,6 +11623,7 @@ azure-monitor.yml
 azure-network-security-group.json
 azure-notification-hub.yml
 azure-pipeline.yml
+azure-pipelines
 azure-pipelines.ci.yml
 azure-pipelines.json
 azure-pipelines.yaml
@@ -14721,6 +14791,7 @@ cercleui.js
 cereal.js
 cerenkov.js
 cert
+cert-manager
 cert-manager.yaml
 cert.crt
 cert.jks
@@ -15699,6 +15770,7 @@ charrua
 charsback.js
 charsbox.js
 charspec.js
+chart
 chart.xlsx
 chart.yaml
 chart/values.yaml
@@ -22266,12 +22338,14 @@ deploy.ps1
 deploy.py
 deploy.rb
 deploy.sh
+deploy.sh.example
 deploy.ts
 deploy.txt
 deploy.xml
 deploy.yaml
 deploy.yml
 deploy/.env
+deploy/README.md
 deploy/after_restart.rb
 deploy/before_migrate.rb
 deploy/before_restart.rb
@@ -22293,6 +22367,7 @@ deploy_dev.ps1
 deploy_dev.sh
 deploy_features.cmd
 deploy_features.py
+deploy_key
 deploy_password
 deploy_prod.ps1
 deploy_prod.sh
@@ -23188,6 +23263,7 @@ docker-compose.build.yml
 docker-compose.cache.yml
 docker-compose.cassandra.yml
 docker-compose.ci
+docker-compose.ci.test.yml
 docker-compose.ci.yaml
 docker-compose.ci.yml
 docker-compose.consul.yml
@@ -23236,6 +23312,7 @@ docker-compose.nginx.yml
 docker-compose.nodejs.yml
 docker-compose.opentelemetry.yml
 docker-compose.override
+docker-compose.override.ci.yml
 docker-compose.override.yaml
 docker-compose.override.yml
 docker-compose.php-fpm.yml
@@ -23753,6 +23830,7 @@ dotbr
 dotclear
 dotcloud.js
 dotdef.js
+dotenv
 dotest.properties
 dotfiles
 dotfiles/.env
@@ -25246,6 +25324,7 @@ enumtype.js
 enumutil.js
 env
 env-config.properties
+env-vars.example
 env.bak
 env.bat
 env.cfg
@@ -33914,6 +33993,7 @@ invalidif.js
 invasion.exe
 inventories
 inventory
+inventory.ini
 inventory.php
 inventory.yaml
 inventory.yml
@@ -37050,11 +37130,16 @@ kurtsore.js
 kurz.js
 kusaba.js
 kusanagi.js
+kustomization.ci.yaml
 kustomization.dev.yaml
 kustomization.prod.yaml
+kustomization.production.yaml
 kustomization.template.yaml
 kustomization.yaml
+kustomization.yaml.example
 kustomization.yml
+kustomize
+kustomize-ci
 kustomize/base/deployment.yaml
 kustomize/base/kustomization.yaml
 kustomize/base/service.yaml
@@ -39547,6 +39632,7 @@ main.scala
 main.sh
 main.tf
 main.ts
+main.yml
 main/.env
 main/login
 main1
@@ -44859,6 +44945,7 @@ operational_data.csv
 operations
 operativo.js
 operator
+operator.yaml
 operator.yml
 operatr.js
 opermove.js
@@ -45403,6 +45490,7 @@ package
 package-cache
 package-lock.confon
 package-lock.json
+package-lock.json.example
 package-lock.json.template
 package-manager.yml
 package.bat
@@ -45410,6 +45498,7 @@ package.conf
 package.confon
 package.json
 package.json.bak
+package.json.example
 package.json.sample
 package.json.template
 package.php
@@ -47579,6 +47668,15 @@ play.xml
 play.yaml
 play.yml
 playalbum.js
+playbook-apply.yml
+playbook-configure.yml
+playbook-deploy.yml
+playbook-destroy.yml
+playbook-docker.yml
+playbook-provision.yml
+playbook-setup.yml
+playbook-test.yml
+playbook-verify.yml
 playbook.yaml
 playbook.yml
 playbooks
@@ -48088,7 +48186,9 @@ post-build.rb
 post-build.sh
 post-build.txt
 post-build.xml
+post-commit
 post-deployment/.vscode/.env
+post-receive
 post.conf
 post.html
 post.json
@@ -48102,6 +48202,7 @@ postbuild.js
 postcalendar
 postcards
 postcat.js
+postcss.config.js
 postdatas.js
 poster
 posters.js
@@ -49310,6 +49411,7 @@ pull-branch.sh
 pull-docker-image.sh
 pull-image-k8s.sh
 pull.sh
+pull_request_template.md
 pulsarcv.js
 pulses.js
 pulsetest.js
@@ -50988,6 +51090,7 @@ release.properties
 release.ps1
 release.sh
 release.v1.yml
+release.yml
 release_notes.html
 release_notes.json
 release_notes.md
@@ -51259,10 +51362,12 @@ require.ini
 require.php
 requireb.js
 required.json
+requirements-dev.txt
 requirements-error.php
 requirements.lock
 requirements.psd1
 requirements.txt
+requirements.txt.example
 requirements.yaml
 requirements.yml
 requires.inc
@@ -57828,6 +57933,8 @@ src/java
 src/lib.rs
 src/main.js
 src/main.rs
+src/main/docker/Dockerfile
+src/main/docker/docker-compose.yml
 src/main/front-end/.env
 src/main/java
 src/main/resources
@@ -57889,6 +57996,7 @@ ssh-auth
 ssh-authentication.log
 ssh-authorization.log
 ssh-cipher.log
+ssh-config
 ssh-config.txt
 ssh-connection.log
 ssh-debug.log
@@ -57903,6 +58011,7 @@ ssh-keys.conf
 ssh-keys.txt
 ssh-keys.yaml
 ssh-keys.yml
+ssh-keyscan
 ssh-keyscan.conf
 ssh-private.key
 ssh-public.key
@@ -57924,6 +58033,7 @@ ssh2_auth_password
 ssh_client_config
 ssh_config
 ssh_config.conf
+ssh_config.example
 ssh_config.txt
 ssh_config_template
 ssh_history.csv
@@ -60950,7 +61060,10 @@ terraform.tf
 terraform.tfplan
 terraform.tfstate
 terraform.tfstate.backup
+terraform.tfstate.d
 terraform.tfvars
+terraform.tfvars.example
+terraform_backend.tf
 terrorists
 tesco_api_key
 tesd.js
@@ -61783,6 +61896,7 @@ tftp_upload_script.pl
 tftpbrute.js
 tftpd32
 tfun.js
+tfvars.example
 tfw.js
 tgobject.js
 th_escape.wad
@@ -62761,6 +62875,7 @@ tradeshow.js
 tradesoft
 tradetheme
 trading.js
+traefik
 traefik.json
 traefik.log
 traefik.toml
@@ -64238,6 +64353,7 @@ user/login
 user/permissions
 user/personal_access_tokens
 user/settings
+user/sign_in
 user/sign_in.html
 user/sign_in.json
 user/sign_in.xml
@@ -65001,6 +65117,11 @@ valueinit.js
 valuem.js
 valueof.js
 values
+values-ci.yaml
+values-dev.yaml
+values-prod.yaml
+values-production.yaml
+values-staging.yaml
 values.php
 values.yaml
 values.yml
@@ -65111,6 +65232,9 @@ varnishncsa.params
 varnishncsa.service
 varnishncsa.systemd
 varnishncsa.upstart
+vars-ci.yml
+vars-dev.yml
+vars-production.yml
 vars.yml
 vartba.js
 varutils.js
@@ -65132,11 +65256,14 @@ vault-agent.conf
 vault-agent.hcl
 vault-agent.ini
 vault-agent.txt
+vault-ci.yml
 vault-client.hcl
 vault-config.json
+vault-dev.yml
 vault-logs
 vault-logs.txt
 vault-policy.hcl
+vault-production.yml
 vault-server
 vault-server.conf
 vault-server.hcl
@@ -65941,6 +66068,7 @@ vubb
 vue
 vue-apollo
 vue-end/vue-til/.env
+vue.config.js
 vue/vuecli/.env
 vue_CRM/.env
 vueditor.js
@@ -68260,6 +68388,7 @@ yapybs.js
 yaqd.js
 yarn
 yarn-capacity-scheduler.xml
+yarn-ci.lock
 yarn-debug.log
 yarn-default.xml
 yarn-env.bat
