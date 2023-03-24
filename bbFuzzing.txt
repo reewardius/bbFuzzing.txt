@@ -15470,7 +15470,7 @@ cart
 cart.liquid
 cart.php
 cart.rb
-cart/{id}.action
+cart/1.action
 cart_item.rb
 cart_test.rb
 cart_test1.rb
@@ -15627,11 +15627,11 @@ catea.js
 categories
 categories.php
 categories/1
+categories/1.action
 categories/1/delete
 categories/1/update
 categories/list
 categories/search
-categories/{id}.action
 category
 category.php
 catfact.js
@@ -18739,7 +18739,7 @@ comment.html
 comment.php
 comments
 comments.php
-comments/{id}.action
+comments/1.action
 commerce
 commercesql
 commercial
@@ -47193,6 +47193,7 @@ orders.sql.gz
 orders.txt
 orders.xls
 orders/1
+orders/1.action
 orders/1/comments
 orders/1/customer
 orders/1/delete
@@ -47207,7 +47208,6 @@ orders/1/tracking
 orders/1/update
 orders/list
 orders/search
-orders/{id}.action
 orders_log
 ordersjs.js
 orderspec.js
@@ -50984,6 +50984,7 @@ productjs.js
 products
 products.php
 products/1
+products/1.action
 products/1/accessories
 products/1/attributes
 products/1/categories
@@ -51000,7 +51001,6 @@ products/1/specifications
 products/1/update
 products/list
 products/search
-products/{id}.action
 productws.js
 professional
 proficio.js
@@ -52660,7 +52660,7 @@ ratingbox.js
 ratinglog.js
 ratings
 ratings.php
-ratings/{id}.action
+ratings/1.action
 ratio.js
 ratiocalc.js
 rational
@@ -54190,11 +54190,11 @@ reviewpost
 reviews
 reviews.php
 reviews/1
+reviews/1.action
 reviews/1/delete
 reviews/1/update
 reviews/list
 reviews/search
-reviews/{id}.action
 reviewtab.js
 revilloc
 revipbox.js
@@ -67362,6 +67362,7 @@ users.yaml
 users.yml
 users/.pac
 users/1
+users/1.action
 users/1/account
 users/1/activity
 users/1/alerts
@@ -67420,7 +67421,6 @@ users/search
 users/settings/profile
 users/user/profile
 users/username/profile
-users/{id}.action
 users_active_directory
 users_alias
 users_controller.rb
