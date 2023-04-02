@@ -802,6 +802,7 @@
 .create-react-app
 .credential
 .credentials
+.credentials.properties
 .credo.exs
 .crt
 .cscope
@@ -828,6 +829,7 @@
 .cz-config.json
 .cz-ignore-config.js
 .cz-ignore.config.js
+.dangit
 .dart_tool
 .dart_tool/package_config.json
 .dartignore
@@ -1091,6 +1093,7 @@
 .env.dusk.staging
 .env.dusk.testing
 .env.example
+.env.example.local
 .env.example.template
 .env.fortify
 .env.fortify.production
@@ -1162,6 +1165,7 @@
 .env.sample.php
 .env.sandbox
 .env.save
+.env.schema
 .env.scout
 .env.scout.production
 .env.scout.staging
@@ -1183,6 +1187,7 @@
 .env.telescope.production
 .env.telescope.staging
 .env.telescope.testing
+.env.template
 .env.test
 .env.test.example
 .env.test.ini
@@ -1986,6 +1991,7 @@
 .idea/modules.xml
 .idea/naveditor.xml
 .idea/replstate.xml
+.idea/runConfigurations
 .idea/runConfigurations.xml
 .idea/scopes/scope_settings.xml
 .idea/sqlDataSources.xml
@@ -2483,6 +2489,12 @@
 .onedrive/credentials
 .op/config
 .openai
+.openapi-generator
+.openapi-generator-ignore
+.openapi-generator-ignore.json
+.openapi-generator-ignore.yml
+.openapi-generator.json
+.openapi-generator.yml
 .openrc
 .openstack
 .openstack/clouds.yaml
@@ -2865,6 +2877,7 @@
 .seam
 .secret
 .secrets
+.secrets.cfg
 .secrets.env
 .section.php
 .selected_editor
@@ -2895,6 +2908,7 @@
 .sessions
 .set
 .settings
+.settings.cfg
 .settings.php
 .settings.php.swp
 .settings/.jsdtscope
@@ -3472,12 +3486,17 @@
 .yardopts
 .yarn
 .yarn-integrity
+.yarn-integrity.hash
 .yarn-metadata.json
+.yarn-metadata.json.lock
 .yarnclean
+.yarnclean.lock
+.yarnclean.yml
 .yarnignore
 .yarnrc
 .yarnrc.example
 .yarnrc.js
+.yarnrc.yml
 .ycm_extra_conf.py
 .yield.log
 .yml
@@ -3878,6 +3897,7 @@ AppiumTestSuite.java
 Application.Designer.vb
 Application.cfm
 Application.mk
+Application/Common/Conf/config.php
 ApplicationDbContext.cs
 ApplicationEvents.vb
 ApplicationHost.config
@@ -3951,6 +3971,8 @@ BundleConfig.cs
 BusinessLogicLayer.cs
 BusinessLogicLayer.dll
 C99Shell.php
+CACHE/sdesktop/data.xml
+CACHE/sdesktop/install/start.htm
 CADfile.dwg
 CATKIN_IGNORE
 CERT.SF
@@ -7337,6 +7359,7 @@ activemq.pid
 activemq.xml
 activenav.js
 activepost
+activerecord.yml
 activerun.js
 activestate
 activetab.js
@@ -10204,6 +10227,7 @@ api/silence/clear
 api/silence/get
 api/silence/set
 api/snapshots
+api/snapshots/:key
 api/spec/swagger.json
 api/src/.env
 api/static
@@ -11571,6 +11595,7 @@ arangod.conf
 arangod.conf.js
 arangodb.conf
 arangodb.properties
+arangodb.yml
 arangodb3-search.conf
 arangodb3.conf
 arangodb3.js
@@ -12790,6 +12815,7 @@ aws-exports.json
 aws-exports.swift
 aws-exports.ts
 aws-lambda-tools-defaults.json
+aws-lambda-tools-defaults.properties
 aws-sdk-dynamodb.js
 aws-sdk-dynamodb.json
 aws-sdk-dynamodb.properties
@@ -13360,6 +13386,7 @@ backup-dump.log
 backup-files.txt
 backup-schedules.yaml
 backup-schedules.yml
+backup-script.sh
 backup.7z
 backup.asp
 backup.bak
@@ -13861,6 +13888,7 @@ basit
 bassett
 bastet.js
 bastille
+bastion_host.sh
 bat
 batalla
 batch
@@ -14193,6 +14221,7 @@ bigimage.js
 bigjs.js
 bigmenu.js
 bigplay.js
+bigquery.properties
 bigsort.js
 bigtable.conf
 bigtwo.js
@@ -15689,6 +15718,7 @@ cache.txt
 cache.xml
 cache.yaml
 cache.yml
+cache/backup
 cache/sql_error_latest.cgi
 cache?a=.js
 cacheEntry.json
@@ -15715,6 +15745,8 @@ cachemonitor/statistics.jsp
 cachenode.js
 cacheopts.js
 caches
+caches/configs/database.php
+caches/configs/system.php
 cachesrvc.js
 caching
 caching_logs
@@ -16537,6 +16569,7 @@ cf_nuke
 cfadmin.js
 cfc
 cfc.js
+cfcache.map
 cfcp.js
 cfdocs
 cfdomain.js
@@ -18784,6 +18817,7 @@ cloudtrail.txt
 cloudtrail.yaml
 cloudtrail.yml
 cloudtrail_auth.log
+cloudwatch-agent.json
 cloudwatch-alarms.json
 cloudwatch-anomaly-detection.json
 cloudwatch-dashboards.json
@@ -19439,6 +19473,7 @@ common.xml
 common/.git/config
 common/config/api.ini
 common/config/db.ini
+common/config/main-local.php
 common/config/rush/.npmrc
 common/inputs.cf
 common/oauth2/v2.0
@@ -20182,6 +20217,8 @@ config/config.xml
 config/config.yaml
 config/config.yml
 config/config/*.js
+config/config_global.php
+config/config_ucenter.php
 config/console-env.php
 config/console-local.php
 config/console.php
@@ -21253,6 +21290,7 @@ connect.jspx
 connect.php
 connection
 connection-client
+connection-config.xml
 connection-pool.properties
 connection-server
 connection-strings.ts
@@ -21265,6 +21303,7 @@ connection.php
 connection.properties
 connection.tf
 connection.xlsx
+connection.xml
 connection.yaml
 connection.yml
 connectionStrings.config
@@ -22069,6 +22108,7 @@ couchbase.conf
 couchbase.properties
 couchdb.default
 couchdb.ini
+couchdb.yml
 couchjob.js
 coucou.js
 counseling
@@ -23074,6 +23114,8 @@ dameware
 damon.js
 damping.js
 dan
+dana-cached/hc/HostCheckerInstaller.osx
+dana-na/nc/nc_gina_ver.txt
 danae.js
 dancemat.js
 dancer.js
@@ -23297,6 +23339,7 @@ dat
 dat.tar.gz
 dat.zip
 data
+data-access.xml
 data-at-rest.ts
 data-breach
 data-catalog.cfg
@@ -23349,7 +23392,10 @@ data/DoctrineORMModule/cache
 data/adminer.php
 data/autosuggest
 data/backups
+data/bbscache/config.php
 data/cache
+data/common.inc.php
+data/config.php
 data/configdb/mongod.conf
 data/credentials
 data/db
@@ -23362,6 +23408,7 @@ data/passwords
 data/private
 data/secrets
 data/sessions
+data/sql_config.php
 data/tmp
 data/tokens
 data/version-2
@@ -23393,6 +23440,7 @@ dataRecovery
 dataReporting
 dataRestore
 dataSecurity
+dataSource.properties
 dataSources.js
 dataTransformation
 dataValidation
@@ -23414,6 +23462,7 @@ data_encryption.yml
 data_export
 data_import
 data_log
+data_mapper.yml
 data_sample
 data_src
 data_struct
@@ -23428,6 +23477,7 @@ database-backup.log
 database-config
 database-config.js
 database-config.json
+database-config.properties
 database-config.ts
 database-config.txt
 database-config.xml
@@ -23463,6 +23513,7 @@ database.go
 database.inc
 database.inc.php
 database.ini
+database.ini.example
 database.java
 database.js
 database.json
@@ -23476,6 +23527,8 @@ database.mdb
 database.php
 database.prod.ini
 database.properties
+database.properties.example
+database.properties.sample
 database.properties.xml
 database.ps1arding.ps1
 database.ps1arding_config.ps1
@@ -23499,6 +23552,7 @@ database.yaml.sqlite3
 database.yaml_original
 database.yaml~
 database.yml
+database.yml.example
 database.yml.pgsql
 database.yml.sample
 database.yml.sqlite3
@@ -23776,6 +23830,7 @@ datalex
 datalog.js
 datalook
 datalynx
+datamapper.yml
 datamart.js
 datamerge.js
 datamodel
@@ -23809,6 +23864,9 @@ dataset2/.env
 datasets
 datasets.py
 datasource
+datasource-config.cfg.xml
+datasource-config.config.xml
+datasource-config.xml
 datasource-context.xml
 datasource.properties
 datasource.properties.xml
@@ -23894,8 +23952,14 @@ dayw.js
 db
 db-admin
 db-central
+db-config.cfg.xml
+db-config.config.xml
+db-config.js
+db-config.json
+db-config.properties
 db-config.ts
 db-config.xml
+db-connection.js
 db-credentials.yaml
 db-error.php
 db-full.mysql
@@ -23931,6 +23995,7 @@ db.php
 db.prod.ini
 db.prod.js
 db.properties
+db.properties.example
 db.properties.xml
 db.properties.yml
 db.py
@@ -24270,12 +24335,21 @@ dbcase.js
 dbcfg.js
 dbclean.js
 dbconf
+dbconfig.ini
+dbconfig.js
+dbconfig.json
 dbconfig.php
+dbconfig.py
 dbconfig.xml
 dbconfig.yaml
 dbconfig.yml
 dbconn.php
+dbconnect.ini
+dbconnect.js
 dbconnect.php
+dbconnect.py
+dbconnect.rb
+dbconnect.sh
 dbconsole
 dbconsts.js
 dbcore.js
@@ -27233,6 +27307,7 @@ dynamodb-credentials.json
 dynamodb-encryption-config.json
 dynamodb-global-tables-config.json
 dynamodb-keyvault-secret.json
+dynamodb-local.properties
 dynamodb-logs-config.json
 dynamodb-on-demand-backup-config.json
 dynamodb-parameter-group-config.json
@@ -27290,6 +27365,8 @@ e-theni
 e-xoops
 e-zest
 e-zone
+e/class/config.php
+e/config/config.php
 e107
 e2e.ps1
 e2e.sh
@@ -28554,7 +28631,9 @@ environment_variables.xml
 environments
 environments.json
 environments.yaml
+environments/dev/common/config/main-local.php
 environments/local/.env
+environments/prod/common/config/main-local.php
 environments/production/.env
 envizib.js
 envoictrl.js
@@ -30669,6 +30748,7 @@ firebase.indexes.json
 firebase.json
 firebase.rules
 firebase.storage.rules
+firebase.yml
 firebird
 firebird.conf
 firebird.properties
@@ -33041,6 +33121,7 @@ grafactor.js
 grafana
 grafana-cli
 grafana-dashboard
+grafana-dashboard.json
 grafana-secret.yaml
 grafana-server
 grafana-server.service
@@ -34137,6 +34218,7 @@ hawthorn.js
 hawthorne
 hazecast.js
 hazelcast.properties
+hazelcast.xml
 hb-ns
 hb.js
 hbars.js
@@ -34547,6 +34629,7 @@ helm/templates/service.yaml
 helm/values.yaml
 helmet.config.js
 helmet.js
+helmfile.yaml
 helmsman
 helo.js
 helot.js
@@ -34763,6 +34846,7 @@ hi
 hibc.js
 hiberfil.sys
 hibernate
+hibernate-cfg.xml
 hibernate-configuration-override.xml
 hibernate-connection-pool.xml
 hibernate-connection.properties
@@ -34780,6 +34864,7 @@ hibernate-staging.cfg.xml
 hibernate-staging.properties
 hibernate-test.cfg.xml
 hibernate-test.properties
+hibernate.cfg.config.xml
 hibernate.cfg.dev.json
 hibernate.cfg.dev.properties
 hibernate.cfg.dev.xml
@@ -36306,6 +36391,7 @@ imoveable.js
 imovel.js
 imp
 impact
+impala-site.xml
 impdb.js
 imper.js
 imperial
@@ -36620,6 +36706,7 @@ include.ts
 include.txt
 include/admin.php
 include/common.inc
+include/config.inc.php
 include/config.php
 include/connection.php
 include/database.php
@@ -36872,6 +36959,7 @@ influxdb.conf.default
 influxdb.conf.sample
 influxdb.generated.conf
 influxdb.toml
+influxdb.yml
 info
 info-db
 info-zip
@@ -37245,6 +37333,7 @@ install_software.txt
 install_software.xml
 installation
 installation.php
+installation/configuration.php
 installation/index.php
 installed.json
 installer
@@ -38423,13 +38512,18 @@ jdate.js
 jdbc
 jdbc-data-source-template.xml
 jdbc-default.properties
+jdbc-defaults.properties
 jdbc-dev.properties
 jdbc-driver.jar
 jdbc-prod.properties
 jdbc-test.properties
+jdbc.conf
+jdbc.config
+jdbc.ini
 jdbc.jar
 jdbc.jsp
 jdbc.properties
+jdbc.properties.example
 jdbc.properties.xml
 jdbc.properties.yml
 jdbc.xml
@@ -38451,6 +38545,7 @@ jeasyui.js
 jebede.js
 jector.js
 jed
+jedis.properties
 jedit
 jedquery.js
 jef
@@ -38859,6 +38954,7 @@ jmxproxy
 jmxremote.access
 jmxremote.password
 jmxrmi
+jndi-datasource.xml
 jndi.jar
 jndi.js
 jndi.properties
@@ -43118,6 +43214,7 @@ lottie_happo_secret_key
 lottie_s3_api_key
 lottie_s3_secret_key
 lotus
+lotus-model.ym
 lou
 loud.js
 loudhush
@@ -43978,6 +44075,7 @@ marketplace-entitlement.cfg
 markext.js
 markjax.js
 marklib.js
+marklogic.yml
 markmap.js
 markop.js
 markpaid.js
@@ -45684,6 +45782,7 @@ monitor.ps1
 monitor.sh
 monitor.txt
 monitor.xml
+monitor.yaml
 monitor/heapdump
 monitoring
 monitoring-config.yaml
@@ -46355,8 +46454,10 @@ mybatis-config-local.xml
 mybatis-config-production.xml
 mybatis-config-staging.xml
 mybatis-config-test.xml
+mybatis-config.properties
 mybatis-config.xml
 mybatis.jar
+mybatis.xml
 mybb
 myblock.js
 myblog
@@ -46566,6 +46667,7 @@ mysql/pma
 mysql/scripts/setup.php
 mysql/sqlmanager
 mysql/web
+mysql2.yml
 mysql\bin\my.ini
 mysql_config
 mysql_debug.sql
@@ -46932,6 +47034,7 @@ neo4j-udc.conf
 neo4j-wrapper.conf
 neo4j.conf
 neo4j.properties
+neo4j.yml
 neoboard
 neocrome
 neomodus
@@ -48985,8 +49088,11 @@ opa-debug-js
 opalite.js
 opaplugin.js
 opcache
+opcache-status
+opcache-status/opcache.php
 open
 open-realty
+open-search.yml
 open-xchange
 open_api
 openable.js
@@ -49349,6 +49455,7 @@ ork.js
 orlando
 orlando.js
 orleans.codegen.cs
+orm-config.xml
 orm.ini
 orm.json
 orm.properties
@@ -50850,6 +50957,8 @@ persian.py
 persian.rb
 persianblog
 persistence
+persistence-config.xml
+persistence-context.xml
 persistence-db2.properties
 persistence-derby.properties
 persistence-dev.xml
@@ -50870,6 +50979,7 @@ persistence-neo4j.xml
 persistence-oracle.properties
 persistence-oracle.xml
 persistence-postgres.properties
+persistence-postgres.xml
 persistence-postgresql.xml
 persistence-prod.xml
 persistence-sqlserver.properties
@@ -50878,6 +50988,7 @@ persistence-staging.xml
 persistence-sybase.properties
 persistence-test.xml
 persistence-unit.xml
+persistence.properties
 persistence.xml
 persistent-volume-claims.yaml
 persistent-volumes.yaml
@@ -51098,6 +51209,7 @@ phmicroboard
 phmobmenu.js
 phnntp
 phoenix
+phoenix-client.properties
 phoenix.js
 phoetux
 phokus.js
@@ -51169,6 +51281,7 @@ php-my-admin
 php-myadmin
 php-mysql
 php-nuke
+php-opcache-status
 php-post
 php-proxima
 php-residence
@@ -51537,6 +51650,8 @@ phpspy_2005_lite.php
 phpspy_2006.php
 phpsqliteadmin
 phpsqliteadmin03a1
+phpsso_server/caches/configs/database.php
+phpsso_server/caches/configs/system.php
 phpstat
 phpstats
 phpstudy.php
@@ -52610,6 +52725,7 @@ postgresql.config.js
 postgresql.jar
 postgresql.php
 postgresql.properties
+postgresql.yml
 postgresql_pass
 postgresqlconnect.php
 postgrey
@@ -52838,6 +52954,7 @@ press.php
 press_release.pdf
 prestamos.js
 presto.js
+presto.properties
 presyon.js
 pretest.js
 pretexting
@@ -52900,7 +53017,9 @@ priorityclass.yaml
 prishtina
 prisma
 prisma-client-js
+prisma.yml
 prisma/.env
+prisma/schema.prisma
 prismatic.js
 prisminit.js
 priv8.php
@@ -53268,6 +53387,7 @@ profile.sh
 profile.ts
 profile.txt
 profile.xhtml
+profile.xml
 profile.yaml
 profile/about/edit
 profile/basic
@@ -53884,6 +54004,7 @@ pubsub
 pubsub-client
 pubsub-server
 pubsub.cfg
+pubsub.properties
 pubsub.tf
 pubugn.js
 puer.js
@@ -55536,6 +55657,7 @@ redis/.ssh
 redis_password
 redisapi.js
 redispub.js
+redisson.yaml
 redist.js
 redkernel
 redliner.js
@@ -55736,6 +55858,7 @@ release-sign-off
 release-strategy
 release-testing
 release-troubleshooting
+release.gzip
 release.log
 release.php
 release.properties
@@ -56485,6 +56608,7 @@ retail
 retail.js
 retailcrm/1C-configuration
 rete.js
+rethinkdb.yml
 retier.js
 retinable.js
 retour.js
@@ -56594,6 +56718,7 @@ rhoden
 rhvalid.js
 ria
 riak.conf
+riak.yml
 riakpbc.js
 rials.js
 rice.js
@@ -57372,6 +57497,7 @@ runafter.js
 runas.js
 runbin.js
 runbold.js
+runbook.md
 runbundle.js
 runcms
 runcrstub.js
@@ -57475,6 +57601,7 @@ s3-versioning.json
 s3-website.json
 s3.conf
 s3.config
+s3.properties
 s3.yaml
 s3.yml
 s3/.git/config
@@ -58500,6 +58627,8 @@ sdb.php
 sdc.js
 sdco.js
 sdcsync.js
+sdesktop/data.xml
+sdesktop/install/start.htm
 sdexfncts.js
 sdfingerd
 sdgame.js
@@ -58784,6 +58913,7 @@ secrets-test.yaml
 secrets-test.yml
 secrets-uat.yaml
 secrets-uat.yml
+secrets.auto.tfvars
 secrets.cfg
 secrets.conf
 secrets.development.env
@@ -58793,6 +58923,7 @@ secrets.development.yaml
 secrets.development.yml
 secrets.env
 secrets.go
+secrets.hcl
 secrets.ini
 secrets.js
 secrets.json
@@ -59598,6 +59729,8 @@ seqnumber.js
 seqsearch.js
 seqselect.js
 seqset.js
+sequel.rb
+sequel.yml
 sequelize.config.dev.js
 sequelize.config.js
 sequelize.config.prod.js
@@ -60343,6 +60476,7 @@ settings-web.json
 settings-web.ts
 settings-web.txt
 settings.action
+settings.auto.tfvars
 settings.cfg
 settings.config
 settings.development.json
@@ -61240,6 +61374,7 @@ site/.env
 site/.git/config
 site/admin
 site/common.xml
+site/default/settings.php
 site_admin
 site_admin/login.php
 site_backup.tar
@@ -61859,6 +61994,7 @@ snp
 snrg.js
 sns.cfg
 sns.config
+sns.properties
 sns.yaml
 sns.yml
 snugserver
@@ -62104,6 +62240,7 @@ solr
 solr-8983-console.log
 solr-core.properties
 solr-data
+solr-data-config.xml
 solr-env.cmd
 solr-env.sh
 solr-jetty-context.xml
@@ -62362,6 +62499,7 @@ spamlog.log
 spamoborona
 spamprobe
 spanner.cfg
+spanner.properties
 spanner.yaml
 spapi.js
 sparcade.js
@@ -62645,11 +62783,14 @@ spring-context.xml
 spring-data-jpa.xml
 spring-data-mongodb.xml
 spring-data-redis.xml
+spring-data.properties
 spring-data.xml
 spring-datasource.xml
 spring-dispatcher-servlet.xml
 spring-hibernate.xml
+spring-jdbc.properties
 spring-jdbc.xml
+spring-jpa.xml
 spring-mail.xml
 spring-mvc.xml
 spring-quartz.xml
@@ -62750,6 +62891,7 @@ sql-based.ini
 sql-based.xml
 sql-injection
 sql-ledger
+sql-map-config.xml
 sql-server-agent.conf
 sql-server-agent.xml
 sql-server-startup-params.conf
@@ -62868,11 +63010,13 @@ sqlite3-sqlite3.conf
 sqlite3.conf
 sqlite3.php
 sqlite3.sql
+sqlite3.yml
 sqlite_ins.sql
 sqlizer.js
 sqlj
 sqlmanager
 sqlmangr.exe.config
+sqlmap-config.xml
 sqlmessage.sql
 sqlmigrate.php
 sqlmodels.js
@@ -62909,6 +63053,7 @@ sqrdist.js
 sqs
 sqs.cfg
 sqs.config
+sqs.properties
 sqs.yaml
 sqs.yml
 sqsaccesskey
@@ -65179,6 +65324,7 @@ system/config.js
 system/config.json
 system/config.ts
 system/config.txt
+system/config/default.php
 system/console
 system/core
 system/cron/cron.txt
@@ -66344,6 +66490,7 @@ ternific.js
 terra
 terraform
 terraform-apply
+terraform-backend.tf
 terraform-provider-azurestack.tf
 terraform.rc
 terraform.tf
@@ -67239,6 +67386,7 @@ textmeone.js
 textor
 textover.js
 textpattern
+textpattern/config.php
 textportal
 textpost.js
 textroute.js
@@ -68916,6 +69064,7 @@ typo3conf
 typo3conf/AdditionalConfiguration.php
 typo3conf/LocalConfiguration.php
 typo3conf/ext
+typo3conf/localconf.php
 typo3conf/temp_fieldInfo.php
 typo3temp
 typography
@@ -74461,11 +74610,13 @@ zabbix_java_gateway.conf
 zabbix_proxy
 zabbix_proxy.conf
 zabbix_proxy.d
+zabbix_proxy.win.conf
 zabbix_sender
 zabbix_sender.conf
 zabbix_server
 zabbix_server.conf
 zabbix_server.d
+zabbix_server.win.conf
 zabbix_trap_receiver.conf
 zack
 zack.js
@@ -74547,6 +74698,7 @@ zaragwa.js
 zatask.js
 zawinski
 zazana.js
+zb_users/c_option.php
 zcom.js
 zconf.js
 zdesk.js
