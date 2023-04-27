@@ -1,8 +1,15 @@
+#/cluster
 #/pipelineruns
 -/debug/grafana
 -/grafana
 ..%3B/monitoring
+.1.json
+.2.json
+.3.json
 .3t/robo-3t/robo3t.key
+.4.json
+.5.json
+.6.json
 .7z
 .ACE
 .ALZ
@@ -533,6 +540,7 @@
 .chronograf
 .chronograf.d
 .ci
+.ci/publish.sh
 .circle
 .circleci
 .circleci.yaml
@@ -1124,6 +1132,7 @@
 .env.conf
 .env.config
 .env.debug
+.env.default
 .env.defaults
 .env.dev
 .env.dev.example
@@ -1940,6 +1949,7 @@
 .gvimrc~
 .gwt
 .gwt-tmp
+.haml-lint.yml
 .hash
 .hashcat
 .hbase-cli-history
@@ -2025,6 +2035,7 @@
 .htaccess.inc
 .htaccess.old
 .htaccess.orig
+.htaccess.php
 .htaccess.sample
 .htaccess.save
 .htaccess.swo
@@ -2325,6 +2336,7 @@
 .kube
 .kube-ps1.sh
 .kube/config
+.kube/k3s.yaml
 .kube/kubectl_aliases
 .kube/kubectl_plugins
 .kubecfg
@@ -2452,6 +2464,7 @@
 .mergesources.yml
 .merlin
 .meta
+.meta.yml
 .metadata
 .metadata/.plugins/org.eclipse.core.runtime/.settings
 .metadata/.plugins/org.eclipse.e4.workbench
@@ -2644,6 +2657,7 @@
 .npmrc.old
 .npmrc.template
 .npmrc.yaml
+.npmrc_auth
 .npmrc~
 .npmsignore
 .nra.cache
@@ -2719,6 +2733,7 @@
 .overops.yml
 .ovh
 .ovh/api.conf
+.owasp-dependency-check
 .p12
 .p4ignore
 .pac
@@ -3144,8 +3159,10 @@
 .solc
 .sonar
 .sonar-project.properties
+.sonarcloud.properties
 .spacemacs
 .spamassassin
+.spectral.yaml
 .spin.log
 .springbeans
 .spyderproject
@@ -3387,6 +3404,13 @@
 .thumbnails~
 .thumbs
 .thunderbird
+.tidy.1.json
+.tidy.2.json
+.tidy.3.json
+.tidy.4.json
+.tidy.5.json
+.tidy.6.json
+.tidy.infinity.json
 .tiller
 .tm_properties
 .tmb
@@ -3399,6 +3423,7 @@
 .tools/phpMyAdmin/current
 .top.menu.php
 .tox
+.tox.ini
 .transients_purge.log
 .trash
 .trashes
@@ -4047,6 +4072,11 @@ AWSSecretKey
 AWSconf.git/config
 About.vb
 AcceptanceTests.kt
+AccessPlatform
+AccessPlatform/auth
+AccessPlatform/auth/clientscripts
+AccessPlatform/auth/clientscripts/cookies.js
+AccessPlatform/auth/clientscripts/login.js
 Account/Login
 AccountController.cs
 Adaptador
@@ -4233,6 +4263,7 @@ CHANGELOG.HTML
 CHANGELOG.log
 CHANGELOG.md
 CHANGELOG.rst
+CHANGELOG.txt
 CHANGES.html
 CHANGES.md
 CKFinder.asp
@@ -4259,6 +4290,7 @@ CONTRIBUTING.md
 CONTRIBUTING.txt
 CONTRIBUTORS.md
 COPYING
+COPYRIGHT
 COPYRIGHT.txt
 COnlineBank
 CREDITS
@@ -4271,6 +4303,7 @@ CVS
 CVS/Entries
 CVS/Repository
 CVS/Root
+CVSROOT
 CVSROOT/checkoutlist
 CVSROOT/commitinfo
 CVSROOT/config
@@ -4325,6 +4358,8 @@ CircleCI-config.yaml
 CircleCI-config.yml
 CircleCI.yml
 Citrix
+Citrix//AccessPlatform/auth/clientscripts/cookies.js
+Citrix/AccessPlatform/auth/clientscripts/login.js
 Citrix/PNAgent/config.xml
 Class1.vb
 Classes
@@ -4578,7 +4613,10 @@ Enum.cs
 Enumerations.vb
 ErrorHandlingMiddleware.cs
 EspressoConfig.kt
+Exadmin
 ExceptionThrown.jsp
+ExchWeb
+Exchange
 Exercise.Frontend/.env
 Exercise.Frontend/train/.env
 ExportedObj
@@ -5229,6 +5267,7 @@ McAfee-Web-Gateway.conf
 Mercury.modules
 MetaDataStore.java
 MicroStrategy
+Microsoft-Server-ActiveSync
 Microsoft.ApplicationInsights.AspNetCore.json
 Microsoft.ApplicationInsights.json
 Microsoft.AspNet.Identity.Core.dll
@@ -5336,6 +5375,7 @@ NHibernate.Caches.SysCache.Tests.dll.config
 NHibernate.config
 NLog.config
 NON_EXISTING_PATH
+NOTICE
 NSearch
 NTDaddy_v1.9.php
 NTUser.dat
@@ -5375,6 +5415,7 @@ OAuth_tokens.ps1
 OAuth_tokens.sh
 OAuth_tokens.xml
 OHW
+OMA
 OPTIONS
 OPTIONS.backup
 OWA
@@ -6098,6 +6139,7 @@ Views/web.config
 Viewstate.aspx
 VirtualEms/Login.aspx
 Vista
+VoIP
 WAF
 WAF_architecture
 WAF_configs.bat
@@ -6567,6 +6609,8 @@ _h5ai
 _header.php
 _helpers.tpl
 _hopefullynotexist404
+_ignition/execute-solution
+_ignition/scripts
 _images
 _include
 _includes
@@ -6632,6 +6676,7 @@ _profiler/empty/search/results?limit=10
 _profiler/phpinfo
 _proxy
 _proxy/adminer.php
+_randomfiles.aspx
 _redirect.php
 _rel
 _relationship
@@ -6928,6 +6973,7 @@ _vti_bin/Views.asmx
 _vti_bin/Webs.asmx
 _vti_bin/_vti_adm/admin.dll
 _vti_bin/_vti_aut/author.dll
+_vti_bin/_vti_aut/fp30reg.dll
 _vti_bin/alerts.asmx
 _vti_bin/areaservice.asmx
 _vti_bin/bdcfieldsresolver.asmx
@@ -7001,6 +7047,7 @@ _wysiwyg
 _xpack/security/user
 _yardoc
 _zstats
+a%5c.aspx
 a-blog
 a-squared
 a-suivre
@@ -7161,6 +7208,14 @@ access.json
 access.jsp
 access.jspx
 access.log
+access.log.1
+access.log.2
+access.log.3
+access.log.4
+access.log.5
+access.log.6
+access.log.7
+access.log.8
 access.php
 access.token
 access.ts
@@ -7390,8 +7445,13 @@ account/profile/edit
 account/profile/view
 account/register
 account/register-now
+account/set-up
+account/set_up
+account/settings
 account/settings/profile
+account/setup
 account/sign-me-up-now
+account/sign_up
 account/signup
 account/signup-now
 account/user/profile
@@ -7408,6 +7468,7 @@ account_delete.php
 account_info.json
 account_policies.conf
 account_settings.php
+accountants.json
 accountbalance
 accountinfo
 accounting
@@ -7416,6 +7477,10 @@ accounts.php
 accounts.sql
 accounts.txt
 accounts.xml
+accounts/ClientRegister
+accounts/ClientSign_up
+accounts/ClientSignup
+accounts/create
 accounts_receivable.xlsx
 accountsservice
 accreditation
@@ -7482,6 +7547,7 @@ acl
 acl.yaml
 aclfile
 aclgroups.js
+aclocal.m4
 aclogic
 aclplugin.js
 aclrows.js
@@ -7715,6 +7781,7 @@ actuator/refresh
 actuator/registeredServices
 actuator/releaseAttributes
 actuator/resolveAttributes
+actuator/restart
 actuator/scheduledtasks
 actuator/sessions
 actuator/shutdown
@@ -7994,6 +8061,7 @@ admin.rb
 admin.tar.gz
 admin.ts
 admin.txt
+admin.zip
 admin/#
 admin/.config
 admin/.env
@@ -8159,6 +8227,7 @@ admin/dashbord.php
 admin/data/autosuggest
 admin/database-management
 admin/db
+admin/db_config.php
 admin/db_login.php
 admin/debug
 admin/debug-toolbar
@@ -8183,6 +8252,7 @@ admin/error_log
 admin/errors.log
 admin/event.php
 admin/events
+admin/events/?classic_login=true
 admin/export.php
 admin/extensions
 admin/extras
@@ -8235,6 +8305,8 @@ admin/index.js
 admin/index.php
 admin/index_ref.php
 admin/initialadmin.php
+admin/install.htm
+admin/install.html
 admin/inventory
 admin/inventoryManagement.js
 admin/js/tiny_mce
@@ -8285,6 +8357,8 @@ admin/manage_team.php
 admin/management
 admin/marketing
 admin/marketingManagement.js
+admin/master/console/config
+admin/mechanics
 admin/media-management
 admin/mediaManagement.js
 admin/member_home.php
@@ -8384,6 +8458,7 @@ admin/settings/permalinks
 admin/settings/reading
 admin/settings/security
 admin/settings/writing
+admin/setup
 admin/shipping
 admin/site-management
 admin/slider.php
@@ -8841,6 +8916,7 @@ adminarea/login.php
 adminbackups
 adminbox.js
 adminconsole
+adminconsole/install.htm
 admincontrol
 admincontrol.asp
 admincontrol.cfm
@@ -8907,6 +8983,7 @@ administrateur.php
 administratie
 administration
 administration.html
+administration.json
 administration.php
 administration.ts
 administration/Sym.php
@@ -8958,6 +9035,8 @@ administrator/index.cgi
 administrator/index.html
 administrator/index.js
 administrator/index.php
+administrator/install.htm
+administrator/install.html
 administrator/login
 administrator/login.asp
 administrator/login.cfm
@@ -9071,6 +9150,7 @@ admrev/_files
 admuser.js
 adn
 adnan.js
+adnim.zip
 adnproxy.js
 adobe
 adocument.js
@@ -9697,6 +9777,7 @@ all.php
 all.py
 all.rb
 all.sh
+all.yml
 all4www
 allaire
 allegretta
@@ -10150,6 +10231,13 @@ apache-default/phpmyadmin
 apache-ssl
 apache.conf
 apache.log
+apache.log.1
+apache.log.2
+apache.log.3
+apache.log.4
+apache.log.5
+apache.log.6
+apache.log.7
 apache/logs/access.log
 apache/logs/access_log
 apache/logs/error.log
@@ -10350,6 +10438,7 @@ api/auth/logout
 api/auth/v1
 api/auth/v2
 api/auth/v3
+api/authenticate.json
 api/authentication
 api/authorization
 api/authz
@@ -10468,6 +10557,7 @@ api/package_search/v4/documentation
 api/pages
 api/parameters
 api/payments
+api/pensieve
 api/permission
 api/ping
 api/plugin/details
@@ -10850,7 +10940,11 @@ api/v1/transactions/1
 api/v1/transfers
 api/v1/tv-shows
 api/v1/user
+api/v1/user/0
+api/v1/user/1
+api/v1/user/2
 api/v1/users
+api/v1/users.json
 api/v1/users/1
 api/v1/users/1/alerts
 api/v1/users/1/avatar
@@ -10918,6 +11012,7 @@ api/v2/swagger.yaml
 api/v2/tickets
 api/v2/track
 api/v2/users
+api/v2/users.json
 api/v2/users/me
 api/v3
 api/v3.0
@@ -10935,6 +11030,7 @@ api/v3/swagger-ui.html
 api/v3/swagger-ui.json
 api/v3/swagger.json
 api/v3/swagger.yaml
+api/v3/users.json
 api/v4
 api/v4.0
 api/v4/.git/config
@@ -10972,6 +11068,7 @@ api_config.conf
 api_config.py
 api_credentials.json
 api_credentials.txt
+api_docs
 api_gateway_config.yaml
 api_gateway_config.yml
 api_history.csv
@@ -11242,6 +11339,13 @@ app.js
 app.json
 app.kt
 app.log
+app.log.1
+app.log.2
+app.log.3
+app.log.4
+app.log.5
+app.log.6
+app.log.7
 app.manifest
 app.ml
 app.module.ts
@@ -11362,6 +11466,7 @@ app/etc/local.xml.phpunit
 app/etc/local.xml.template
 app/etc/local.xml.vmachine
 app/etc/local.xml.vmachine.rm
+app/file.php
 app/forms.py
 app/frontend/.env
 app/getappInfo
@@ -11411,7 +11516,26 @@ app1-static/.env
 app2-static/.env
 appBase
 appDevDebugProjectContainerCompiler.log
+app_access.log
+app_acl.log
+app_apache.log
 app_api_keys.py
+app_applicationerror.log
+app_attack.log
+app_audio.log
+app_audit.log
+app_auth.log
+app_backup.log
+app_backuperror.log
+app_bot.log
+app_bufferoverflow.log
+app_cache.log
+app_cacheerror.log
+app_chat.log
+app_clickjacking.log
+app_client.log
+app_clienterror.log
+app_commandinjection.log
 app_config.bak
 app_config.cfg~
 app_config.inc.bak
@@ -11426,37 +11550,123 @@ app_config.py
 app_config.xml~
 app_config.yaml
 app_connection_strings.py
+app_cookie.log
+app_cors.log
 app_credentials.py
 app_credentials.yaml
 app_credentials.yml
+app_cron.log
+app_csrf.log
+app_databaseerror.log
+app_db.log
+app_ddos.log
 app_debug
+app_debug.log
+app_deserialization.log
 app_dev.php
+app_dev.php/_fragment
+app_dev.php/_profiler/open?file=app/config/parameters.yaml
 app_dev.php/_profiler/open?file=app/config/parameters.yml
+app_dev.php/_profiler/phpinfo
+app_dev.php/app/config/parameters.yaml
+app_dev.php/app/config/parameters.yml
+app_device.log
 app_dir/.env
+app_directorytraversal.log
+app_dns.log
+app_dos.log
 app_driver.py
+app_email.log
 app_environment.py
+app_error.log
+app_eval.log
+app_file.log
+app_fileinclusion.log
+app_firewall.log
+app_formatstring.log
+app_ftp.log
+app_http.log
+app_httpd.log
 app_id
 app_id.txt
+app_idor.log
+app_iis.log
+app_imap.log
+app_info.log
+app_insecureconfiguration.log
+app_insecurefileupload.log
+app_integration.log
+app_integrationerror.log
+app_jboss.log
 app_key
 app_keys.py
+app_ldap.log
+app_lfi.log
 app_log_level
+app_mail.log
+app_migration.log
+app_migrationerror.log
+app_misconfiguration.log
+app_network.log
+app_networkerror.log
+app_nfs.log
+app_nginx.log
 app_nginx_static_path/.env
+app_payment.log
+app_paymenterror.log
+app_performance.log
+app_pop3.log
 app_prod.php
+app_proxy.log
+app_queue.log
+app_radius.log
+app_rfi.log
+app_search.log
+app_searcherror.log
 app_secret
 app_secret.txt
 app_secrets.py
 app_secrets.yaml
 app_secrets.yml
+app_security.log
+app_securityerror.log
+app_server.log
+app_servererror.log
+app_sessionfixation.log
 app_settings.cfg~
 app_settings.inc~
 app_settings.ini~
 app_settings.json~
 app_settings.php~
 app_settings.xml~
+app_sftp.log
+app_smtp.log
+app_snmp.log
+app_social.log
+app_spam.log
+app_sqli.log
+app_sqlinjection.log
+app_ssh.log
+app_ssl.log
+app_sslmisconfiguration.log
+app_ssrf.log
+app_system.log
+app_telnet.log
+app_template.log
 app_test.go
 app_test.php
 app_token.txt
 app_tokens.py
+app_tomcat.log
+app_trace.log
+app_video.log
+app_virus.log
+app_waf.log
+app_warning.log
+app_weakpassword.log
+app_xmlinjection.log
+app_xpathinjection.log
+app_xss.log
 appalachian
 appapi
 apparmor.conf
@@ -11736,6 +11946,13 @@ application.js
 application.json
 application.jsonutdown.json
 application.log
+application.log.1
+application.log.2
+application.log.3
+application.log.4
+application.log.5
+application.log.6
+application.log.7
 application.php
 application.properties
 application.properties/application.yml
@@ -11774,6 +11991,7 @@ applicationHost.config
 applicationHost.xdt
 application_config.xml
 application_controller.rb
+application_default_credentials.json
 application_helper.rb
 application_key
 application_log
@@ -11815,8 +12033,10 @@ approval
 approval.php
 approve-pr.sh
 approved
+apps
 apps.properties
 apps.py
+apps.tidy.infinity.json
 apps/.env
 apps/__pycache__
 apps/client/.env
@@ -12073,6 +12293,7 @@ article/admin/admin.asp
 articlebeach
 articler.js
 articles
+articles.json
 articlevo.js
 artifactory
 artifactory.acl
@@ -12205,6 +12426,7 @@ aspjar
 aspknowledgebase
 aspmforum
 aspnet_client
+aspnet_files
 aspnet_webadmin
 aspnuke
 aspplayground
@@ -12511,6 +12733,7 @@ audio.php
 audio/.env
 audio_processing_config.yaml
 audio_processing_config.yml
+audiobooks.json
 audiobus.js
 audiocalc.js
 audiodao.js
@@ -12564,6 +12787,7 @@ audo.js
 audodev.js
 auerswald
 augmath.js
+augmented-reality.json
 augmenter.js
 august.js
 auja.js
@@ -12597,6 +12821,13 @@ auth.js
 auth.json
 auth.jsp
 auth.log
+auth.log.1
+auth.log.2
+auth.log.3
+auth.log.4
+auth.log.5
+auth.log.6
+auth.log.7
 auth.php
 auth.properties
 auth.py
@@ -12605,14 +12836,20 @@ auth.tar.gz
 auth.toml
 auth.ts
 auth.txt
+auth.xml
 auth.yaml
 auth.yml
 auth.zip
+auth/admin/master/console/config
+auth/admin;/master/console/config
 auth/bitbucket
+auth/create
+auth/join
 auth/login
 auth/login/github
 auth/login/google
 auth/register
+auth/sign_up
 auth/signup
 auth_backup
 auth_bak
@@ -13125,6 +13362,7 @@ aws-credentials
 aws-credentials.cfg
 aws-credentials.ini
 aws-credentials.json
+aws-credentials.txt
 aws-credentials.xml
 aws-credentials.yaml
 aws-credentials.yml
@@ -13277,6 +13515,7 @@ axis2-web/HappyAxis.jsp
 axis2.properties
 axis2.xml
 axis2/axis2-admin
+axis2/axis2-admin/login
 axis2/axis2-web/HappyAxis.jsp
 axis2_blocking_client.xml
 axis2_clustering.xml
@@ -13321,6 +13560,12 @@ azure-container-registry.yml
 azure-cosmosdb.yaml
 azure-cosmosdb.yml
 azure-credentials
+azure-credentials.cfg
+azure-credentials.ini
+azure-credentials.json
+azure-credentials.txt
+azure-credentials.xml
+azure-credentials.yml
 azure-deployment.json
 azure-devops
 azure-devops.yaml
@@ -13644,8 +13889,10 @@ backend
 backend-def.yaml
 backend-service.yaml
 backend-service.yml
+backend.bz2
 backend.conf
 backend.go
+backend.gzip
 backend.inc
 backend.inc.php
 backend.java
@@ -13654,11 +13901,13 @@ backend.json
 backend.log
 backend.php
 backend.py
+backend.rar
 backend.rb
 backend.tf
 backend.ts
 backend.txt
 backend.yaml
+backend.zip
 backend/.env
 backend/login
 backend/src/.env
@@ -14512,6 +14761,7 @@ biblioxhr.js
 biborb
 bicimad.js
 bico.js
+bicycle-rentals.json
 bid
 bidi.js
 bidimap.js
@@ -14568,6 +14818,7 @@ bill
 billPay
 billing
 billing.cfg
+billing.json
 billing.log
 billing.php
 billing/killer.php
@@ -14588,6 +14839,7 @@ bin-debug
 bin-release
 bin.js
 bin.json
+bin.tidy.infinity.json
 bin.ts
 bin.txt
 bin/14all-1.1.cgi
@@ -14648,6 +14900,16 @@ bin/nph-emumail.cgi
 bin/pagelog.cgi
 bin/pfdispaly.cgi
 bin/powerup/r.cgi
+bin/querybuilder.json
+bin/querybuilder.json.css?path=/bin
+bin/querybuilder.json.css?path=/home
+bin/querybuilder.json/a.css?path=/bin
+bin/querybuilder.json/a.css?path=/home
+bin/querybuilder.json;%0aa.css?path=/bin
+bin/querybuilder.json;%0aa.css?path=/home
+bin/querybuilder.json?path=/apps/system/config&p.hits=full
+bin/querybuilder.json?path=/bin
+bin/querybuilder.json?path=/home
 bin/quickstore.cgi
 bin/r.cgi
 bin/reset-db-prod.bat
@@ -15029,6 +15291,7 @@ blocktest.js
 blog
 blog.html
 blog.js
+blog.json
 blog.liquid
 blog.php
 blog/.env
@@ -15156,6 +15419,7 @@ boardnew.js
 boardpage.js
 boardpower
 boastmachine
+boats.json
 bob.php
 bobbitt
 bobind.js
@@ -15204,6 +15468,7 @@ bonusring.js
 bonzo.js
 booby
 book
+book.json
 book.jsp
 book/14-end/api/.npmrc
 book/14-end/app/.npmrc
@@ -15221,6 +15486,7 @@ bookmark4u
 bookmarks
 bookreview
 books
+books.json
 bookstore
 booleans
 boonex
@@ -15866,6 +16132,7 @@ bus.js
 busdata.js
 busdate.js
 buserctrl.js
+buses.json
 business
 business.php
 businessIntelligence
@@ -16085,6 +16352,7 @@ cache_folder.js
 cache_folder.temp
 cache_go_dirs.sh
 cache_peer.conf
+cache_reports
 cache_s3_secret_key
 cachedjs.js
 cacheflow
@@ -16218,6 +16486,7 @@ calculs.js
 caldera
 calendar
 calendar.js
+calendar.json
 calendar.php
 calendarManagement.js
 calendarix
@@ -16398,6 +16667,7 @@ capture_browser.sh
 captures
 captwords.js
 capty.js
+car-rentals.json
 carafe.js
 caraml.js
 caravan.js
@@ -16480,9 +16750,11 @@ carparked.js
 carrierewave.ja.yml
 carrigan
 carruthers
+cars.json
 carsdata.js
 carsvc.js
 cart
+cart.json
 cart.liquid
 cart.php
 cart.rb
@@ -16837,6 +17109,7 @@ cert.ts
 cert.txt
 certbot
 certcloak.js
+certcontrol
 certdemo.js
 certenroll
 certicom
@@ -17052,6 +17325,7 @@ cgi-bin/gx.cgi
 cgi-bin/gx.dll
 cgi-bin/gx.exe
 cgi-bin/hsx.cgi
+cgi-bin/htmlscript
 cgi-bin/im_trbbs.cgi
 cgi-bin/img.pl
 cgi-bin/info.php
@@ -17757,6 +18031,7 @@ chalcogen.js
 chalets.js
 chalkmark.js
 challenge/.env
+challenges.json
 challenges/.env
 chamas
 chamber.js
@@ -17924,6 +18199,7 @@ checkmark
 checkocto.js
 checkout
 checkout-branch.sh
+checkout.json
 checkout.liquid
 checkout.php
 checkouts
@@ -18315,6 +18591,9 @@ citedrag.js
 citem.js
 citibike.js
 citoband.js
+citrix
+citrix/AccessPlatform/auth
+citrix/AccessPlatform/auth/clientscripts
 citrus-context.xml
 citrus-db-server.xml
 citrus-db.properties
@@ -19810,6 +20089,7 @@ comment
 comment.html
 comment.php
 comments
+comments.json
 comments.php
 comments/1.action
 commerce
@@ -19878,6 +20158,7 @@ comparison
 compass.rb
 compass/logon.jsp
 comperemedia
+competitions.json
 competitive_analysis.docx
 competitive_analysis.xlsx
 competitor_analysis.csv
@@ -20386,6 +20667,8 @@ config.ora
 config.org
 config.orig
 config.original
+config.pacnew
+config.pacsave
 config.part
 config.php
 config.php#
@@ -20565,6 +20848,8 @@ config.rb
 config.rb.bak
 config.rej
 config.rpath
+config.rpmnew
+config.rpmsave
 config.ru
 config.sample
 config.sample.inc.php
@@ -20602,6 +20887,7 @@ config.source
 config.stage
 config.staging
 config.staging.php
+config.status
 config.sub
 config.sublime-project
 config.sublime-workspace
@@ -20726,8 +21012,14 @@ config.yml.tmpl
 config.zip
 config/.env
 config/.env.development
+config/.env.local
+config/.env.prod
+config/.env.prod.local
 config/.env.production
+config/.env.staging
+config/.env.staging.local
 config/.env.test
+config/.env.test.local
 config/.secrets
 config/000000000000.cfg
 config/AppData.config
@@ -20748,15 +21040,21 @@ config/api_config.json
 config/app.cfg
 config/app.config.ts
 config/app.js
+config/app.json
 config/app.php
 config/app.yaml
 config/app.yml
+config/appSettings.config
 config/app_.php
+config/app_env.yaml
+config/app_env.yml
 config/app_local.php
+config/application.json
 config/application.properties
 config/application.rb
 config/application.yaml
 config/application.yml
+config/applicationContext.xml
 config/argo-workflow.yaml
 config/asana-api.json
 config/audit.conf
@@ -20794,6 +21092,7 @@ config/boot.rb
 config/bootstrap.php
 config/braintree.yml
 config/broadcasting.php
+config/build.js
 config/bundles.php
 config/cable.yaml
 config/cable.yml
@@ -20841,6 +21140,7 @@ config/compile.php
 config/components-env.php
 config/components-local.php
 config/components.php
+config/config
 config/config.env
 config/config.go
 config/config.inc
@@ -20856,6 +21156,7 @@ config/config.yml
 config/config/*.js
 config/config_global.php
 config/config_ucenter.php
+config/connectionstrings.config
 config/console-env.php
 config/console-local.php
 config/console.php
@@ -20863,18 +21164,24 @@ config/cors.php
 config/couchbase.json
 config/couchdb/credentials
 config/credentials
+config/credentials.json
 config/credentials.yaml.enc
+config/credentials.yml
 config/credentials.yml.enc
 config/creds.json
 config/cucumber.yaml
 config/cucumber.yml
 config/dashboard-statistics.xml
+config/database
 config/database-example.yaml
 config/database-example.yml
 config/database.config.ts
 config/database.inc.php
 config/database.ini
+config/database.js
+config/database.json
 config/database.php
+config/database.properties
 config/database.yaml
 config/database.yaml.pgsql
 config/database.yaml.sqlite3
@@ -20891,8 +21198,11 @@ config/databases.yml
 config/db
 config/db.inc
 config/db.js
+config/db.json
 config/db.php
 config/db.xml
+config/db.yaml
+config/db.yml
 config/db_config.cfg
 config/dbconfig
 config/debugbar.php
@@ -20910,6 +21220,7 @@ config/deploy.rb
 config/deploy.yaml
 config/deploy/production.rb
 config/deployment_config.xml
+config/dev
 config/dev.cfg
 config/development
 config/development.env
@@ -20977,6 +21288,7 @@ config/gitlab-token
 config/gitlab.rb
 config/gitlab.yaml
 config/gitlab.yml
+config/global.asa
 config/global.ini.php
 config/global.php
 config/google-credentials
@@ -20987,6 +21299,7 @@ config/grape.yml
 config/graphql.js
 config/hashing.php
 config/helm-chart-values.yaml
+config/hibernate.cfg.xml
 config/honeybadger.yml
 config/hosts.yaml
 config/identity-provider.json
@@ -21166,6 +21479,7 @@ config/instagram.yml
 config/intercom.yml
 config/istio-gateway.yaml
 config/istio-virtualservice.yaml
+config/jdbc.properties
 config/jenkinsfile
 config/jira-api.json
 config/job.ini
@@ -21195,6 +21509,7 @@ config/ldap.yml
 config/libreoffice.yml
 config/linkedin.yml
 config/local.config.php
+config/local.xml
 config/local_settings.py
 config/locales
 config/locales/devise.en.yaml
@@ -21305,6 +21620,7 @@ config/postProcessing/testNaming
 config/postgres/credentials
 config/private
 config/producao.ini
+config/production
 config/production.env
 config/production.ini
 config/production.js
@@ -21346,6 +21662,7 @@ config/resque.yaml
 config/resque.yml
 config/rollbar.yml
 config/router.js
+config/routes.js
 config/routes.php
 config/routes.rb
 config/routes.yaml
@@ -21431,6 +21748,7 @@ config/settings.inc.php
 config/settings.inc.php.bak
 config/settings.ini
 config/settings.ini.cfm
+config/settings.js
 config/settings.json
 config/settings.local.yaml
 config/settings.local.yml
@@ -21468,6 +21786,7 @@ config/solr.xml
 config/solr.yml
 config/sphinx.yml
 config/spring.rb
+config/spring/application-context.xml
 config/sqlite3.yml
 config/ssl
 config/ssl-certificate.pem
@@ -21505,6 +21824,7 @@ config/testem.js
 config/testing.py
 config/tinker.php
 config/tokens
+config/tomcat-users.xml
 config/transforms.js
 config/travis-ci.yml
 config/trello-api.json
@@ -21524,6 +21844,7 @@ config/watchman.js
 config/web-core.xml
 config/web-env.php
 config/web-local.php
+config/web.config
 config/web.php
 config/web_socket_rails.yml
 config/webflow-config.xml
@@ -21570,6 +21891,7 @@ config_bak.ini
 config_bak.json
 config_bak.php
 config_bak.xml
+config_by_product.yml
 config_debug.php
 config_default.ini
 config_default.json
@@ -21740,6 +22062,8 @@ configmap.tmpl
 configmap.yaml
 configmap.yml
 configmaps
+configmaps.yaml
+configmaps.yml
 configmdl.js
 configpre.js
 configprops
@@ -21793,6 +22117,7 @@ configuration.php.txt
 configuration.php.zip
 configuration.php~
 configuration.properties
+configuration.rb
 configuration.xml
 configuration.xsl
 configuration.yaml
@@ -21811,6 +22136,7 @@ configure-hooks.sh
 configure-kubectl.sh
 configure-vm.sh
 configure.ac
+configure.ac.in
 configure.bat
 configure.in
 configure.js
@@ -22012,6 +22338,7 @@ console/app/settings
 console/app/sql
 console/app/user-settings
 console/base/config.json
+console/config
 console/help
 console/login
 console/login/LoginForm.jsp
@@ -22185,6 +22512,9 @@ contains.json
 contants.js
 contas.js
 contelligent
+conten/.1.json 
+conten/.tidy.infinity.json
+conten/t.1.json
 contenido
 contenite
 contens
@@ -22197,16 +22527,21 @@ content-management-system-performance.log
 content-management-system-request.log
 content-management-system-response.log
 content-management-system-security.log
+content.1.json
 content.go
+content.infinity.json
 content.java
 content.js
 content.json
 content.php
 content.py
 content.rb
+content.tidy.1.json
 content/.env
 content/debug.log
+content/geometrixx
 content/index.jspx
+content/usergenerated/PentestPartners.html
 content/ws/RemoteLoginManager
 content/ws/SessionManager
 content2web
@@ -22901,6 +23236,7 @@ cpvect.js
 cpwbatch.js
 cpxpeople.js
 cpzs.js
+cq/libs/cq/xssprotection/config.xml
 cqlshrc
 cqlshrc.sample
 cra.js
@@ -23172,6 +23508,7 @@ cryptcat
 cryptget.js
 crypto
 crypto++
+crypto.json
 crypto_policies.conf
 cryptocard
 cryptocurrency
@@ -23376,6 +23713,7 @@ curdle.js
 curdpage.js
 curie.js
 curl.js
+curl.php
 curl.sh
 curlftp.js
 curlist.js
@@ -23484,6 +23822,7 @@ customer
 customer-login
 customer-registration
 customer-sign-up
+customer-support.json
 customer.liquid
 customer.php
 customer.wsdl
@@ -24907,6 +25246,7 @@ db_create_online_log_dest_1
 db_create_online_log_dest_2
 db_credentials.bat
 db_credentials.conf
+db_credentials.ini
 db_credentials.json
 db_credentials.php
 db_credentials.properties
@@ -24914,6 +25254,8 @@ db_credentials.ps1
 db_credentials.sh
 db_credentials.txt
 db_credentials.xml
+db_credentials.yaml
+db_credentials.yml
 db_data_source_name.php
 db_database.php
 db_dbal.php
@@ -25309,7 +25651,15 @@ debug.js
 debug.json
 debug.jsp
 debug.log
+debug.log.1
+debug.log.2
+debug.log.3
+debug.log.4
+debug.log.5
+debug.log.6
+debug.log.7
 debug.log.txt
+debug.logs
 debug.out
 debug.php
 debug.phtml
@@ -25852,6 +26202,7 @@ denmark
 denoise.js
 denondra.js
 denora
+dentists.json
 dentyhome.js
 deny
 denyhosts.conf
@@ -25872,6 +26223,7 @@ dependencies.cfg
 dependencies.conf
 dependencies.json
 dependencies.sh
+dependencies.yml
 dependency
 dependency-check
 dependency-management.ts
@@ -25908,6 +26260,7 @@ deploy.yml
 deploy/.env
 deploy/README.md
 deploy/after_restart.rb
+deploy/all.yml
 deploy/before_migrate.rb
 deploy/before_restart.rb
 deploy/check.rb
@@ -25916,6 +26269,7 @@ deploy/create_symlink.rb
 deploy/deployment-definition.yaml
 deploy/deployment-definition.yml
 deploy/migrate.rb
+deploy/prod.groovy
 deploy/revision.rb
 deploy/rollback.rb
 deploy/start.rb
@@ -26084,6 +26438,7 @@ design.php
 design.ts
 design.txt
 designer.js
+designers.json
 designs
 desiredCapabilities.json
 desk
@@ -26160,6 +26515,7 @@ dev-preview
 dev-pull-request
 dev-release-branch
 dev-release-pipeline
+dev-requirements.txt
 dev-sandbox
 dev-schema
 dev-secrets
@@ -26310,6 +26666,7 @@ develop-eggs
 developer
 developer/.git/config
 developers
+developers.json
 developerslv/.env
 development
 development-parts
@@ -26584,6 +26941,7 @@ directconnect.cfg
 directcontact
 directdb.js
 directions
+directions.json
 directives
 directives.js
 director
@@ -26721,6 +27079,7 @@ displayif.js
 displej.js
 dist
 dist-newstyle
+dist-packages
 dist/.env
 distancia.js
 distcc
@@ -26738,6 +27097,7 @@ distributor_agreement_template.docx
 distributor_list.csv
 distritos.js
 distsearch.conf
+distutils.cfg
 dit
 ditv.js
 divalye.js
@@ -27452,6 +27812,7 @@ doctcod.js
 doctit.js
 doctl
 doctl\config.yaml
+doctors.json
 doctrine
 doctrine.yaml
 doctrine.yml
@@ -27821,6 +28182,7 @@ drone.yml.tmpl
 drone_home
 dronectrl.js
 drones.js
+drones.json
 dronewar.js
 drop-function.sh
 drop-index.sh
@@ -27989,6 +28351,7 @@ dumphtml.js
 dumps
 dumps.js
 dumps.json
+dumps.log
 dumps.ts
 dumps.txt
 dumpster-diving
@@ -29119,6 +29482,7 @@ engine/classes/swfupload/swfupload_f9.swf
 engine/log.txt
 engine1
 engineering
+engineers.json
 englebert.js
 englipsum.js
 english
@@ -29889,6 +30253,14 @@ error.jsp
 error.jspx
 error.log
 error.log.0
+error.log.1
+error.log.2
+error.log.3
+error.log.4
+error.log.5
+error.log.6
+error.log.7
+error.log.8
 error.message.inc
 error.mod.php
 error.php
@@ -30119,7 +30491,11 @@ etc/netbeans.conf
 etc/netbeans.desktop
 etc/netbeans.policy
 etc/netbeans.xml
+etc/packages
+etc/packages.html
 etc/passwd
+etc/replication
+etc/replication/agents.publish.html
 etcd-apiserver-ca.crt
 etcd-apiserver-client.crt
 etcd-apiserver-client.key
@@ -30607,6 +30983,7 @@ exceptions.py
 exchange
 exchange.js
 exchange/logon.asp
+exchange/root.asp
 exchweb
 excite
 excusegen.js
@@ -30644,6 +31021,7 @@ executives
 exemption.js
 exeq.js
 exercice.js
+exercise.json
 exersize.js
 exhibit
 exide.js
@@ -31688,6 +32066,7 @@ finalcode.js
 finalizar.js
 financas.js
 finance
+finance.json
 finance_data_v2.xlsx
 finances.js
 financial_data.xlsx
@@ -31907,6 +32286,7 @@ fitdemo.js
 fitemtest.js
 fith.js
 fitmap.js
+fitness.json
 fitnesse
 fitxa.js
 fivbdata.js
@@ -32326,6 +32706,7 @@ fonts_dir
 fonts_library
 foo
 food
+food.json
 foojan
 footer
 footer.html
@@ -32360,6 +32741,7 @@ forge
 forgetpwd.js
 forgot-password
 forgot-password.do
+forgot-password.json
 forgot-password.xhtml
 forgotPassword
 forgotPassword.js
@@ -32469,6 +32851,7 @@ fortinet-FortiWeb.conf
 fortres
 fortune
 forum
+forum.asp
 forum.html
 forum.js
 forum.php
@@ -32485,6 +32868,8 @@ forum1
 forum2
 forum3
 forum82
+forum_arc.asp
+forum_professionnel.asp
 forumkit
 forums
 forums/cache/db_update.lock
@@ -32752,10 +33137,17 @@ ftp-error.log
 ftp-permission.log
 ftp-security.log
 ftp-upload.log
+ftp.conf
 ftp.go
+ftp.ini
+ftp.json
 ftp.log
+ftp.properties
 ftp.py
 ftp.txt
+ftp.xml
+ftp.yaml
+ftp.yml
 ftp/.env
 ftp_config.cfg
 ftp_library.py
@@ -32835,10 +33227,12 @@ function.bat
 function.conf
 function.debug.php
 function.error.php
+function.js
 function.json
 function.php
 function.proj
 function.ps1
+function.py
 function.require
 function.sh
 function.txt
@@ -33033,6 +33427,7 @@ gamerizer.js
 gamers.js
 gamerz
 games
+games.json
 gamesfire.js
 gameshark.js
 gameslist.js
@@ -33260,6 +33655,7 @@ gcloud-trace.json
 gcloud.json
 gcloud.yaml
 gcloud.yml
+gcloud/application_default_credentials.json
 gcloud/configurations
 gcloud/jenkins-flatmap.json
 gcloud_config
@@ -33416,6 +33812,7 @@ geographical_database_config.yml
 geoinit.js
 geoip.js
 geolocation
+geolocation.json
 geolocation.php
 geolock.js
 geoloczip.js
@@ -33458,12 +33855,14 @@ get-started
 get-started-free
 get-started-now
 get-started-today
+get.aspx
 get.php
 getFile.cfm
 getInfo.js
 getInfo.json
 get_file.php
 get_image.php
+get_started
 getabout.js
 getalias.js
 getappInfo
@@ -33747,6 +34146,7 @@ gitlab-ci.yaml
 gitlab-ci.yml
 gitlab-ci.yml.tmpl
 gitlab-credentials
+gitlab-recovery-codes.txt
 gitlab-runner/config.toml
 gitlab-secrets
 gitlab.rb
@@ -34020,6 +34420,12 @@ google-application-credentials.json
 google-cloud-build
 google-cloud-deployment-manager-template.yaml
 google-cloud-sdk.properties
+google-credentials.cfg
+google-credentials.ini
+google-credentials.json
+google-credentials.txt
+google-credentials.xml
+google-credentials.yml
 google-services.json
 google.php
 google/callback
@@ -34244,6 +34650,9 @@ grandi.js
 grandstream
 grangou.js
 granite
+granite/cluster/content/admin.html
+granite/cluster/content/admin/node.html
+granite/cluster/content/login.html
 granmaten.js
 grant
 grant-permissions.sh
@@ -35092,6 +35501,7 @@ handicapper
 handler
 handler.go
 handler.js
+handler.py
 handlers
 handlers.go
 handlers.js
@@ -35542,6 +35952,7 @@ heap-dump.log
 heap.bin
 heapDump
 heapanalyzer/heapdump
+heapdump
 heapdump-api/heapdump
 heapdump-rest/heapdump
 heapdump.json
@@ -36194,6 +36605,7 @@ holland
 holmberg
 holy.js
 home
+home-automation.json
 home.action
 home.asp
 home.battml
@@ -36419,6 +36831,7 @@ hqchip.js
 hqrymgr.js
 hqs.js
 hr
+hr.json
 hrManagement.js
 hr_performance_review.docx
 hr_policy.docx
@@ -36655,6 +37068,7 @@ httpd.conf.default
 httpd.conf~
 httpd.core
 httpd.ini
+httpd.log
 httpd.pid
 httpd/conf/httpd.conf
 httpd/conf/httpd.include
@@ -37286,7 +37700,18 @@ iii
 iis
 iis.config
 iisadmin
+iisadmpwd/achg.htr
+iisadmpwd/aexp.htr
+iisadmpwd/aexp2.htr
+iisadmpwd/aexp2b.htr
+iisadmpwd/aexp3.htr
+iisadmpwd/aexp4.htr
+iisadmpwd/aexp4b.htr
+iisadmpwd/anot.htr
+iisadmpwd/anot3.htr
 iiscart
+iishelp
+iishelp/iis/misc/default.asp
 iisprotect
 iisreset.bat
 iisreset.cmd
@@ -37305,6 +37730,7 @@ iisreset.sh
 iisreset.txt
 iisreset.vbs
 iisreset.xml
+iissamples
 iisstart.htm
 iisworks
 iitmproxy.conf
@@ -37508,6 +37934,7 @@ importvm.js
 imposta.js
 impostos.js
 impressions
+imprimer.asp
 improve.js
 impspec.js
 imsocket.js
@@ -37887,6 +38314,11 @@ index.php
 index.php-bak
 index.php.bak
 index.php/admin
+index.php/user/add
+index.php/user/join
+index.php/user/register
+index.php/user/sign_up
+index.php/user/signup
 index.php2
 index.php3
 index.php4
@@ -38483,6 +38915,7 @@ instruments
 insucore.js
 insurance
 insyde
+int
 int.js
 intconst.js
 intego
@@ -38546,6 +38979,7 @@ intermec.js
 intermediate.pem
 intermediateCA.crt
 intermediate_ca.crt
+intern
 internal
 internal-audit-trail
 internal-backups
@@ -38601,6 +39035,7 @@ internal.json
 internal.properties
 internal.ts
 internal.txt
+internal/.git
 internal/docs
 internal_alerting.php
 internal_analytics
@@ -38780,6 +39215,7 @@ invoice.xlsx
 invoiceManagement.js
 invoiceitems
 invoices
+invoices.json
 invoices/1
 invoices/1/attachments
 invoices/1/billing
@@ -38857,6 +39293,7 @@ iot-central.cfg
 iot-core.cfg
 iot-hub.cfg
 iot.cfg
+iot.json
 iot_security
 iota.js
 iotest.js
@@ -39598,6 +40035,7 @@ jcolor.js
 jconcise.js
 jcov.js
 jcr
+jcr:content.json
 jcradmin
 jcraft
 jcs
@@ -39685,6 +40123,7 @@ jenkins/script
 jenkins_home
 jenkins_secrets.txt
 jenkinsfile
+jenkinshost/admin.json
 jennings
 jensen
 jent.js
@@ -39981,6 +40420,8 @@ jjw.jspx
 jk
 jk-status
 jk.js
+jk_status?cmd=dump
+jk_status?opt=0
 jkldumper.js
 jkmanager
 jkmanager-auth
@@ -40630,7 +41071,12 @@ jwc.js
 jwdspec.js
 jwj.js
 jwks
+jwks.ini
 jwks.json
+jwks.properties
+jwks.xml
+jwks.yaml
+jwks.yml
 jword.js
 jworkflow.js
 jwplayer
@@ -40656,6 +41102,7 @@ jwt.py
 jwt.secret
 jwt.toml
 jwt.ts
+jwt.xml
 jwt.yaml
 jwt.yml
 jwt/refresh
@@ -40798,6 +41245,8 @@ jzbox.js
 k-collect
 k-meleon
 k-melon
+k3s.yaml
+k3s/k3s.yaml
 k6.config.ini
 k6.config.js
 k6.config.json
@@ -42006,6 +42455,7 @@ kube-scheduler.conf
 kube-scheduler.log
 kube-scheduler.yaml
 kube-system
+kube.conf
 kube_config_cluster.yaml
 kube_config_cluster.yml
 kubeadm-config.yaml
@@ -42059,6 +42509,7 @@ kubeconfig-readonly
 kubeconfig-secret.yaml
 kubeconfig-staging
 kubeconfig-testing
+kubeconfig.conf
 kubeconfig.yaml
 kubeconfig.yml
 kubectl.conf
@@ -42398,6 +42849,7 @@ lawindex.js
 lawrence
 lawson
 lawyer.js
+lawyers.json
 layer
 layer.js
 layerdraw.js
@@ -42553,6 +43005,7 @@ leadPaintInspection
 lead_database.csv
 leaderboard
 leaderboard.php
+leaderboards.json
 leadership
 leadhorse.js
 leaditems.js
@@ -42858,6 +43311,9 @@ libs.json
 libs.ts
 libs.txt
 libs/.env
+libs/cq/core/content/login.html
+libs/cq/core/content/welcome.html
+libs/granite/core/content/login.html/etc/cloudservices/my-service
 libsahana.js
 libsbgn.js
 libsit.js
@@ -43524,6 +43980,7 @@ localgrid.js
 localhost.cfg
 localhost.log
 localhost.sql
+localhost.zip
 localip.js
 localiser.js
 localization
@@ -43631,7 +44088,15 @@ log.sh
 log.sqlite
 log.ts
 log.txt
+log.txt.1
+log.txt.2
+log.txt.3
+log.txt.4
+log.txt.5
+log.txt.6
+log.txt.7
 log.xml
+log.zip
 log/.env
 log/.gitkeep
 log/.keep
@@ -43998,6 +44463,7 @@ login.vm
 login.xhtml
 login.xlsx
 login/.env
+login/_ajax/verify-2fa.php
 login/admin
 login/admin/admin.asp
 login/administrator
@@ -44023,6 +44489,7 @@ login/user/manager
 login/user/supervisor
 login/user/users
 login/users
+login/users.json
 login/webadmin
 login/webmaster
 login1
@@ -44163,6 +44630,7 @@ logs.ts
 logs.txt
 logs.xml
 logs.yaml
+logs.zip
 logs/access.log
 logs/access_log
 logs/admin.txt
@@ -44180,6 +44648,7 @@ logs/application/security.log
 logs/application/server.log
 logs/application/system.log
 logs/auth.log
+logs/dump.log
 logs/dump.txt
 logs/error.log
 logs/error_log
@@ -44202,6 +44671,8 @@ logs/kube-controller-manager.log
 logs/kube-scheduler.log
 logs/liferay.log
 logs/log.log
+logs/log.txt
+logs/logs
 logs/mail.log
 logs/proxy_access_ssl_log
 logs/proxy_error_log
@@ -44597,8 +45068,10 @@ magdown.js
 mageia-release
 magemarts.js
 magento-config.xml
+magento/downloader
 magento2/index.php/admin
 magento2/index.php/admin/admin/system_config/edit/section/dev/debug
+magento_version
 magentopassword
 magic
 magic.default
@@ -44730,6 +45203,7 @@ main.rb
 main.rs
 main.scala
 main.sh
+main.slug.js
 main.tf
 main.ts
 main.yaml
@@ -44968,6 +45442,7 @@ manager/undeploy
 manager/virtualhost
 managers
 managers.js
+managers.json
 managers.pac
 managers/.pac
 managers/proxy.pac
@@ -45096,6 +45571,7 @@ maprules.js
 maps
 maps-test.go
 maps.go
+maps.json
 maps.php
 mapsapi.js
 mapscan.js
@@ -45173,6 +45649,7 @@ market_trends.csv
 market_trends.xlsx
 marketids.js
 marketing
+marketing.json
 marketing.php
 marketing.txt
 marketingManagement.js
@@ -45249,6 +45726,7 @@ master.tar.bz2
 master.tar.gz
 master.zip
 master/.env
+master/console/config
 master/portquotes_new/admin.log
 master_key
 master_key.bin
@@ -45507,6 +45985,7 @@ mediawiki
 medical
 medical_history.xlsx
 medical_records.xlsx
+medicine.json
 medicinenet
 medidas.js
 medimodo.js
@@ -45860,6 +46339,7 @@ metadata.json
 metadata.rb
 metadata.yaml
 metadata.yml
+metadata/v1.json
 metadataServiceUri.conf
 metadataStore.xml
 metadot
@@ -47175,6 +47655,7 @@ moviedao.js
 moviejson.js
 movieplay.js
 movies
+movies.json
 moviesc.js
 moviesearch
 movieset.js
@@ -47284,6 +47765,7 @@ mrtg.cfg
 mrv
 ms-analysis
 msablon.js
+msadc
 msadm
 msb.js
 msbifub.js
@@ -47441,6 +47923,7 @@ museutils.js
 musher.js
 music
 music.js
+music.json
 music/.env
 musicbeam.js
 musicbox
@@ -48679,6 +49162,7 @@ news-app/.env
 news-tnk
 news.htm
 news.html
+news.json
 news.jsp
 news.php
 news_all
@@ -48874,6 +49358,13 @@ nginx.http.upstream.d
 nginx.http.upstream.enabled
 nginx.lock
 nginx.log
+nginx.log.1
+nginx.log.2
+nginx.log.3
+nginx.log.4
+nginx.log.5
+nginx.log.6
+nginx.log.7
 nginx.logrotate
 nginx.pid
 nginx.pid.oldbin
@@ -49582,6 +50073,7 @@ nukedit
 nukescripts
 nukestyles
 null
+null.htw
 null.wad
 nullbranded.tk
 nulllogic
@@ -49641,10 +50133,12 @@ nuster_locks.conf
 nuster_retries.conf
 nuster_session.conf
 nutrients.js
+nutrition.json
 nuxeo
 nuxt-apollo
 nuxt.config.dev.js
 nuxt.config.js
+nuxt.config.js 
 nuxt.config.json
 nuxt.config.prod.js
 nuxt.dev.config.js
@@ -49729,6 +50223,7 @@ oauth.token
 oauth.toml
 oauth.ts
 oauth.txt
+oauth.xml
 oauth.yaml
 oauth.yml
 oauth/authorize
@@ -49755,11 +50250,13 @@ oauth2-token-services.properties
 oauth2-token-store.json
 oauth2-user-service.yaml
 oauth2-user-service.yml
+oauth2.conf
 oauth2.env
 oauth2.ini
 oauth2.json
 oauth2.properties
 oauth2.toml
+oauth2.xml
 oauth2.yaml
 oauth2.yml
 oauth2/auth
@@ -50287,6 +50784,7 @@ openhome.js
 openhouse
 openi-cms
 openid
+openid.conf
 openid.env
 openid.ini
 openid.js
@@ -50296,6 +50794,7 @@ openid.properties
 openid.toml
 openid.ts
 openid.txt
+openid.xml
 openid.yaml
 openid.yml
 openid/connect/jwks.json
@@ -50537,6 +51036,7 @@ orderinfo.js
 orderprod.js
 orders
 orders.csv
+orders.json
 orders.log
 orders.php
 orders.sql
@@ -50998,6 +51498,7 @@ package.json.bak
 package.json.example
 package.json.sample
 package.json.template
+package.log
 package.php
 package.ps1
 package.sh
@@ -51669,6 +52170,7 @@ passwordlist.txt
 passwordpolicy.php
 passwordreset.php
 passwords
+passwords.cfg
 passwords.csv
 passwords.go
 passwords.html
@@ -51683,6 +52185,7 @@ passwords.rb
 passwords.sqlite
 passwords.ts
 passwords.txt
+passwords.xml
 passwords.yaml
 passwords.yml
 passwords/db
@@ -51809,6 +52312,7 @@ payments
 payments.go
 payments.java
 payments.js
+payments.json
 payments.php
 payments.py
 payments.rb
@@ -51852,6 +52356,7 @@ pbmadmin
 pbmodel.js
 pbnic.js
 pbscript.js
+pbserver/pbserver.dll
 pbt.js
 pbtiles.js
 pbtoken.js
@@ -52010,6 +52515,7 @@ perfdatas.js
 perfecter.js
 perfectnav
 perfmon.js
+perforce.conf
 performance
 performance-debug/heapdump
 performance-diagnostics/heapdump
@@ -52413,6 +52919,7 @@ photonio.js
 photopost
 photopost.js
 photos
+photos.json
 photostore
 phototile.js
 php
@@ -52428,6 +52935,7 @@ php-cgi.core
 php-cli.ini
 php-coolfile
 php-cs-fixer.phar
+php-cs-fixer.php
 php-designx
 php-error.log
 php-error.txt
@@ -52437,6 +52945,7 @@ php-findsock-shell.php
 php-fpm
 php-fpm-status
 php-fpm.conf
+php-fpm.d
 php-fpm.d/www.conf
 php-fpm/error.log
 php-fpm/www-error.log
@@ -52583,9 +53092,24 @@ phpRedisAdmin
 phpThumb.php
 php_cli_errors.log
 php_error.log
+php_error.log.1
+php_error.log.2
+php_error.log.3
+php_error.log.4
+php_error.log.5
+php_error.log.6
+php_error.log.7
 php_error_log
 php_errorlog
 php_errors.log
+php_errors.log.
+php_errors.log.1
+php_errors.log.2
+php_errors.log.3
+php_errors.log.4
+php_errors.log.5
+php_errors.log.6
+php_errors.log.7
 php_info.php
 php_news
 phpacker.js
@@ -52632,7 +53156,9 @@ phpcollab
 phpcomasy
 phpcommunitycalendar
 phpcounter
+phpcs.ruleset.xml
 phpcs.xml
+phpcs.xml.dist
 phpdig
 phpdocumentor
 phpecard
@@ -52698,6 +53224,7 @@ phpmailer.py
 phpmailer_library.py
 phpmaillist
 phpmanager
+phpmd.xml
 phpmem
 phpmemcachedadmin
 phpminiadmin
@@ -52706,6 +53233,7 @@ phpmy-admin
 phpmyAdmin
 phpmyad
 phpmyad-sys
+phpmyadmin
 phpmyadmin-
 phpmyadmin-old
 phpmyadmin-old/index.php
@@ -52821,6 +53349,7 @@ phpsqliteadmin
 phpsqliteadmin03a1
 phpsso_server/caches/configs/database.php
 phpsso_server/caches/configs/system.php
+phpstan.neon
 phpstat
 phpstats
 phpstudy.php
@@ -53239,6 +53768,7 @@ planAhead.ngc2edif.log
 planAhead_run.log
 planar.js
 planarmap.js
+planes.json
 planet
 planetdns
 planetinsanity.de
@@ -53481,6 +54011,7 @@ plugins.rb
 plugins.sbt
 plugins.ts
 plugins.txt
+plugins.yml
 plugins/.location
 plugins/editors/fckeditor
 plugins/fckeditor
@@ -53571,6 +54102,7 @@ podatki.js
 podcard.js
 podcast
 podcasts
+podcasts.json
 podcasts.php
 poddisruptionbudget.yaml
 podfile
@@ -53628,6 +54160,7 @@ policy.cfg
 policy.hcl
 policy.json
 policy.php
+policy.xml
 policy.yaml
 policy.yml
 policy/inputs.cf
@@ -53649,6 +54182,7 @@ polkadot
 polkadot.js
 poll
 polls
+polls.json
 polls.php
 pollvote
 polly.cfg
@@ -53905,6 +54439,7 @@ postgresqlconnect.php
 postgrey
 postgrid.js
 postifier.js
+postinfo.html
 posting.js
 postload.js
 postly.js
@@ -54156,6 +54691,7 @@ pricectrl.js
 pricelog.js
 pricing
 pricing.cfg
+pricing.json
 pricing.php
 pricing.ts
 prihlaska.js
@@ -54460,6 +54996,7 @@ prod
 prod.access.key.id
 prod.exs
 prod.git/config
+prod.groovy
 prod.json
 prod.log
 prod.py
@@ -54526,6 +55063,7 @@ production_settings.py
 productions
 productjs.js
 products
+products.json
 products.php
 products/1
 products/1.action
@@ -54651,6 +55189,7 @@ project
 project-admins
 project.assets.json
 project.build.properties
+project.clj
 project.fragment.lock.json
 project.json
 project.lock.json
@@ -54659,6 +55198,7 @@ project.pbxproj
 project.properties
 project.rb
 project.xml
+project.yml
 project.zip
 project/project
 project/target
@@ -55119,6 +55659,7 @@ public.key
 public.p12
 public.pem
 public/.env
+public/.git
 public/.git/config
 public/.htaccess
 public/404.html
@@ -55221,6 +55762,7 @@ puppet-manifest
 puppet.conf
 puppet.pp
 puppeteer.config.json
+puppetfile
 purchase
 purchase.js
 purchase_history.csv
@@ -55722,6 +56264,7 @@ quiznew.js
 quizspec.js
 quizwrap.js
 quizzes
+quizzes.json
 quizzes.php
 qun01.php
 qunited.js
@@ -56158,6 +56701,7 @@ rancher-values.yml
 randflat.js
 randi.js
 randitem.js
+random/dumps
 random_image.php
 randombag.js
 randomeow.js
@@ -56281,6 +56825,7 @@ rating
 ratingbox.js
 ratinglog.js
 ratings
+ratings.json
 ratings.php
 ratings/1.action
 ratio.js
@@ -56655,6 +57200,7 @@ recinto.js
 recipants
 recipelib.js
 recipemgr.js
+recipes.json
 recipient.js
 recital.js
 recite.js
@@ -56665,6 +57211,7 @@ recom.js
 recomb.js
 recombine.js
 recommend
+recommendations.json
 recomp.js
 recomp_exit.dyn
 recon.js
@@ -57405,6 +57952,7 @@ reservemr.js
 reset
 reset-password
 reset-password.do
+reset-password.json
 reset-password.sh
 reset-password.xhtml
 reset.php
@@ -57736,6 +58284,7 @@ restart.sh
 restart.txt
 restart.xml
 restat.js
+restaurants.json
 restbase.js
 restblog.js
 reste.js
@@ -57871,6 +58420,7 @@ reviewService/createArtist_service.jsp
 reviewService/index.jsp
 reviewpost
 reviews
+reviews.json
 reviews.php
 reviews/1
 reviews/1.action
@@ -57955,6 +58505,7 @@ ridemap.js
 rident
 ridersapi.js
 riderview.js
+ridesharing.json
 ridinfo.js
 ridmikmap.js
 rietags.js
@@ -58080,6 +58631,7 @@ robotai.js
 roboteq.js
 robotframework.ini
 robotftp
+robotics.json
 robotium.ini
 robotmgr.js
 robots.php
@@ -58635,6 +59187,7 @@ rubeosis.js
 rubikon.js
 rubini
 ruble.js
+rubrique.asp
 ruby
 ruby.conf
 ruby.js
@@ -58810,6 +59363,12 @@ s3-bucket-notification.json
 s3-bucket-policy.json
 s3-bucket.json
 s3-cors.json
+s3-credentials.cfg
+s3-credentials.ini
+s3-credentials.json
+s3-credentials.txt
+s3-credentials.xml
+s3-credentials.yml
 s3-encryption.json
 s3-lifecycle.json
 s3-policy.json
@@ -58978,6 +59537,7 @@ sale
 salecard.js
 sales
 sales.csv
+sales.json
 sales.log
 sales.sql
 sales.sql.gz
@@ -59064,6 +59624,7 @@ salting_parameters.txt
 salting_parameters.xml
 saltlake.js
 saltstack
+saltstack.conf
 saluki.js
 salvage.js
 salvation.js
@@ -59617,6 +60178,7 @@ scolor.js
 sconf.js
 sconfig.php
 scoop
+scooter-rentals.json
 scopeast.js
 scopeat.js
 scopfor.wad
@@ -59629,6 +60191,7 @@ scoreflex.js
 scoreinfo.js
 scorelist.js
 scorepad.js
+scores.json
 scorpion.js
 scorsese.js
 scotch.js
@@ -59747,10 +60310,14 @@ scripts/a1stats/a1disp3.cgi
 scripts/a1stats/a1disp4.cgi
 scripts/admin.cgi
 scripts/auktion.cgi
+scripts/cgimail.exe
+scripts/checks
 scripts/ckeditor/ckfinder/core/connector/asp/connector.asp
 scripts/ckeditor/ckfinder/core/connector/aspx/connector.aspx
 scripts/ckeditor/ckfinder/core/connector/php/connector.php
 scripts/commerce.cgi
+scripts/convert.bas
+scripts/counter.exe
 scripts/dcforum.cgi
 scripts/deploy
 scripts/deploy.bat
@@ -59765,10 +60332,12 @@ scripts/emu/html/emumail.cgi
 scripts/emumail.cgi
 scripts/emumail/emumail.cgi
 scripts/ezshopper/search.cgi
+scripts/fpcount.exe
 scripts/fvt/.env
 scripts/gH.cgi
 scripts/generate.cgi
 scripts/hsx.cgi
+scripts/iisadmin/ism.dll?http/dir
 scripts/init.d/zabbix-agent
 scripts/init.d/zabbix-server
 scripts/jest.config.front.js
@@ -59781,6 +60350,7 @@ scripts/main.cgi
 scripts/mrtg.cgi
 scripts/netauth.cgi
 scripts/newsdesk.cgi
+scripts/no-such-file.pl
 scripts/nph-emumail.cgi
 scripts/open-api/public/index.html
 scripts/open-api/serve.js
@@ -59791,6 +60361,7 @@ scripts/pre-publish.sh
 scripts/publish.sh
 scripts/quickstore.cgi
 scripts/r.cgi
+scripts/samples/search/webhits.exe
 scripts/sbcgi/sitebuilder.cgi
 scripts/search/search.cgi
 scripts/setup.php
@@ -59803,6 +60374,8 @@ scripts/systemd/zabbix-agent.service
 scripts/systemd/zabbix-server.service
 scripts/talkback.cgi
 scripts/technote/main.cgi
+scripts/tools/getdrvs.exe
+scripts/tools/newdsn.exe
 scripts/traffic.cgi
 scripts/ttawebtop.cgi
 scripts/unlink.js
@@ -61071,6 +61644,13 @@ server.json
 server.jsp
 server.key
 server.log
+server.log.1
+server.log.2
+server.log.3
+server.log.4
+server.log.5
+server.log.6
+server.log.7
 server.ml
 server.ovpn
 server.p12
@@ -61655,6 +62235,7 @@ sessions.json
 sessions.sql
 sessions/.env
 sessions/new
+set-up
 set_domain_list.yaml
 set_domain_name.yaml
 set_hostname.yaml
@@ -61722,6 +62303,7 @@ settings.env
 settings.gradle
 settings.gradle.kts
 settings.html
+settings.inc
 settings.inc.bak
 settings.inc.php
 settings.inc~
@@ -62124,6 +62706,7 @@ shipments.js
 shippable.yaml
 shippable.yml
 shipping
+shipping.json
 shipping.php
 shipping_data.bin
 shipping_method.php
@@ -62393,6 +62976,7 @@ sign-up.ts
 sign-up/now
 sign_in
 sign_in.php
+sign_up
 signaling
 signaling-client
 signaling-server
@@ -62458,6 +63042,8 @@ signup.py
 signup.rb
 signup.ts
 signup.txt
+signup/signup.csv
+signup/signup.json
 signupdir.js
 signupsvc.js
 sigreg.js
@@ -62544,6 +63130,7 @@ simtrace.log
 simu.js
 simudata.js
 simulation.log
+simulations.json
 simultest.js
 simutab.js
 sina
@@ -62685,9 +63272,11 @@ sitemap.txt
 sitemap.xml
 sitemap.xml.bak
 sitemap.xml.gz
+sitemap.xml?offset=1
 sitemap1.xml
 sitemap2.xml
 sitemap_files.xml
+sitemap_index.xml
 sitemaps
 sitemaps/.env
 sitemesh.xml
@@ -63009,6 +63598,7 @@ smallftpd
 smaps.js
 smart
 smart-contract
+smart-home.json
 smart-time-rule.conf
 smart.js
 smartSearch
@@ -63107,10 +63697,15 @@ smsverification.php
 smtable.js
 smth.js
 smtp
+smtp.conf
 smtp.config
 smtp.go
+smtp.ini
+smtp.json
+smtp.properties
 smtp.proxy
 smtp.py
+smtp.xml
 smtp.yaml
 smtp.yml
 smtp_access.conf
@@ -63581,6 +64176,8 @@ somebykey.js
 somedata.js
 someinput.js
 somemeta.js
+somepage?debug=layout
+somepage?wcmmode=edit
 somery
 something
 somother.js
@@ -64516,8 +65113,10 @@ ssh-private.key
 ssh-public.key
 ssh-security.log
 ssh.agent
+ssh.conf
 ssh.config
 ssh.go
+ssh.ini
 ssh.js
 ssh.json
 ssh.key
@@ -64528,6 +65127,9 @@ ssh.py
 ssh.ts
 ssh.txt
 ssh.xlsx
+ssh.xml
+ssh.yaml
+ssh.yml
 ssh2_auth_password
 ssh_client_config
 ssh_config
@@ -64676,6 +65278,7 @@ ssl.toml
 ssl.truststore
 ssl.ts
 ssl.txt
+ssl.xml
 ssl.yaml
 ssl.yml
 ssl_access.log
@@ -65247,6 +65850,7 @@ stockdata.js
 stocker
 stockman
 stockpub.js
+stocks.json
 stocksnap.js
 stoitsov
 stok.js
@@ -65299,6 +65903,7 @@ storage.php
 storage.properties
 storage.ps1
 storage.sh
+storage.srv.js
 storage.tf
 storage.txt
 storage.wad
@@ -65497,6 +66102,7 @@ stratum.js
 stratus
 stratus.js
 strawcore.js
+stream
 stream-analytics.cfg
 stream-specification.json
 stream.log
@@ -65755,6 +66361,7 @@ subscribe.php
 subscribe.ts
 subscribe.txt
 subscription-acl.json
+subscription.json
 subscription.ts
 subscriptions
 subscriptions.js
@@ -66023,6 +66630,7 @@ survey.xlsx
 surveyManagement.js
 surveyor
 surveys
+surveys.json
 surveys.php
 survivor
 suse
@@ -66398,6 +67006,7 @@ synaesthesia
 synapse
 sync
 sync.bat
+sync.log
 sync.ps1
 sync.sh
 syncNode.log
@@ -66447,6 +67056,14 @@ sys.conf
 sys.ini
 sys.json
 sys.jsp
+sys.log
+sys.log.1
+sys.log.2
+sys.log.3
+sys.log.4
+sys.log.5
+sys.log.6
+sys.log.7
 sys.properties
 sys.yaml
 sys.yml
@@ -66492,6 +67109,13 @@ syslog-enabled.conf
 syslog-facility.conf
 syslog-ident.conf
 syslog-ng.conf
+syslog.1
+syslog.2
+syslog.3
+syslog.4
+syslog.5
+syslog.6
+syslog.7
 syslog.conf
 syslog.d
 syslog.log
@@ -66554,6 +67178,13 @@ system.js
 system.json
 system.jsp
 system.log
+system.log.1
+system.log.2
+system.log.3
+system.log.4
+system.log.5
+system.log.6
+system.log.7
 system.maintenance.yaml
 system.maintenance.yml
 system.menu.account.yaml
@@ -66585,6 +67216,7 @@ system.xlsx
 system.xml
 system.yaml
 system/.env
+system/admin
 system/auth
 system/cache
 system/config
@@ -66612,6 +67244,7 @@ system/logs
 system/logs/error.log
 system/ping
 system/prune
+system/sling/cqform/defaultlogin.html
 system/storage
 system/version
 system1.jsp
@@ -67216,6 +67849,7 @@ tax_rule.php
 taxchoice.js
 taxes
 taxes.js
+taxis.json
 taxishare.js
 taxlots.js
 taxonbox.js
@@ -67827,6 +68461,7 @@ test-pgsql.php
 test-report
 test-report.html
 test-reports
+test-requirements.txt
 test-result
 test-results
 test-results.html
@@ -68005,6 +68640,7 @@ test/jsp/pageSession.jsp
 test/main_test.go
 test/mocha.opts
 test/performance/browsing_test.rb
+test/php
 test/php/test.html
 test/phpunit.xml
 test/realPath.jsp
@@ -68410,6 +69046,7 @@ testdata.sql
 testdatabase
 testdaten.js
 testdb.log
+testdb.php
 testdef.js
 testdemo
 testdemo.js
@@ -68557,6 +69194,7 @@ testresult
 testroot
 testru
 testrun.log
+tests
 tests-clean.log
 tests.config
 tests.inc
@@ -69322,11 +69960,15 @@ token.js
 token.json
 token.liquid
 token.php
+token.properties
 token.py
 token.secret
 token.ts
 token.txt
 token.xlsx
+token.xml
+token.yaml
+token.yml
 token/refresh
 token_api.iniig.ini
 token_api.json
@@ -69448,6 +70090,7 @@ tomcat.conf
 tomcat.jar
 tomcat.pid
 tomcat/axis
+tomcatwar.jsp
 tomee.xml
 tomo.js
 tomoyuki
@@ -69595,6 +70238,7 @@ tour.tour.tour-test.yaml
 tour.tour.tour-test.yml
 touring.js
 tourmaps.js
+tournaments.json
 tournav.js
 tourplanner
 tourscene.js
@@ -69743,6 +70387,7 @@ training_and_awareness
 training_curriculum.docx
 training_expenses.xlsx
 training_matrix.xlsx
+trains.json
 trainset.js
 trainunit.js
 traits
@@ -69796,6 +70441,7 @@ translation.sh
 translation.txt
 translation.xml
 translations
+translations.json
 translations.yaml
 translations.yml
 transmission/web
@@ -69986,6 +70632,8 @@ triyp.js
 trkform.js
 trlinux
 trn
+trn-generator
+trn-generator/Accesses.txt
 trns.js
 troan
 trochoi
@@ -70122,6 +70770,7 @@ tstate.js
 tsts
 tsvtocsv.js
 tsvtojson.js
+tsweb
 tt.txt
 tt_ads.php
 tt_init.php
@@ -70193,6 +70842,7 @@ tux
 tuxbank
 tuxbr
 tuya.js
+tv-shows.json
 tvc.js
 tvepisode.js
 tvheadend.js
@@ -70336,6 +70986,7 @@ typo3/index.php?route=%2Fmy_backend_route
 typo3/phpmyadmin
 typo3/phpmyadmin/index.php
 typo3/phpmyadmin/scripts/setup.php
+typo3/sysext/install/composer.json
 typo3_src
 typo3conf
 typo3conf/AdditionalConfiguration.php
@@ -71022,6 +71673,7 @@ uploadfiles.php
 uploadgpx.js
 uploadify
 uploadify.php
+uploading
 uploading.js
 uploadmin.js
 uploads
@@ -71302,6 +71954,7 @@ user.role.authenticated.yml
 user.settings.yaml
 user.settings.yml
 user.sql
+user.srv.js
 user.ts
 user.txt
 user.xlsx
@@ -71321,6 +71974,7 @@ user/create
 user/details
 user/enroll
 user/info
+user/join
 user/login
 user/me
 user/new
@@ -71614,6 +72268,7 @@ users/admin.php
 users/authenticate
 users/groups
 users/info
+users/join
 users/list
 users/my-profile
 users/myprofile
@@ -71631,6 +72286,7 @@ users/proxy.pac
 users/register
 users/search
 users/settings/profile
+users/signup
 users/swagger/index.html
 users/user/profile
 users/username/profile
@@ -72234,6 +72890,7 @@ var/backup/.env
 var/backups
 var/bootstrap.php.cache
 var/cache
+var/classes.tidy.infinity.json
 var/lib/cloud/instance/boot-finished
 var/lib/cloud/instance/cloud-config.txt
 var/lib/cloud/instance/datasource
@@ -72455,6 +73112,7 @@ vendor
 vendor-cookbooks
 vendor-data.txt
 vendor-data.txt.i
+vendor-name
 vendor.js
 vendor.json
 vendor.liquid
@@ -72500,6 +73158,7 @@ vendor_temp
 vendor_temp1
 vendor_test
 vendorcsv.js
+vendorname
 vendors
 venir.js
 venom
@@ -72747,6 +73406,7 @@ videos
 videos.go
 videos.java
 videos.js
+videos.json
 videos.php
 videos.py
 videos.rb
@@ -72831,6 +73491,9 @@ vikings.js
 vilistextum
 vilnius.js
 vim
+vim_settings.json
+vim_settings.txt
+vim_settings.xml
 vimeofy.js
 vimiumize.js
 vimo.js
@@ -72863,6 +73526,7 @@ virtual-networks.json
 virtual-node-service.yaml
 virtual-node.yaml
 virtual-private-network
+virtual-reality.json
 virtual-router.yaml
 virtual-service-a-config.yaml
 virtual-service-a-config.yml
@@ -72881,6 +73545,7 @@ virtual_machines.yml
 virtual_network.yaml
 virtuala.js
 virtualcart
+virtualenv
 virtualhost.conf
 virtualhosts.xml
 virtualization
@@ -73521,6 +74186,7 @@ weakmap.js
 weapons.yaml
 weasel.js
 weather
+weather.json
 weatherly.js
 weaverslave
 weaving.js
@@ -73809,7 +74475,9 @@ web/adminer.php
 web/api/auth.js
 web/auth.js
 web/bundles
+web/dump.log
 web/index.html
+web/log
 web/main.dart
 web/phpMyAdmin
 web/phpMyAdmin/index.php
@@ -73818,6 +74486,7 @@ web/scripts/setup.php
 web/static/c
 web/static/c:/windows/win.ini
 web/uploads
+web/wget-log
 web/zabbix.conf.php
 web1.config
 web2.xml
@@ -74431,6 +75100,7 @@ wfl.js
 wfo.js
 wforders.sql
 wgate
+wget-log
 wget.log
 wgit.js
 wgl.js
@@ -74756,6 +75426,7 @@ wp-admin.txt
 wp-admin/admin-ajax.php
 wp-admin/admin-ajax.php?action=heartbeat
 wp-admin/admin-post.php
+wp-admin/admin.php?page=MEC-ix&tab=MEC-export&mec-ix-action=export-events&format=txt
 wp-admin/admin.php?page=MEC-ix&tab=MEC-export&mec-ix-action=export-events&format=xml
 wp-admin/async-upload.php
 wp-admin/c99.php
@@ -74779,9 +75450,11 @@ wp-admin/options-permalink.php
 wp-admin/options-privacy.php
 wp-admin/options-reading.php
 wp-admin/options-writing.php
+wp-admin/options.php
 wp-admin/plugins
 wp-admin/plugins.php
 wp-admin/setup-config.php
+wp-admin/setup-config.php?step=1
 wp-admin/themes
 wp-admin/themes.php
 wp-admin/tools
@@ -75158,6 +75831,7 @@ wp-content/edit-tag-form.php
 wp-content/edit.php
 wp-content/fullbackup.sql
 wp-content/fullwebsite.sql
+wp-content/host.sql
 wp-content/index.php
 wp-content/languages
 wp-content/media-new.php
@@ -75196,7 +75870,10 @@ wp-content/uploads/wordpress.sql
 wp-content/wordpress.sql
 wp-content/wp_db.sql
 wp-cron.php
+wp-db.php
 wp-feed.php
+wp-inc
+wp-inc/wp-db.php
 wp-includes
 wp-includes/css
 wp-includes/css/wp-config.php
@@ -75243,6 +75920,7 @@ wp.rar
 wp.sql
 wp.zip
 wp/wp-login.php
+wp_config.php.txt
 wpa_supplicant.conf
 wpad.dat
 wpadmin
@@ -75307,6 +75985,7 @@ wrmldoc.js
 wrscripts.js
 ws
 ws-client/loanCalculation.jsp
+ws-config.json
 ws.cfg
 ws.js
 ws.php
@@ -75496,6 +76175,9 @@ x-pack-security.yaml
 x-pack-security.yml
 x-pack-watcher.yaml
 x-pack-watcher.yml
+x.htw
+x.ida
+x.idq
 x.log
 x.php
 x1.jsp
