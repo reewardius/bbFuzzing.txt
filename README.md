@@ -8,7 +8,7 @@
 
 > ffuf -u target.com/..%3B/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/%2e%2e%2f/FUZZ/ -w bbFuzzing.txt
-> ffuf -u target.com/;/FUZZ/ -w bbFuzzing.txt 
+> ffuf -u target.com/_FUZZ -w bbFuzzing.txt 
 
 > ffuf -u target.com/..;/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/../FUZZ -w bbFuzzing.txt
