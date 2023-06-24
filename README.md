@@ -22,6 +22,10 @@
 > ffuf -u target.com/FUZZ# -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ/~ -w bbFuzzing.txt
 
+> ffuf -u target.com/!FUZZ -w bbFuzzing.txt
+> ffuf -u target.com/#/FUZZ/ -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ.bkp -w bbFuzzing.txt
+
 > ffuf -u target.com/FUZZ~ -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ/.git/config -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ/.env -w bbFuzzing.txt
