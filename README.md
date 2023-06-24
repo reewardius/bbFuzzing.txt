@@ -24,6 +24,7 @@
 
 > ffuf -u target.com/!FUZZ -w bbFuzzing.txt
 > ffuf -u target.com/#/FUZZ/ -w bbFuzzing.txt
+> ffuf -u target.com/-/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ.bkp -w bbFuzzing.txt
 
 > ffuf -u target.com/FUZZ~ -w bbFuzzing.txt
