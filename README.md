@@ -2,6 +2,10 @@
 
 - bbFuzzing.txt - a unique vocabulary that is 90% generated with OpenAI ChatGPT.
 ```
+> ffuf -u target.com/FUZZ -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ -H "Host: 127.0.0.1" -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ -H "Host: localhost" -w bbFuzzing.txt
+
 > ffuf -u target.com/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/;/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/%2e/FUZZ/ -w bbFuzzing.txt
