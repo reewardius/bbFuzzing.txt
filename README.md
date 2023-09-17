@@ -44,4 +44,5 @@
 
 > ffuf -u target.com/FUZZ -recursive -w fuzzing.txt
 > ffuf -u target.com/FUZZ -recursive -w fuzzing.txt -e .asp,.aspx,.jsp,.jspx,.php,.json,.bak,.conf,.txt
+> ffuf -u target.com/FUZZ?.css -w fuzzing.txt
 ```
