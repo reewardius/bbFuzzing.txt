@@ -19,6 +19,7 @@
 > ffuf -u target.com/_FUZZ_ -w bbFuzzing.txt
 
 > ffuf -u target.com/..;/FUZZ/ -w bbFuzzing.txt
+> ffuf -u target.com/..;/..;/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/../FUZZ -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ..;/ -w bbFuzzing.txt
 
