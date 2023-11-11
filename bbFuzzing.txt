@@ -8,8 +8,7 @@
 !backup
 !backups
 #
-#/
-#/./
+#/.
 #/cluster
 #/configuration
 #/frameworks
@@ -44,10 +43,9 @@
 -/grafana
 .
 ..;
-..;/
-..;/..;/
+..;/..;
 ..\;
-./
+.
 .//WEB-INF/web.xml
 ./admin/.
 .0
@@ -569,7 +567,6 @@
 .byobu
 .bz2
 .bzr
-.bzr/
 .bzr/README
 .bzr/bazaar.conf
 .bzr/branch-format
@@ -844,7 +841,6 @@
 .compile
 .components
 .composer
-.composer/
 .composer/auth.json
 .composer/composer.json
 .concourse
@@ -1025,7 +1021,7 @@
 .dimensiondata/credentials
 .dir-locals.el
 .directory
-.direnv/
+.direnv
 .divzero.log
 .djangoenv
 .dmrc
@@ -1578,7 +1574,7 @@
 .face.icon@
 .factorypath
 .fake
-.fastlane/
+.fastlane
 .fastly/credentials
 .faultread.log
 .faultreadkernel.log
@@ -1776,12 +1772,11 @@
 .gitattributes.swo
 .gitattributes.swp
 .gitattributes~
-.gitblit/
+.gitblit
 .gitchangelog.rc
 .gitconfig
 .gitconfig~
 .github
-.github/
 .github/.dependabot
 .github/CODEOWNERS
 .github/CODE_OF_CONDUCT.md
@@ -1815,7 +1810,6 @@
 .github/secrets
 .github/stale.yml
 .github/workflows
-.github/workflows/
 .github/workflows/blank.yaml
 .github/workflows/blank.yml
 .github/workflows/build-and-test.yml
@@ -2011,10 +2005,10 @@
 .gitlab-ci.yml.template
 .gitlab-ci.yml.tmpl
 .gitlab-ci.yml~
-.gitlab-ci/
+.gitlab-ci
 .gitlab-ci/.env
-.gitlab-runner/
-.gitlab/
+.gitlab-runner
+.gitlab
 .gitlab/CI
 .gitlab/CI/cron.yml
 .gitlab/CI/ext.yml
@@ -2028,7 +2022,7 @@
 .gitlab/merge_request_templates
 .gitlab/route-map.yaml
 .gitlab/route-map.yml
-.gitlab/workflows/
+.gitlab/workflows
 .gitlab/workflows/ci-cd.yaml
 .gitlab/workflows/ci-cd.yml
 .gitlab/workflows/ci.yml
@@ -2399,7 +2393,7 @@
 .id
 .idea
 .idea.name
-.idea/
+.idea
 .idea/.name
 .idea/Sites.iml
 .idea/assetwizardsettings.xml
@@ -2891,7 +2885,7 @@
 .npm
 .npm-global
 .npm-init
-.npm/
+.npm
 .npm/_cacache~
 .npm/_config~
 .npm/_logs~
@@ -3610,7 +3604,6 @@
 .svc
 .svc?wsdl
 .svn
-.svn/
 .svn/all-wcprops
 .svn/auth/svn.simple
 .svn/entries
@@ -3929,7 +3922,7 @@
 .vs
 .vscode
 .vscode-server~
-.vscode/
+.vscode
 .vscode/.env
 .vscode/extensions
 .vscode/extensions.json
@@ -3978,7 +3971,7 @@
 .web-server-pid
 .web.config
 .webassets-cache
-.webignition/
+.webignition
 .webmanifest
 .webpack-config.js
 .webpack.config.js
@@ -4076,14 +4069,13 @@
 .yamllintignore
 .yapf
 .yardoc
-.yardoc/
 .yardopts
 .yarn
 .yarn-integrity
 .yarn-integrity.hash
 .yarn-metadata.json
 .yarn-metadata.json.lock
-.yarn/
+.yarn
 .yarnclean
 .yarnclean.bak
 .yarnclean.lock
@@ -4172,9 +4164,8 @@
 .zshrc~
 .zuul.yaml
 .zuul.yml
-/
-//
-/admin/
+
+admin
 0
 0.asp
 0.aspx
@@ -7689,7 +7680,7 @@ XmlRootElement
 XmlType
 Zscaler-cloud.conf
 ZyklonShell.php
-\/\/
+\/\
 \\
 \\\\
 _
@@ -16722,7 +16713,7 @@ backup.xml
 backup.yaml
 backup.yml
 backup.zip
-backup/
+backup
 backup/.env
 backup/.git/config
 backup/alerts
@@ -23566,7 +23557,7 @@ conf.py
 conf.rb
 conf.yaml
 conf.yml
-conf/
+conf
 conf/.env
 conf/Catalina
 conf/caches.dat
@@ -49481,7 +49472,7 @@ logs.txt
 logs.xml
 logs.yaml
 logs.zip
-logs/
+logs
 logs/access.log
 logs/access_log
 logs/admin.log
@@ -74326,7 +74317,7 @@ temp.sql.zip
 temp.tmp
 temp.ts
 temp.txt
-temp/
+temp
 temp/.env
 temp2022.sql
 temp2023.sql
@@ -76040,7 +76031,7 @@ tmp.php
 tmp.sql
 tmp.ts
 tmp.txt
-tmp/
+tmp
 tmp/.env
 tmp/.gitkeep
 tmp/2.php
@@ -81941,7 +81932,7 @@ wp-admin.json
 wp-admin.php
 wp-admin.ts
 wp-admin.txt
-wp-admin/
+wp-admin
 wp-admin/admin-ajax.php
 wp-admin/admin-ajax.php?action=heartbeat
 wp-admin/admin-post.php
@@ -83737,7 +83728,7 @@ zshrc.conf
 zycrm.sql
 zyiis.sql
 ~
-°/
+°
 сode.php
 ‎.mvn/extensions.xml
 ‎info/data.bkp
