@@ -14885,6 +14885,7 @@ argh.js
 argmin.js
 argo
 argo-cd
+argo-events
 argo-panel
 argo.properties
 argo.yaml
@@ -14915,6 +14916,8 @@ argocd-server-secret.yaml
 argocd-ssh-secret.yaml
 argocd-web-ingress.yaml
 argocd-web-tls-secret.yaml
+argoevents
+argoflux
 argonaut.js
 argosoft
 args
@@ -15864,6 +15867,7 @@ autologin
 autologin.php
 autom4te.cache
 automake.log
+automate
 automate.bat
 automate.conf
 automate.json
@@ -16089,6 +16093,7 @@ avrodoc.js
 avsan.js
 avsc
 avt
+aw
 aw_wifi.sql
 awaiting.js
 awaitlock.js
@@ -19300,6 +19305,7 @@ buildhtml.js
 buildid.js
 building.py
 buildjst.js
+buildkite
 buildkite.yaml
 buildkite.yml
 buildline.js
@@ -23315,6 +23321,7 @@ codedeploy-deployment-group.yml
 codedeploy.yaml
 codedeploy.yml
 codeform.js
+codefresh
 codefresh.yaml
 codefresh.yml
 codegen.json
@@ -23330,6 +23337,7 @@ codelists.js
 codemasters
 codenames-frontend/.env
 codenames.js
+codepipeline
 codepipeline-params.json
 codepipeline-source-config.yaml
 codepipeline-source-config.yml
@@ -26534,6 +26542,7 @@ copac.js
 copaci.js
 copernicus
 copic.js
+copilot
 copits
 copixlist.js
 coppermine
@@ -27530,6 +27539,7 @@ cubism.js
 cubit.js
 cubs
 cuchubo.js
+cucumber
 cucumber-config.json
 cucumber-environment.properties
 cucumber-extent-config.xml
@@ -32422,6 +32432,7 @@ drjgkjlb.js
 droite.js
 drolgurd.js
 dronahq.js
+drone
 drone.log
 drone.yaml
 drone.yml
@@ -35912,6 +35923,7 @@ fakevirus.js
 fakeycdn.js
 fakr.js
 faktorystudios
+falco
 falcon-env.sh
 falcon-feed.properties
 falcon-runtime.properties
@@ -36887,6 +36899,7 @@ fk.js
 fkadmin
 fkey
 fl.js
+flagger
 flagger-alertmanager.yaml
 flagger-aws.yaml
 flagger-azure.yaml
@@ -38154,6 +38167,7 @@ gateway/routes
 gateways.yaml
 gatg.js
 gathermap.js
+gatling
 gatling.conf
 gator
 gatos
@@ -40145,6 +40159,7 @@ haber
 haber.js
 haberx
 habitacio.js
+habitat
 habitat/plan.sh
 hac
 hac/console/scripting
@@ -40940,6 +40955,7 @@ helm/templates/service.yaml
 helm/values.yaml
 helmet.config.js
 helmet.js
+helmfile
 helmfile.yaml
 helmsman
 helo.js
@@ -43738,6 +43754,7 @@ insightvm
 insignia.js
 insite
 inso
+inspec
 inspect
 inspect-docker-compose-network.sh
 inspect-docker-compose-service.sh
@@ -45105,6 +45122,7 @@ jcabi.js
 jcadmin
 jcal.js
 jcalendar.js
+jcasc
 jcdecaux.js
 jcdi-beans-webapp
 jcdibean
@@ -45211,6 +45229,7 @@ jenkins/login
 jenkins/script
 jenkins_home
 jenkins_secrets.txt
+jenkinsapp
 jenkinsfile
 jenkinshost/admin.json
 jennings
@@ -46958,6 +46977,7 @@ kaonminus.js
 kapacitor
 kapanlagi.js
 kaphotoservice
+kapitan
 kaporal.js
 kapte.js
 karalk.js
@@ -47479,6 +47499,7 @@ kondanse.js
 kondara
 kondisyon.js
 konesans.js
+kong
 kongreso.js
 konkeran.js
 konkirans.js
@@ -47656,6 +47677,7 @@ kubeadm-token.csv.key
 kubeadm-token.csv.pub
 kubeadm.conf
 kubeadm.yaml
+kubeapps
 kubeconfig
 kubeconfig-admin
 kubeconfig-admin.yaml
@@ -47744,6 +47766,7 @@ kubernetes_deployment.yaml
 kubernetes_ingress.yaml
 kubernetes_network_policy.yaml
 kubernetes_service.yaml
+kubesphere
 kublai.js
 kucundata.sql
 kudoku.js
@@ -54797,6 +54820,7 @@ newpost.js
 newprj.js
 newq.js
 newrefer.js
+newrelic
 newrelic-alerts.yaml
 newrelic-alerts.yml
 newrelic-apm.yaml
@@ -56137,6 +56161,7 @@ octest_app_password
 octest_password
 octet.js
 octkey.js
+octopus
 octopussy
 octview.js
 odauth.js
@@ -61911,6 +61936,7 @@ pull_request_template.md
 pulsarcv.js
 pulses.js
 pulsetest.js
+pulumi
 pulumi.yaml
 pulumi/Pulumi.dev.yaml
 pulumi/Pulumi.yaml
@@ -61933,6 +61959,7 @@ puppet-hiera.yaml
 puppet-manifest
 puppet.conf
 puppet.pp
+puppetdb
 puppeteer.config.json
 puppetfile
 purchase
@@ -66696,6 +66723,9 @@ script/process/spawner
 script/rails
 script/runner
 script/server
+script1
+script2
+script3
 script_file.js
 script_files.js
 script_history.csv
@@ -67801,6 +67831,7 @@ sem-tags.conf
 sem-threat-intelligence.conf
 sem-transforms.conf
 semanage.conf
+semaphore
 semaphore.yaml
 semaphore.yml
 semi
@@ -70621,6 +70652,7 @@ soapdocs/webapps/soap
 soapdocs/webapps/soap/WEB-INF/config/soapConfig.xml
 soapi
 soapserver
+soapui
 soapui-global-settings.xml
 soapui-jre.ini
 soapui-log4j.xml
@@ -73934,6 +73966,7 @@ syscp
 syscss.jsp
 sysctl.conf
 sysctl.d
+sysdig
 sysfs.conf
 sysfs.js
 syshelp
@@ -74985,6 +75018,7 @@ telemitry.js
 telepen.js
 telephone
 telephone.js
+teleport
 telepresence
 telerik.js
 telescope/requests
@@ -76055,6 +76089,7 @@ testmxml.js
 testmybot.js
 testmylib.js
 testnext.js
+testng
 testng-assert.xml
 testng-before-after-test.xml
 testng-customsuite.xml
@@ -77489,6 +77524,7 @@ travis_test.yaml.gpg
 travis_test.yml
 travis_test.yml.enc
 travis_test.yml.gpg
+travisci
 trawler
 traza.js
 trcme.js
@@ -80275,6 +80311,7 @@ vehicles.yaml
 vehicule.js
 vejs.js
 velcro.js
+velero
 velocity
 velocity.log
 velox.js
