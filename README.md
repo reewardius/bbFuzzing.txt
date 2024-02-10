@@ -1,6 +1,12 @@
 # bbFuzzing.txt
 
 - bbFuzzing.txt - a unique vocabulary that is 90% generated with OpenAI ChatGPT.
+
+Tools for 403/401 bypass
+- [bypassfuzzer]([url](https://github.com/intrudir/BypassFuzzer)) by @intrudir
+- [bypass-url-parser]([url](https://github.com/laluka/bypass-url-parser)) by @TheLaluka
+- [dontgo403]([url](https://github.com/devploit/dontgo403)) by @devploit
+
 ```
 > ffuf -u target.com/FUZZ -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ -H "Host: 127.0.0.1" -w bbFuzzing.txt
