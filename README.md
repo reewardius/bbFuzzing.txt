@@ -45,7 +45,7 @@ There are also examples of how you can extend the fuzzing process to get more in
 > ffuf -u target.com/#/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/-/FUZZ/ -w bbFuzzing.txt
 
-> ffuf -u target.com/FUZZ.bkp -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ.old -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ%20 -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ.<ext> -w bbFuzzing.txt
 
@@ -58,6 +58,6 @@ There are also examples of how you can extend the fuzzing process to get more in
 > ffuf -u target.com/FUZZ/? -w bbFuzzing.txt
 
 > ffuf -u target.com/FUZZ -recursive -w fuzzing.txt
-> ffuf -u target.com/FUZZ -recursive -w fuzzing.txt -e .asp,.aspx,.ashx,.ash,.jsp,.jspx,.php,.js,.dll,.json,.bak,.bkp,.conf,.txt,.py,.zip,.tar.gz,.tar,.7z
+> ffuf -u target.com/FUZZ -recursive -w fuzzing.txt -e .asp,.aspx,.ashx,.ash,.jsp,.jspx,.php,.js,.dll,.json,.bak,.bkp,.conf,.txt,.py,.zip,.tar.gz,.tar,.7z,.old
 > ffuf -u target.com/FUZZ?.css -w fuzzing.txt
 ```
