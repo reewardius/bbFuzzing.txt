@@ -18,15 +18,23 @@ There are also examples of how you can extend the fuzzing process to get more in
 
 > ffuf -u target.com/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/%3B/FUZZ/ -w bbFuzzing.txt
-> ffuf -u target.com/%2e/FUZZ/ -w bbFuzzing.txt
-
-> ffuf -u target.com/.FUZZ -w bbFuzzing.txt
-> ffuf -u target.com/%u002e%u002e/%u002e%u002e/FUZZ -w bbFuzzing.txt
 > ffuf -u target.com/..%3B/FUZZ/ -w bbFuzzing.txt
 
-> ffuf -u target.com/%2e%2e%2f/FUZZ/ -w bbFuzzing.txt
-> ffuf -u target.com/%2eFUZZ -w bbFuzzing.txt
+> ffuf -u target.com/%0DFUZZ -w bbFuzzing.txt
+> ffuf -u target.com/%0AFUZZ -w bbFuzzing.txt
+> ffuf -u target.com/%0D%0AFUZZ -w bbFuzzing.txt
+
+> ffuf -u target.com/.FUZZ -w bbFuzzing.txt
 > ffuf -u target.com/%2e/FUZZ/ -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ%20 -w bbFuzzing.txt
+
+> ffuf -u target.com/%u002e%u002e/%u002e%u002e/FUZZ -w bbFuzzing.txt
+> ffuf -u target.com/%2e%2e%2f/FUZZ/ -w bbFuzzing.txt
+> ffuf -u target.com/%2EFUZZ -w bbFuzzing.txt
+
+> ffuf -u target.com/FUZZ.old -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ?.css -w fuzzing.txt
+> ffuf -u target.com/FUZZ?.js -w fuzzing.txt
 
 > ffuf -u target.com/_FUZZ -w bbFuzzing.tx
 > ffuf -u target.com/FUZZ_ -w bbFuzzing.txt
@@ -45,10 +53,6 @@ There are also examples of how you can extend the fuzzing process to get more in
 > ffuf -u target.com/#/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/-/FUZZ/ -w bbFuzzing.txt
 
-> ffuf -u target.com/FUZZ.old -w bbFuzzing.txt
-> ffuf -u target.com/FUZZ%20 -w bbFuzzing.txt
-> ffuf -u target.com/FUZZ.<ext> -w bbFuzzing.txt
-
 > ffuf -u target.com/FUZZ~ -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ/.git/config -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ/.env -w bbFuzzing.txt
@@ -59,5 +63,4 @@ There are also examples of how you can extend the fuzzing process to get more in
 
 > ffuf -u target.com/FUZZ -recursive -w fuzzing.txt
 > ffuf -u target.com/FUZZ -recursive -w fuzzing.txt -e .asp,.aspx,.ashx,.ash,.jsp,.jspx,.php,.js,.dll,.json,.bak,.bkp,.conf,.txt,.py,.zip,.tar.gz,.tar,.7z,.old
-> ffuf -u target.com/FUZZ?.css -w fuzzing.txt
 ```
