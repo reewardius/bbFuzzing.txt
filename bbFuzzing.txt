@@ -1634,7 +1634,6 @@
 .extra
 .fabricrc
 .face
-.face.icon@
 .factorypath
 .fake
 .fastlane
@@ -4086,8 +4085,6 @@
 .webassets-cache
 .webignition
 .webmanifest
-.webpack-config.js
-.webpack.config.js
 .well
 .well-known
 .well-known/acme-challenge
@@ -5289,7 +5286,6 @@ CFIDE/administrator/enter.cfm
 CFIDE/administrator/header.cfm
 CFIDE/administrator/homefile.cfm
 CFIDE/administrator/homepage.cfm
-CFIDE/administrator/images/mx_login.gif
 CFIDE/administrator/index.cfm
 CFIDE/administrator/left.cfm
 CFIDE/administrator/linkdirect.cfm
@@ -6136,7 +6132,6 @@ IWebSocketRepository.cs
 IWebSocketService.cs
 IdentityConfig.cs
 IdentityGuardSelfService
-IdentityGuardSelfService/images/favicon.ico
 IdentityRepository.cs
 IdentityServer.xml
 IdentityService.cs
@@ -7466,8 +7461,6 @@ System.Web.Mvc.dll
 System.Web.Optimization.dll
 System.Web.RegularExpressions.dll
 System.Web.Routing.dll
-System.Web.WebPages.Deployment.dll
-System.Web.WebPages.Razor.dll
 System.Web.WebSockets.dll
 System.Web.dll
 System.Windows.Forms.dll
@@ -9956,7 +9949,6 @@ actuator/env/tz
 actuator/events
 actuator/exportRegisteredServices
 actuator/fallbackapplicationcontext
-actuator/favicon.ico
 actuator/features
 actuator/flyway
 actuator/gateway
@@ -13924,7 +13916,9 @@ api/v1/.json
 api/v1/1/details
 api/v1/1/users
 api/v1/ResetPassword
+api/v1/_admin
 api/v1/_users
+api/v1/_users.json
 api/v1/about
 api/v1/account
 api/v1/account.json
@@ -14373,7 +14367,9 @@ api/v2/.git/config
 api/v2/.json
 api/v2/1/details
 api/v2/1/users
+api/v2/_admin
 api/v2/_users
+api/v2/_users.json
 api/v2/account
 api/v2/account.json
 api/v2/accounts
@@ -14484,7 +14480,9 @@ api/v3/.json
 api/v3/1/details
 api/v3/1/users
 api/v3/ResetPassword
+api/v3/_admin
 api/v3/_users
+api/v3/_users.json
 api/v3/account
 api/v3/account.json
 api/v3/accounts.json
@@ -14562,6 +14560,9 @@ api/v4.0
 api/v4.0/.git/config
 api/v4.0/users?page=1
 api/v4/.git/config
+api/v4/_admin
+api/v4/_users
+api/v4/_users.json
 api/v4/actuator/dump
 api/v4/actuator/heapdump
 api/v4/application/settings
@@ -22148,7 +22149,6 @@ cfg?a=.js
 cfgs.js
 cfi
 cfide
-cfide/administrator/images/mx_login.gif
 cfide/administrator/index.cfm
 cfj
 cfls.js
@@ -28282,7 +28282,6 @@ content.java
 content.js
 content.json
 content.json/a.html
-content.json/a.ico
 content.languages.json
 content.php
 content.py
@@ -34684,8 +34683,6 @@ docker-compose.traefik.yaml
 docker-compose.traefik.yml
 docker-compose.uwsgi.yaml
 docker-compose.uwsgi.yml
-docker-compose.webpack.yaml
-docker-compose.webpack.yml
 docker-compose.worker.yaml
 docker-compose.worker.yml
 docker-compose.yaml
@@ -43816,7 +43813,6 @@ gwt-unitCache
 gwt/gwt-dev.jar
 gwt/gwt-user.jar
 gwt/standard
-gwt/standard/favicon.ico
 gwt/standard/images
 gwt/standard/public
 gwt/standard/standard.html
@@ -46600,7 +46596,6 @@ images/.env
 images/Sym.php
 images/c99.php
 images/create
-images/favicon.ico
 images/history
 images/json
 images/search
@@ -52803,7 +52798,6 @@ libs/cq/core/content/login.html
 libs/cq/core/content/welcome.html
 libs/database.backup
 libs/granite/core/content/login.html/etc/cloudservices/my-service
-libs/granite/core/content/login/favicon.ico
 libsahana.js
 libsbgn.js
 libsit.js
@@ -66175,7 +66169,6 @@ portal-liferay-online-config.properties
 portal.php
 portal/api/uploads/1
 portal/api/uploads/1/content
-portal/favicon.ico
 portal/login
 portal/page
 portal/pls/portal
@@ -67828,7 +67821,6 @@ public/config.js
 public/config/idc.js
 public/css
 public/data
-public/favicon.ico
 public/hot
 public/img
 public/index.html
@@ -70423,7 +70415,6 @@ requirements.dev.txt
 requirements.lock
 requirements.pip
 requirements.prod.txt
-requirements.psd1
 requirements.txt
 requirements.txt.example
 requirements.yaml
@@ -79429,7 +79420,6 @@ static/connection.js
 static/connection.json
 static/css
 static/dump.sql
-static/emq.ico
 static/images
 static/img
 static/js
@@ -85153,7 +85143,6 @@ tsconfig.release.json
 tsconfig.server.json
 tsconfig.spec.json
 tsconfig.storybook.json
-tsconfig.webpack.json
 tscope.js
 tscript.js
 tsctrl.js
