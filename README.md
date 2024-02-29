@@ -8,6 +8,7 @@ Tools for 403/401 bypass
 1. [bypassfuzzer](https://github.com/intrudir/BypassFuzzer) by @intrudir
 2. [bypass-url-parser](https://github.com/laluka/bypass-url-parser) by @TheLaluka
 3. [dontgo403](https://github.com/devploit/dontgo403) by @devploit
+4. [nomore403](https://github.com/devploit/nomore403) by @devploit
 
 There are also examples of how you can extend the fuzzing process to get more interesting results (proxy level misconfigurations, temporary files, etc.).
 
