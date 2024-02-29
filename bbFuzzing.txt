@@ -4085,6 +4085,8 @@
 .webassets-cache
 .webignition
 .webmanifest
+.webpack-config.js
+.webpack.config.js
 .well
 .well-known
 .well-known/acme-challenge
@@ -7461,6 +7463,8 @@ System.Web.Mvc.dll
 System.Web.Optimization.dll
 System.Web.RegularExpressions.dll
 System.Web.Routing.dll
+System.Web.WebPages.Deployment.dll
+System.Web.WebPages.Razor.dll
 System.Web.WebSockets.dll
 System.Web.dll
 System.Windows.Forms.dll
@@ -34683,6 +34687,8 @@ docker-compose.traefik.yaml
 docker-compose.traefik.yml
 docker-compose.uwsgi.yaml
 docker-compose.uwsgi.yml
+docker-compose.webpack.yaml
+docker-compose.webpack.yml
 docker-compose.worker.yaml
 docker-compose.worker.yml
 docker-compose.yaml
@@ -85143,6 +85149,7 @@ tsconfig.release.json
 tsconfig.server.json
 tsconfig.spec.json
 tsconfig.storybook.json
+tsconfig.webpack.json
 tscope.js
 tscript.js
 tsctrl.js
