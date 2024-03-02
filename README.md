@@ -21,13 +21,25 @@ There are also examples of how you can extend the fuzzing process to get more in
 > ffuf -u target.com/%3B/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/..%3B/FUZZ/ -w bbFuzzing.txt
 
-> ffuf -u target.com/%0DFUZZ -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ..%2f -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ%09 -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ%23 -w bbFuzzing.txt
+
+> ffuf -u target.com/FUZZ..%00 -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ;%09 -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ;%09.. -w bbFuzzing.txt
+
+> ffuf -u target.com/FUZZ;%09..; -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ;%2f.. -w bbFuzzing.txt
+> ffuf -u target.com/.FUZZ -w bbFuzzing.txt
+
 > ffuf -u target.com/%0AFUZZ -w bbFuzzing.txt
 > ffuf -u target.com/%0D%0AFUZZ -w bbFuzzing.txt
+> ffuf -u target.com/%0DFUZZ -w bbFuzzing.txt
 
-> ffuf -u target.com/.FUZZ -w bbFuzzing.txt
 > ffuf -u target.com/%2e/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ%20 -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ%2520 -w bbFuzzing.txt
 
 > ffuf -u target.com/%u002e%u002e/%u002e%u002e/FUZZ -w bbFuzzing.txt
 > ffuf -u target.com/%2e%2e%2f/FUZZ/ -w bbFuzzing.txt
