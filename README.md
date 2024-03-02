@@ -65,3 +65,10 @@ There are also examples of how you can extend the fuzzing process to get more in
 > ffuf -u target.com/FUZZ -recursive -w fuzzing.txt
 > ffuf -u target.com/FUZZ -recursive -w fuzzing.txt -e .asp,.aspx,.ashx,.ash,.jsp,.jspx,.php,.js,.dll,.json,.bak,.bkp,.conf,.txt,.py,.zip,.tar.gz,.tar,.7z,.old
 ```
+5. [pathbuster](https://github.com/ethicalhackingplayground/pathbuster) by @pathbuster
+```
+> pathbuster --urls crawls.txt --payloads traversals.txt --wordlist wordlist.txt -o output.txt
+```
+![image](https://github.com/reewardius/bbFuzzing.txt/assets/68978608/538999ff-3bac-4291-a347-e701cc1f21d5)
+![image](https://github.com/reewardius/bbFuzzing.txt/assets/68978608/88c5c7d7-93e5-471e-8806-9c565207d3fa)
+
