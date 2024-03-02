@@ -120,7 +120,6 @@
 .DS_Store
 .Dockerfile
 .EAR
-.EXE
 .FBCIndex
 .FileMaker
 .FileMaker-cli-history
@@ -763,8 +762,6 @@
 .circleci/docker-compose.yml
 .circleci/environment.yaml
 .circleci/environment.yml
-.circleci/executors.yaml
-.circleci/executors.yml
 .circleci/ext.yml
 .circleci/global.yml
 .circleci/jobs.yaml
@@ -1649,7 +1646,6 @@
 .evg.yaml
 .evg.yml
 .example.com
-.exercism
 .exit.log
 .exports
 .ext.infinity.json
@@ -3147,7 +3143,6 @@
 .packerconfig
 .pairs
 .paket
-.paket/paket.exe
 .pallet/services/aws.clj
 .pam_environment
 .parallel
@@ -4382,15 +4377,9 @@
 06
 06.sql
 07
-07-accessing-data/begin/vue-heroes/.env
-07-accessing-data/end/vue-heroes/.env
 07.sql
 08
-08-routing/begin/vue-heroes/.env
-08-routing/end/vue-heroes/.env
 09
-09-managing-state/begin/vue-heroes/.env
-09-managing-state/end/vue-heroes/.env
 0admin
 0day.asp
 0day.aspx
@@ -4784,17 +4773,11 @@
 29
 2fa
 2fa.php
-2fax
-2g
-2phpmyadmin
-2welcome
 3
-3-sequelize/final/.env
 3.php
 30
 300
 31
-31_structure_tests/.env
 32
 33
 34
@@ -4847,13 +4830,6 @@
 47
 48
 49
-4DHTMLSTATS
-4DSTATS
-4DWEBTEST
-4homepages
-4images
-4phpmyadmin
-4runner
 5
 5.php
 50
@@ -4869,7 +4845,6 @@
 503.html
 503.liquid
 503.php
-50x.html
 51
 52
 5252
@@ -4914,47 +4889,15 @@
 9
 9.php
 90210
-911
-911admin
-92072
 96
 97
 99999999
-:8081
-;norefresh
-;param=/manager
-;param=value/manager
-?
-?$count=true
-?$filter=startswith(UserName,'admin')
-?$filter=startswith(name,'admin')
-?$filter=startswith(user,'admin')
-?$filter=startswith(userName,'admin')
-??
-???
-?Publisher
-?WSDL
-?class.module.classLoader.resource.context.parent.appBase=
 ?d=1
 ?d=true
 ?debug=1
 ?debug=true
-?page=admin.auth.inc
-?page=auth.inc
-?page=auth.inc.php
-?param
+?error=1
 ?r=debug
-?user_login
-?view=log
-?wp-cs-dump
-?wp-html-rend
-?wp-start-ver
-?wp-stop-ver
-?wp-uncheckout
-?wp-usr-prop
-?wp-ver-diff
-?wp-ver-info
-?wp-verify-link
 ?wsdl
 @
 @documentation
@@ -4984,7 +4927,6 @@ AD-Users.csv
 ADFSCertificate.crt
 ADFSCertificate.key
 ADFSClaims-aware.conf
-ADFSConfig.exe.config
 ADFSGlobal.asax
 ADFSHistory.log
 ADFSLogin.aspx
@@ -5059,7 +5001,6 @@ Adm.shtml
 Admin
 Admin-Login.aspx
 Admin.cgi
-Admin.exe
 Admin.htm
 Admin.html
 Admin.jsp
@@ -5457,7 +5398,6 @@ Cargo.lock
 Cargo.toml
 Cargo.toml.old
 Carthage/Build
-Cassini.exe.config
 CasuS-1.5.php
 CatalogManager.properties
 CertAuthServlet
@@ -5481,7 +5421,6 @@ CheckPass.asp
 CheckPass.aspx
 CheckPoint-Smartcenter.conf
 Cheffile
-ChromeDriver.exe
 Circle-CI.yaml
 Circle-CI.yml
 CircleCI-Config.yml
@@ -5675,8 +5614,6 @@ DecryptionService.cs
 Default
 Default-build.log
 Default-build.log.log
-Default-exec.log
-Default-exec.log.log
 Default.Master.vb
 Default.aspx
 Default.aspx.cs
@@ -5791,7 +5728,6 @@ EarlGreyTestMatchers.m
 EarlGreyTestMatchers.swift
 EchoHeaders.jws
 EdgeCase.log
-EdgeDriver.exe
 Editor.js
 Education
 EemAdminService/EemAdmin?wsdl
@@ -5824,8 +5760,6 @@ Examples
 ExceptionThrown.jsp
 ExchWeb
 Exchange
-Exercise.Frontend/.env
-Exercise.Frontend/train/.env
 ExportedObj
 Extensions
 Extranet
@@ -5882,7 +5816,6 @@ Files
 Files/Docs/docs.checksum
 Files/binder.autosave
 Files/binder.backup
-Files/search.indexes
 Files/user.lock
 FilterConfig.cs
 FilteringSpecification.cs
@@ -5941,8 +5874,6 @@ GXApp/OnlineBank/OBLogin.html
 GXApp/images
 GXApp/index.html
 GalleryMenu
-Gallio.Ambience.Server.exe.config
-Gallio.Echo.exe.config
 Games
 Gamma_Web_Shell.php
 Gateway/Trace.axd
@@ -6099,7 +6030,6 @@ IDS
 IDSWebApp/IDSjsp/Login.jsp
 IDbContextFactory.cs
 IDecryptionService.cs
-IEDriverServer.exe
 IEmailRepository.cs
 IEmailService.cs
 IEncryptionService.cs
@@ -6745,7 +6675,6 @@ NASApp/system/StaticServlet
 NASApp/system/ValidationError.jsp
 NASApp/system/WelcomeListServlet
 NCC-Shell.php
-NCoverExplorer.exe.config
 NFIntro.htm
 NFM_1.8.php
 NGH.php
@@ -6846,7 +6775,6 @@ OracleDataImport.sql
 OracleDatabaseSetup.sql
 OracleERDiagram.pdf
 OracleFunctions.sql
-OracleIndexes.sql
 OracleJobScheduling.sql
 OracleMaintenanceTasks.sql
 OracleMigration.sql
@@ -6874,7 +6802,6 @@ P4CHARSET
 P4CLIENTSPEC
 P4COMMANDCHARSET
 P4DIFF
-P4DIFFEXE
 P4DIFFFLAGS
 P4EDITOR
 P4HOST
@@ -6884,7 +6811,6 @@ P4LANGUAGE
 P4LOG
 P4LOGIN
 P4MERGE
-P4MERGEEXE
 P4MERGEFLAGS
 P4PASSWD
 P4PORT
@@ -7158,7 +7084,6 @@ Release2023.zip
 Release2024.zip
 Remote-Access
 Remote-Administrator
-Remote_Execution
 RenameForeignKeys
 ReportServer
 ReportServer/pages/ReportViewer.aspx
@@ -7421,7 +7346,6 @@ Spy
 SqlBuilder.vb
 SqueakDebug.log
 Startup.cs
-StateNameServer.exe.config
 StaticServlet
 Statistics
 Statistik
@@ -7627,7 +7551,6 @@ TestSuite.kt
 TestUtils.kt
 Tests
 Tests/Application/.env
-TfsAdmin.exe.config
 TfsSecurity.config
 TfsVersionControl.config
 ThankYou.php
@@ -8478,7 +8401,6 @@ _hcms
 _header.php
 _helpers.tpl
 _hopefullynotexist404
-_ignition/execute-solution
 _ignition/scripts
 _images
 _img
@@ -8989,13 +8911,9 @@ _vti_bin/Views.asmx
 _vti_bin/WebPartPages.asmx
 _vti_bin/Webs.asmx
 _vti_bin/_vti_adm/admin.dll
-_vti_bin/_vti_adm/admin.exe
 _vti_bin/_vti_aut/WS_FTP.log
 _vti_bin/_vti_aut/author.dll
-_vti_bin/_vti_aut/author.exe
 _vti_bin/_vti_aut/dvwssr.dll
-_vti_bin/_vti_aut/fp30reg.dll
-_vti_bin/_vti_aut/fp30reg.dll?1234=X
 _vti_bin/_vti_aut/ws_ftp.log
 _vti_bin/alerts.asmx
 _vti_bin/alerts.asmx?wsdl
@@ -9019,12 +8937,6 @@ _vti_bin/permissions.asmx
 _vti_bin/publishedlinksservice.asmx
 _vti_bin/search.asmx
 _vti_bin/sharepointemailws.asmx
-_vti_bin/shtml.dll
-_vti_bin/shtml.dll/_vti_rpc
-_vti_bin/shtml.dll/asdfghjkl
-_vti_bin/shtml.exe/_vti_rpc
-_vti_bin/shtml.exe/qwertyuiop
-_vti_bin/shtml.exe?_vti_rpc
 _vti_bin/sites.asmx
 _vti_bin/spdisco.aspx
 _vti_bin/spscrawl.asmx
@@ -9063,7 +8975,6 @@ _vti_pvt/service.pwd
 _vti_pvt/service.pwt
 _vti_pvt/service/lck
 _vti_pvt/services.org
-_vti_pvt/shtml.exe
 _vti_pvt/structure.cnf
 _vti_pvt/svcacl.cnf
 _vti_pvt/uniqperm.cnf
@@ -10392,7 +10303,6 @@ admin.dll
 admin.do
 admin.epc
 admin.ex
-admin.exe
 admin.go
 admin.gz
 admin.htm
@@ -11773,7 +11683,6 @@ adminer/.env
 adminer/adminer.php
 adminer/index.php
 adminer_coverage.ser
-adminexec.php
 adminfeedback
 adminfeedback.php
 adminfiles
@@ -12612,7 +12521,6 @@ alexander
 alexandr
 alexandria
 alexaspec.js
-alexei.js
 alexis
 alf
 alfa
@@ -13438,7 +13346,6 @@ apche
 aperio.js
 apex
 apexbot.js
-apexec
 apexrest.js
 apfake.js
 apg
@@ -14089,7 +13996,6 @@ api/v1/event
 api/v1/events
 api/v1/events/1
 api/v1/exchange-rates
-api/v1/executions
 api/v1/faqs
 api/v1/feedback
 api/v1/files
@@ -15064,6 +14970,7 @@ app.yml
 app.zip
 app/.env
 app/.git/config
+app/.gitignore
 app/.htaccess
 app/Config/core.php
 app/Config/database.php
@@ -19884,6 +19791,8 @@ blog.php
 blog.sql
 blog/.env
 blog/.git/config
+blog/.gitignore
+blog/.htaccess
 blog/?alg_wc_ev_verify_email=eyJpZCI6MSwiY29kZSI6MH0=
 blog/error_log
 blog/fckeditor
@@ -20100,7 +20009,6 @@ bonnie
 bono.js
 bonus
 bonuses
-bonusexec.js
 bonusinfo.js
 bonusring.js
 bonzo.js
@@ -22236,7 +22144,6 @@ cf-agent.conf
 cf-apps.yaml
 cf-apps.yml
 cf-config.ini
-cf-execd.conf
 cf-monitord.conf
 cf-routes.yaml
 cf-routes.yml
@@ -22254,7 +22161,6 @@ cfcp.js
 cfdocs
 cfdomain.js
 cfengine.js
-cfexec.cfm
 cfg
 cfg.js
 cfg.json
@@ -22392,12 +22298,9 @@ cgi-bin/gH.cgi
 cgi-bin/generate.cgi
 cgi-bin/gx.cgi
 cgi-bin/gx.dll
-cgi-bin/gx.exe
 cgi-bin/hsx.cgi
-cgi-bin/htimage.exe?22
 cgi-bin/htmlscript
 cgi-bin/im_trbbs.cgi
-cgi-bin/imagemap.exe?22
 cgi-bin/img.pl
 cgi-bin/index.html
 cgi-bin/info.php
@@ -22481,55 +22384,6 @@ cgi-bin2
 cgi-club
 cgi-data
 cgi-dos
-cgi-exe
-cgi-exe/14all-1.1.cgi
-cgi-exe/14all.cgi
-cgi-exe/FileSeek.cgi
-cgi-exe/FileSeek2.cgi
-cgi-exe/ImageFolio/admin/admin.cgi
-cgi-exe/a1disp3.cgi
-cgi-exe/a1stats/a1disp3.cgi
-cgi-exe/a1stats/a1disp4.cgi
-cgi-exe/admin.cgi
-cgi-exe/auktion.cgi
-cgi-exe/commerce.cgi
-cgi-exe/dcforum.cgi
-cgi-exe/directorypro.cgi
-cgi-exe/emu/html/emumail.cgi
-cgi-exe/emumail.cgi
-cgi-exe/emumail/emumail.cgi
-cgi-exe/ezshopper/search.cgi
-cgi-exe/gH.cgi
-cgi-exe/generate.cgi
-cgi-exe/hsx.cgi
-cgi-exe/loadpage.cgi
-cgi-exe/magiccard.cgi
-cgi-exe/mail/emumail.cgi
-cgi-exe/mail/nph-mr.cgi
-cgi-exe/main.cgi
-cgi-exe/mrtg.cgi
-cgi-exe/netauth.cgi
-cgi-exe/newsdesk.cgi
-cgi-exe/nph-emumail.cgi
-cgi-exe/pagelog.cgi
-cgi-exe/pfdispaly.cgi
-cgi-exe/powerup/r.cgi
-cgi-exe/quickstore.cgi
-cgi-exe/r.cgi
-cgi-exe/sbcgi/sitebuilder.cgi
-cgi-exe/search/search.cgi
-cgi-exe/shop.cgi
-cgi-exe/shopper.cgi
-cgi-exe/sojourn.cgi
-cgi-exe/store.cgi
-cgi-exe/store/index.cgi
-cgi-exe/talkback.cgi
-cgi-exe/technote/main.cgi
-cgi-exe/traffic.cgi
-cgi-exe/ttawebtop.cgi
-cgi-exe/webmail/html/emumail.cgi
-cgi-exe/webspirs.cgi
-cgi-exe/zml.cgi
 cgi-home
 cgi-home/14all-1.1.cgi
 cgi-home/14all.cgi
@@ -22850,7 +22704,6 @@ cgi.cgi/a1stats/a1disp3.cgi
 cgi.cgi/a1stats/a1disp4.cgi
 cgi.cgi/admin.cgi
 cgi.cgi/anacondaclip.pl
-cgi.cgi/apexec.pl
 cgi.cgi/auktion.cgi
 cgi.cgi/bb-hist
 cgi.cgi/bb-hist.bat
@@ -22867,7 +22720,6 @@ cgi.cgi/bb-hostsvc.ps1
 cgi.cgi/bb-hostsvc.sh
 cgi.cgi/bb-hostsvc.txt
 cgi.cgi/bb-hostsvc.xml
-cgi.cgi/c32web.exe/ChangeAdminPassword
 cgi.cgi/cal_make.pl
 cgi.cgi/cgiforum.pl
 cgi.cgi/commerce.cgi
@@ -23376,7 +23228,6 @@ checkresult-downtime.conf
 checkresult-downtimequeue.conf
 checkresult-eventhandler.conf
 checkresult-eventqueue.conf
-checkresult-executor.conf
 checkresult-expire.conf
 checkresult-flapping.conf
 checkresult-flappingqueue.conf
@@ -25594,7 +25445,6 @@ complaint
 complaints
 complete
 completion.sh
-complexex.js
 compliance
 compliance.bat
 compliance.ps1
@@ -28723,8 +28573,6 @@ core.sh
 core/.env
 core/.jshintignore
 core/.jshintrc
-core/Datavase/.env
-core/Filemanager/index.html?type=Images&CKEditor=full_story&CKEditorFuncNum=110&langCode=en
 core/LICENSE.txt
 core/admin/config.xml
 core/api
@@ -28741,6 +28589,7 @@ core/config/databases.yml
 core/core.services.yaml
 core/core.services.yml
 core/cron.php
+core/database/.env
 core/fragments/moduleInfo.phtml
 core/includes/actions.inc
 core/includes/ajax.inc
@@ -31446,7 +31295,6 @@ datastorage
 datastore
 datastore-backups
 datastore-config.yaml
-datastore-indexes.xml
 datastore-restore
 datastore.cfg
 datastore_sessions.json
@@ -32599,7 +32447,6 @@ debug/memory
 debug/metrics
 debug/monitor
 debug/monitoring
-debug/mutexes
 debug/mysql_debug/pprof
 debug/mysql_debug/vars
 debug/mysql_schema
@@ -33619,7 +33466,6 @@ dev2
 dev2local.sh
 dev60cgi
 dev60cgi/f60cgi
-dev60cgi/ifcgi60.exe
 dev60cgi/rwcgi60
 dev_about.php
 dev_admin.php
@@ -34022,7 +33868,6 @@ devtools.properties
 devusers.js
 dewars.js
 dexcom.js
-dexentry.js
 dexjs.js
 dexter
 dezalgo.js
@@ -34592,6 +34437,7 @@ doc-html
 doc.log
 doc.wadl
 doc/.env
+doc/.gitignore
 doc/api
 doc/en/changes.html
 doc/kafka
@@ -35157,6 +35003,7 @@ docs.ts
 docs.txt
 docs/.env
 docs/.git
+docs/.gitignore
 docs/CHANGELOG.html
 docs/CHANGES
 docs/CHANGES.ru
@@ -35709,7 +35556,6 @@ druid.properties
 druid/coordinator/v1/leader
 druid/coordinator/v1/metadata/datasources
 druid/index.html
-druid/indexer/v1/taskStatus
 druid/v2/sql
 druid/weburi.html
 druilhe
@@ -37693,7 +37539,6 @@ env0.docx
 env0.dylib
 env0.ear
 env0.env
-env0.exe
 env0.gpg
 env0.gz
 env0.history
@@ -38935,48 +38780,6 @@ excite
 exclude
 excusegen.js
 exdate.js
-exe
-exec
-exec-docker-container.sh
-exec-pod-k8s.sh
-exec.inc
-exec.ini
-exec.php
-exec.sh
-execfile.js
-execform.js
-execmd.js
-execnpm.js
-execspawn.js
-execstack.js
-exectask.js
-exectest.js
-execusers.js
-executable
-executables
-execute.bat
-execute.conf
-execute.json
-execute.ps1
-execute.sh
-execute.txt
-execute.xml
-execute_tests.ps1
-execute_tests.sh
-executils.js
-execution.cfg
-execution.log
-execution.properties
-executive
-executive_summary.docx
-executives
-executor.ini
-executor.properties
-exemption.js
-exeq.js
-exercice.js
-exercise.json
-exersize.js
 exhibit
 exiar
 exide.js
@@ -39682,9 +39485,7 @@ fcgi-bin/commerce.cgi
 fcgi-bin/dcforum.cgi
 fcgi-bin/directorypro.cgi
 fcgi-bin/echo
-fcgi-bin/echo.exe
 fcgi-bin/echo2
-fcgi-bin/echo2.exe
 fcgi-bin/emu/html/emumail.cgi
 fcgi-bin/emumail.cgi
 fcgi-bin/emumail/emumail.cgi
@@ -40222,6 +40023,7 @@ filterword.js
 filzip
 fimages
 final
+final.env
 finalVersion/lcomernbootcamp/projbackend/.env
 finalcode.js
 finalizar.js
@@ -40316,7 +40118,6 @@ firebase-debug.log
 firebase-messaging-sw.js
 firebase-secret.yaml
 firebase.config.js
-firebase.indexes.json
 firebase.json
 firebase.properties
 firebase.rules
@@ -40338,7 +40139,6 @@ firehol
 firehome.js
 firelist.js
 fireman
-firestore-indexes.json
 firestore-security-rules.yaml
 firestore.cfg
 firestorm
@@ -40998,7 +40798,6 @@ forinvar.js
 foris.js
 fork.js
 forkblobs.js
-forkexec.js
 forkide.js
 forklink.js
 forkmock.js
@@ -42172,7 +41971,6 @@ gd
 gdaltype.js
 gdam
 gdb.js
-gdblexer.js
 gdcon.js
 gde.js
 gdfl.js
@@ -42193,7 +41991,6 @@ gearman.conf
 gearmand.conf
 geav.js
 gebase.js
-geckodriver.exe
 geckodriver.log
 geeeekshop
 geeklog
@@ -44003,7 +43800,6 @@ gwt/standard/standard_sso_rpc_policy
 gwusers.js
 gx
 gx.cgi
-gx.exe
 gxine
 gxpath.js
 gxt
@@ -44558,8 +44354,6 @@ hdbxscontroller.cfg
 hdbxscontroller.ini
 hdbxsengine.cfg
 hdbxsengine.ini
-hdbxsexec.cfg
-hdbxsexec.ini
 hdc.js
 hdemo
 hdfilmetv.js
@@ -45197,7 +44991,6 @@ hicreader.js
 hidden
 hidden.asp
 hidden.aspx
-hidden.exe
 hidden.go
 hidden.java
 hidden.js
@@ -45303,7 +45096,6 @@ hive-config.ps1
 hive-config.sh
 hive-config.txt
 hive-config.xml
-hive-container-executor.cfg
 hive-env.bat
 hive-env.conf
 hive-env.json
@@ -45311,7 +45103,6 @@ hive-env.ps1
 hive-env.sh
 hive-env.txt
 hive-env.xml
-hive-exec-log4j2.properties
 hive-hdf
 hive-hdfs-site.xml
 hive-hiveserver2-interactive-logging.properties
@@ -45796,7 +45587,6 @@ htdoc
 htdocs
 htdocs/.env
 htdocs/.gitignore
-htdocs/.htaccess
 htdocs/admin/config.php
 htdocs/admin/inc/config.php
 htdocs/assets
@@ -45934,7 +45724,6 @@ httpd-multilog.conf
 httpd-ssl.conf
 httpd-status
 httpd-status.php
-httpd-suexec.conf
 httpd-sysusers.conf
 httpd-userdir.conf
 httpd-vhosts.conf
@@ -45973,7 +45762,6 @@ httpd_global.conf
 httpd_headers.conf
 httpd_hotlink.conf
 httpd_http2.conf
-httpd_indexes.conf
 httpd_ipblock.conf
 httpd_limitconn.conf
 httpd_limitreq.conf
@@ -47119,15 +46907,6 @@ incident_response_drills_scripts.txt
 incident_response_drills_scripts.xml
 incident_response_escalation_plan.ps1
 incident_response_escalation_plan.sh
-incident_response_exercise_materials.ps1
-incident_response_exercise_materials.sh
-incident_response_exercises_scripts.bat
-incident_response_exercises_scripts.conf
-incident_response_exercises_scripts.json
-incident_response_exercises_scripts.ps1
-incident_response_exercises_scripts.sh
-incident_response_exercises_scripts.txt
-incident_response_exercises_scripts.xml
 incident_response_forensics_plan.ps1
 incident_response_forensics_plan.sh
 incident_response_handling_plan.ps1
@@ -47152,15 +46931,6 @@ incident_response_resolution_plan.ps1
 incident_response_resolution_plan.sh
 incident_response_review_plan.ps1
 incident_response_review_plan.sh
-incident_response_tabletop_exercise_materials.ps1
-incident_response_tabletop_exercise_materials.sh
-incident_response_tabletop_exercises_scripts.bat
-incident_response_tabletop_exercises_scripts.conf
-incident_response_tabletop_exercises_scripts.json
-incident_response_tabletop_exercises_scripts.ps1
-incident_response_tabletop_exercises_scripts.sh
-incident_response_tabletop_exercises_scripts.txt
-incident_response_tabletop_exercises_scripts.xml
 incident_response_testing_materials.ps1
 incident_response_testing_materials.sh
 incident_response_testing_scripts.bat
@@ -47321,7 +47091,6 @@ index.htm
 index.html
 index.html.backup
 index.html.bak
-index.html___jb_bak___
 index.inc
 index.java
 index.js
@@ -47444,11 +47213,6 @@ indexbyid.js
 indexcard.js
 indexcor
 indexdate.js
-indexer.ini
-indexerclustering.conf
-indexes
-indexes.conf
-indexexp.js
 indexfire.js
 indexing
 indexing.conf
@@ -47922,8 +47686,6 @@ install.dll
 install.dmg
 install.dockerfile
 install.erl
-install.exe
-install.exe.config
 install.fish
 install.fs
 install.go
@@ -48378,7 +48140,6 @@ intuit
 inuvik.js
 invalid_chars.log
 invalidif.js
-invasion.exe
 inventories
 inventory
 inventory.ini
@@ -49154,7 +48915,6 @@ jasmine.json
 jason
 jason1
 jasper
-jasperserver/login.html?error=1
 jaspersoft
 jaspic-providers.xml
 jaspic-providers.xsd
@@ -49173,7 +48933,6 @@ javacachedocs
 javadd
 javadoc
 javadoc.properties
-javalexer.js
 javamail.jar
 javamelody/heapdump
 javamelody/monitoring/heapdump
@@ -49687,7 +49446,6 @@ jira-cluster.properties
 jira-config.properties
 jira-database.properties
 jira-home/backups
-jira-home/caches/indexes
 jira-home/data/analytics
 jira-home/dbconfig.xml
 jira-home/export/entities.xml
@@ -49949,7 +49707,6 @@ jolokia.log
 jolokia.policy
 jolokia.properties
 jolokia.sh
-jolokia/exec/ch.qos.logback.classic
 jolokia/heapdump
 jolokia/list
 jolokia/test.hprof
@@ -50183,7 +49940,6 @@ jscritp.js
 jscrum.js
 jscruzh.js
 jscs.js
-jscsexec.js
 jsctest.js
 jsdas.js
 jsdate.js
@@ -52798,7 +52554,6 @@ lewis
 lewitt
 lex.cfg
 lexar
-lexed.js
 lexicons.js
 lexington.js
 lexmark
@@ -52907,7 +52662,6 @@ liberty
 liberum
 libes
 libesmtp
-libexec
 libexif
 libext
 libextractor
@@ -53401,7 +53155,6 @@ list-docker-volumes.sh
 list-edit
 list-functions.sh
 list-grants.sh
-list-indexes.sh
 list-pages.liquid
 list-procedures.sh
 list-products.liquid
@@ -53968,7 +53721,6 @@ log360-compliance.conf
 log360-data-retention.conf
 log360-datasources.conf
 log360-firewall-logs.conf
-log360-indexes.conf
 log360-inputs.conf
 log360-outputs.conf
 log360-parsers.conf
@@ -54467,7 +54219,6 @@ login/cpanel.php
 login/digits
 login/director
 login/discord
-login/executive
 login/facebook
 login/getuser
 login/github
@@ -54491,7 +54242,6 @@ login/user
 login/user/admin
 login/user/administrator
 login/user/director
-login/user/executive
 login/user/manager
 login/user/supervisor
 login/user/users
@@ -55607,7 +55357,6 @@ makegeo.js
 makehash.js
 makeid.js
 makeimage.js
-makelexer.js
 makelink.js
 makemeapi.js
 makepost.js
@@ -57235,9 +56984,6 @@ minio-select-avro-config.json
 minio-select-avro-index-compactor-config.json
 minio-select-avro-index-config.json
 minio-select-csv-config.json
-minio-select-exec-config.json
-minio-select-exec-index-compactor-config.json
-minio-select-exec-index-config.json
 minio-select-json-config.json
 minio-select-orc-config.json
 minio-select-orc-index-compactor-config.json
@@ -57785,7 +57531,6 @@ modules/system/assets/js/framework.combined-min.js
 modules/vendor/phpunit/phpunit/phpunit
 modules/web.config
 modules_admin
-moduloexe.js
 modulos
 modv.js
 modwh.js
@@ -58492,7 +58237,6 @@ msc_card_new.sql
 mschema.js
 mscompat.js
 msconfig.ini
-msdac/root.exe?/c+dir
 msdom.js
 msds
 msds.js
@@ -60586,7 +60330,6 @@ nginx.conf.sample
 nginx.config
 nginx.conf~
 nginx.error.log
-nginx.exe
 nginx.geoip.conf
 nginx.geoip.dat
 nginx.geoip.v4
@@ -61282,7 +61025,6 @@ ns-admin-nsd-httpd.tcl
 ns-admin-nsd-include.tcl
 ns-admin-nsd-info.tcl
 ns-admin-nsd-lib.tcl
-ns-admin-nsd-libexec.tcl
 ns-admin-nsd-local.tcl
 ns-admin-nsd-man.tcl
 ns-admin-nsd-man1.tcl
@@ -61479,11 +61221,7 @@ numset.js
 numspec.js
 numvalues.js
 nunify.js
-nunit-agent.exe.config
-nunit-gui.exe.config
-nunit-x86.exe.config
 nunit.config
-nunit.exe.config
 nuodb
 nuonce.js
 nuro.js
@@ -62744,7 +62482,6 @@ orientdb-server-config.xml
 orientdb-server-distributed.xml
 orientdb-server-dynamic-plugins-config.xml
 orientdb-server-log.properties
-orientdb-server-lucene-indexes-config.xml
 orientdb-server-security.json
 orientdb.properties
 orig
@@ -63150,8 +62887,6 @@ p4env
 p4group
 p4ticket
 p7pm
-pHpINJ.php
-p_/webdav/xmltools/minidom/xml/sax/saxutils/os/popen2?cmd=dir
 pa
 paas
 pablo
@@ -64594,7 +64329,6 @@ petugas.js
 petunia
 petwo.js
 peu
-pexels.js
 pf.conf
 pfbe/.env
 pfd.js
@@ -64660,11 +64394,8 @@ pg_stat_user_tables.conf
 pg_stat_xact_all.conf
 pg_stat_xact_sys.conf
 pg_stat_xact_user.conf
-pg_statio_all_indexes.conf
 pg_statio_all_tables.conf
-pg_statio_sys_indexes.conf
 pg_statio_sys_tables.conf
-pg_statio_user_indexes.conf
 pg_statio_user_tables.conf
 pg_stattuple.conf
 pg_top.conf
@@ -65184,7 +64915,6 @@ phpkit
 phpldapadmin
 phpldapadmin/cmd.php
 phpldapadmin/index.php
-phplexer.js
 phplib
 phplibre
 phplinkat
@@ -65588,9 +65318,6 @@ pipeline-dependencies
 pipeline-deployment.yaml
 pipeline-deployment.yml
 pipeline-environment-variables
-pipeline-execution-history.json
-pipeline-execution-summary.txt
-pipeline-execution-timeline.json
 pipeline-instance-auto-scaling.json
 pipeline-instance-elb.json
 pipeline-instance-images.json
@@ -67484,7 +67211,6 @@ progeny
 proglangs.js
 program
 program.cs
-program.exe
 program.json
 program.txt
 programa
@@ -68318,7 +68044,6 @@ pwhash.php
 pwins
 pwlib
 pwmenu.js
-pwn.exe
 pwoton.js
 pwquality.conf
 pws.php
@@ -68413,8 +68138,6 @@ qa-control
 qa-dashboard
 qa-env.js
 qa-environment
-qa-execution
-qa-executionresults
 qa-export
 qa-external-example
 qa-health
@@ -72115,7 +71838,6 @@ rudder-compliance.properties
 rudder-datasources.xml
 rudder-default-directives.xml
 rudder-eventlog.properties
-rudder-execution-batch.properties
 rudder-global-policy-mode.properties
 rudder-groups.xml
 rudder-inventory-endpoint.properties
@@ -72185,7 +71907,6 @@ run.xml
 run.yaml
 run/.env
 run/build_info.jsp
-runFile.exe.config
 run_settings.py
 run_settings.py.local
 run_tests.ps1
@@ -73449,7 +73170,6 @@ scripts/a1stats/a1disp4.cgi
 scripts/admin.cgi
 scripts/app.js
 scripts/auktion.cgi
-scripts/cgimail.exe
 scripts/checks
 scripts/ckeditor/ckfinder/core/connector/asp/connector.asp
 scripts/ckeditor/ckfinder/core/connector/aspx/connector.aspx
@@ -73459,7 +73179,6 @@ scripts/config.js
 scripts/config/config.js
 scripts/config/karma.js
 scripts/convert.bas
-scripts/counter.exe
 scripts/dcforum.cgi
 scripts/deploy
 scripts/deploy.bat
@@ -73476,7 +73195,6 @@ scripts/emu/html/emumail.cgi
 scripts/emumail.cgi
 scripts/emumail/emumail.cgi
 scripts/ezshopper/search.cgi
-scripts/fpcount.exe
 scripts/fvt/.env
 scripts/gH.cgi
 scripts/generate.cgi
@@ -73508,9 +73226,7 @@ scripts/pre-publish.sh
 scripts/publish.sh
 scripts/quickstore.cgi
 scripts/r.cgi
-scripts/root.exe?/c+dir
 scripts/rpm-install.sh
-scripts/samples/search/webhits.exe
 scripts/sbcgi/sitebuilder.cgi
 scripts/search/search.cgi
 scripts/setup.php
@@ -73526,8 +73242,6 @@ scripts/talkback.cgi
 scripts/technote/main.cgi
 scripts/tiny_mce
 scripts/tinymce
-scripts/tools/getdrvs.exe
-scripts/tools/newdsn.exe
 scripts/traffic.cgi
 scripts/ttawebtop.cgi
 scripts/unlink.js
@@ -74550,7 +74264,6 @@ sem-compliance.conf
 sem-correlation.conf
 sem-encryption.conf
 sem-fields.conf
-sem-indexes.conf
 sem-inputs.conf
 sem-lookups.conf
 sem-macros.conf
@@ -75882,8 +75595,6 @@ setup.deb
 setup.dll
 setup.dmg
 setup.erl
-setup.exe
-setup.exe.config
 setup.fish
 setup.fs
 setup.go
@@ -76023,7 +75734,6 @@ sgdemo.js
 sgdfcni.js
 sgdrawer.js
 sgelastic.js
-sgexefile.js
 sgi
 sgiconset.js
 sglib.js
@@ -76153,9 +75863,6 @@ shell_backup
 shell_bak
 shell_default
 shell_example
-shell_exec.inc
-shell_exec.ini
-shell_exec.php
 shell_old
 shell_sample
 shell_temp
@@ -76470,7 +76177,6 @@ siem-device-fingerprint.json
 siem-encryption.conf
 siem-events.log
 siem-fields.conf
-siem-indexes.conf
 siem-inputs.conf
 siem-integrations.json
 siem-lookups.conf
@@ -76924,7 +76630,6 @@ siteminder/monitor
 siteminder/monitor/settings
 siteminderagent
 siteminderagent/pwcgi
-siteminderagent/pwcgi/smpwservicescgi.exe
 sitemindermonitor
 sitemindermonitor/doConfig.jsp
 sitemindermonitor/doSave.jsp
@@ -77631,6 +77336,7 @@ soap.json
 soap.ts
 soap.txt
 soap.wsdl
+soap.xml
 soap/admin
 soap/admin/providermanager
 soap/admin/servicemanager
@@ -77833,7 +77539,6 @@ solr/admin/collections?action=RELOAD
 solr/admin/collections?action=REMOVEROLE
 solr/admin/cores
 solr/admin/cores?action=CREATE
-solr/admin/cores?action=MERGEINDEXES
 solr/admin/cores?action=RELOAD
 solr/admin/cores?action=SPLIT
 solr/admin/cores?action=STATUS
@@ -78137,7 +77842,6 @@ spark-env.py
 spark-env.sh
 spark-env.txt
 spark-env.xml
-spark-executor-memory.py
 spark-history
 spark-history-server.py
 spark-log4j.properties
@@ -78340,7 +78044,6 @@ splork.js
 splunk
 splunk-auth.conf
 splunk-deploymentclient.conf
-splunk-indexer.conf
 splunk-launch.conf
 splunk-props.conf
 splunk-server.conf
@@ -78559,7 +78262,6 @@ sql-server.xml
 sql.7z
 sql.bz2
 sql.db
-sql.exe.config
 sql.go
 sql.gz
 sql.inc
@@ -78649,16 +78351,13 @@ sql_write.sql
 sqladm
 sqladmin
 sqladmin.js
-sqlagent.exe.config
 sqlagent.ini
 sqlagent.out
 sqlbook.sql
-sqlbrowser.exe.config
 sqlbrowser.ini
 sqlbuddy
 sqlbuddy/login.php
 sqlci.js
-sqlcmd.exe.config
 sqlconnect.php
 sqldata
 sqldump
@@ -78685,7 +78384,6 @@ sqlitetial
 sqlizer.js
 sqlj
 sqlmanager
-sqlmangr.exe.config
 sqlmap-config.xml
 sqlmessage.sql
 sqlmigrate.php
@@ -78694,18 +78392,14 @@ sqlnet
 sqlnet.log
 sqlnet.ora
 sqlplus
-sqlps.exe.config
 sqlreg.ini
 sqlserer.sql
 sqlserver.conf
-sqlserver.exe.config
 sqlserver.ini
 sqlserver.php
 sqlserverconnect.php
-sqlserverpowershell.exe.config
 sqlservr-default.conf
 sqlservr.conf
-sqlservr.exe.config
 sqlsn_noop.test.log
 sqlsn_require.test.log
 sqlsn_require_from_path.test.log
@@ -78714,9 +78408,7 @@ sqlsrv.php
 sqlsrv/full.sql
 sqluser
 sqlvalue.js
-sqlwb.exe.config
 sqlweb
-sqlwriter.exe.config
 sqlwriter.ini
 sqmat.js
 sqoop-env.sh
@@ -78877,7 +78569,6 @@ src/main/docker/docker-compose.yml
 src/main/front-end/.env
 src/main/java
 src/main/resources
-src/main/resources/archetype-resources/__rootArtifactId__-acceptance-test/src/test/resources/app-launcher-tile/.env
 src/main/resources/config.yaml
 src/main/resources/config.yml
 src/main/webapp
@@ -82952,7 +82643,6 @@ test.dump
 test.ear
 test.env
 test.example.zip
-test.exe
 test.exs
 test.fla
 test.go
@@ -83205,8 +82895,6 @@ test_cases.robot
 test_cases.txt
 test_cases.xls
 test_cases.xlsx
-test_cases_execution.ps1
-test_cases_execution.sh
 test_categories.xml
 test_chat.php
 test_common.php
@@ -83289,8 +82977,6 @@ test_error.php
 test_example.go
 test_exception.py
 test_exclude.xml
-test_execution.ps1
-test_execution.sh
 test_extension.log
 test_failover.php
 test_faq.php
@@ -83774,7 +83460,6 @@ tex-ref.log
 tex.js
 texanim.js
 texas
-texercise.js
 texinfo.tex
 texis
 texput.log
@@ -83822,7 +83507,6 @@ textual.js
 textx.js
 texty.js
 teya.js
-tez-container-executor.cfg
 tez-env.sh
 tez-site-secure.xml
 tez-site.xml
@@ -84522,7 +84206,6 @@ toflat.js
 tofoxtype.js
 toggle
 toggleCollapse?paneId=buildQueue
-toggleCollapse?paneId=executors
 togj.js
 togy.js
 toim.js
@@ -85695,7 +85378,6 @@ typefilm.js
 typehla.js
 typejs.js
 typejudge.js
-typelexer.js
 typemock.config
 typemock.msi.config
 typename.js
@@ -86599,7 +86281,6 @@ uploads/presentation.pptx
 uploads/press_release.pdf
 uploads/profile.html
 uploads/profiler.php
-uploads/program.exe
 uploads/project.zip
 uploads/prototypes.php
 uploads/recovery.php
@@ -86935,9 +86616,6 @@ user_guide.md
 user_guide.pdf
 user_guide_src
 user_guide_src/build
-user_guide_src/cilexer/build
-user_guide_src/cilexer/dist
-user_guide_src/cilexer/pycilexer.egg-info
 user_guides
 user_id.txt
 user_info.bin
@@ -88420,7 +88098,6 @@ vestiging.js
 vestorly.js
 vesuvius.js
 veure
-vexextend.js
 vexflow.js
 vexpa.js
 veyatif.js
@@ -90771,8 +90448,6 @@ windmeter.js
 windowman.js
 windows
 windows.log
-windows/tests/9.2.x/.env
-windows/tests/9.3.x/.env
 windspd.js
 windsurf
 windutils.js
@@ -90781,7 +90456,6 @@ winend.js
 wineocr.js
 wines.js
 winestore.js
-winexe.js
 winforms.js
 winfstest.js
 winfuncs.js
@@ -92165,26 +91839,6 @@ xsnmtoken.js
 xsnos.js
 xspolicy.js
 xsql
-xsql/adhocsql/query.xsql
-xsql/adhocsql/sqltoxml.html
-xsql/airport/airport.htm
-xsql/airport/airport.xsql
-xsql/airport/airportSoap.html
-xsql/classerr/invalidclasses.xsql
-xsql/demo/adhocsql/query.xsql
-xsql/demo/airport/airport.xsql
-xsql/document/docdemo.html
-xsql/doyouxml/doyouxml.xsql
-xsql/emp/emp.xsql
-xsql/empdept/empdept.xsql
-xsql/helloworld/helloworld.xsql
-xsql/insclaim/xsqlov.htm
-xsql/insertxml/newsstorydemo.html
-xsql/java/xsql/demo/adhocsql/query.xsql
-xsql/java/xsql/demo/insertxml/newsstorydemo.html
-xsql/java/xsql/demo/uri/uridemo.html
-xsql/lib/XSQLConfig.xml
-xsql/svg/svgdemo.html
 xss-filter.php
 xss.config
 xss.php
@@ -92198,7 +91852,6 @@ xtop.js
 xtraverse.js
 xtrimdash.js
 xtypes.js
-xunit.console.exe.config
 xunit.net.config
 xunit.xml
 xvdialog.js
@@ -92212,7 +91865,6 @@ xwork-conversion.properties
 xwork-i18n.properties
 xwork-validation.xml
 xx
-xx-final/vue-heroes/.env
 xx.php
 xxx
 xxx.php
@@ -92232,7 +91884,6 @@ yamlast.js
 yamldoc.js
 yamlspec.js
 yamusic.js
-yandex_XXXXXXXXXXXXXXXX.html
 yang
 yangon.js
 yankees
