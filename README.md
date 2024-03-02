@@ -77,10 +77,14 @@ There are also examples of how you can extend the fuzzing process to get more in
 > ffuf -u target.com/FUZZ -recursive -w fuzzing.txt
 > ffuf -u target.com/FUZZ -recursive -w fuzzing.txt -e .asp,.aspx,.ashx,.ash,.jsp,.jspx,.php,.js,.dll,.json,.bak,.bkp,.conf,.txt,.py,.zip,.tar.gz,.tar,.7z,.old
 ```
-5. [pathbuster](https://github.com/ethicalhackingplayground/pathbuster) by @pathbuster
+5. [pathbuster](https://github.com/ethicalhackingplayground/pathbuster) by @ethicalhackingplayground
 ```
 > pathbuster --urls crawls.txt --payloads traversals.txt --wordlist wordlist.txt -o output.txt
 ```
 ![image](https://github.com/reewardius/bbFuzzing.txt/assets/68978608/538999ff-3bac-4291-a347-e701cc1f21d5)
 ![image](https://github.com/reewardius/bbFuzzing.txt/assets/68978608/88c5c7d7-93e5-471e-8806-9c565207d3fa)
 
+6. [TProxer](https://github.com/ethicalhackingplayground/TProxer) - Burp Suite extension made to automate the process of finding reverse proxy path based SSRF by @ethicalhackingplayground
+
+![image](https://github.com/reewardius/bbFuzzing.txt/assets/68978608/be1496fe-8cc2-4494-867d-dcb46a13b113)
+![image](https://github.com/reewardius/bbFuzzing.txt/assets/68978608/5df4ce2b-644b-4ed2-a9d9-1c4112f59a91)
