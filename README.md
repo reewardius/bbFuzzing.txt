@@ -80,6 +80,14 @@ There are also examples of how you can extend the fuzzing process to get more in
 
 > ffuf -u target.com/FUZZ -recursive -w fuzzing.txt
 > ffuf -u target.com/FUZZ -recursive -w fuzzing.txt -e .asp,.aspx,.ashx,.ash,.jsp,.jspx,.php,.js,.dll,.json,.bak,.bkp,.conf,.txt,.py,.zip,.tar.gz,.tar,.7z,.old
+
+Any special occasions (cookieless) - IIS + ASP
+> ffuf -u target.com/(A(ABCD))/FUZZ
+> ffuf -u target.com/(ABCD)/FUZZ
+> ffuf -u target.com/(A(XXXXXXXX)F(YYYYYYYY))/FUZZ
+> ffuf -u target.com/bin::$INDEX_ALLOCATION/FUZZ
+> ffuf -u target.com/bin::$INDEX_ALLOCATION/FUZZ.dll
+> ffuf -u target.com/bin::$INDEX_ALLOCATION/FUZZ -e .asp,.aspx,.ashx,.ash,.dll
 ```
 5. [pathbuster](https://github.com/ethicalhackingplayground/pathbuster) by @ethicalhackingplayground
 ```
