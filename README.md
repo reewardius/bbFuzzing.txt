@@ -85,6 +85,7 @@ Any special occasions (cookieless) - IIS + ASP
 > ffuf -u target.com/(A(ABCD))/FUZZ
 > ffuf -u target.com/(ABCD)/FUZZ
 > ffuf -u target.com/(A(XXXXXXXX)F(YYYYYYYY))/FUZZ
+> ffuf -u target.com/FUZZ/(S(X))/
 > ffuf -u target.com/bin::$INDEX_ALLOCATION/FUZZ
 > ffuf -u target.com/bin::$INDEX_ALLOCATION/FUZZ.dll
 > ffuf -u target.com/bin::$INDEX_ALLOCATION/FUZZ -e .asp,.aspx,.ashx,.ash,.dll
