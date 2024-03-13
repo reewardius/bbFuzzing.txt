@@ -60,6 +60,9 @@ There are also examples of how you can extend the fuzzing process to get more in
 > ffuf -u target.com/..;/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/..;/..;/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/../FUZZ -w bbFuzzing.txt
+
+> ffuf -u target.com/-FUZZ -w bbFuzzing.txt
+> ffuf -u target.com/~FUZZ -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ..;/ -w bbFuzzing.txt
 
 > ffuf -u target.com/FUZZ;/ -w bbFuzzing.txt
