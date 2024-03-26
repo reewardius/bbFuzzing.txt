@@ -11,7 +11,13 @@ Tools for 403/401 bypass
 4. [nomore403](https://github.com/devploit/nomore403) by @devploit
 
 There are also examples of how you can extend the fuzzing process to get more interesting results (proxy level misconfigurations, temporary files, etc.).
-
+# Nuclei
+```
+# Before launching it is recommended to check all domains via -id waf-detect, and exclude domains that are hidden behind waf.
+nuclei -l subs -id waf-detect -silent -o waf
+nuclei -l nowaf -t bbfuzzing.yaml -silent -rl 500 -c 100
+```
+# Ffuf
 ```
 > ffuf -u target.com/FUZZ -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ -H "Host: 127.0.0.1" -w bbFuzzing.txt
