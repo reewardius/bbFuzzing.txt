@@ -12,12 +12,15 @@ Tools for 403/401 bypass
 
 There are also examples of how you can extend the fuzzing process to get more interesting results (proxy level misconfigurations, temporary files, etc.).
 # Nuclei
+
+Before launching it is recommended to check all domains via -id waf-detect, and exclude domains that are hidden behind waf (**nginxgeneric** and **apachegeneric** indicates that WAF is missing).
 ```
-# Before launching it is recommended to check all domains via -id waf-detect, and exclude domains that are hidden behind waf.
 nuclei -l subs -id waf-detect -silent -o waf
 nuclei -l nowaf -t bbfuzzing.yaml -silent -rl 500 -c 100
-# It does not work perfectly, the search is aimed exclusively at finding the response body where there is no html, works until the first fiding, but if there is still one, it is recommended to run ffuf on this domain as a separate stream.
 ```
+It does not work perfectly, the search is aimed exclusively at finding the response body where there is no html, works until the first finding, but if there is still one, it is recommended to run ffuf on this domain as a separate stream.
+
+
 # Ffuf
 ```
 > ffuf -u target.com/FUZZ -w bbFuzzing.txt
