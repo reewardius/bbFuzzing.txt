@@ -47,12 +47,14 @@
 App_Data/credentials.json
 App_Data/database.mdf
 App_Data/database_log.ldf
+CVS
 Dockerfile
 Dockerfile.dev
 Gemfile.lock
 Jenkinsfile
 Pipfile.lock
 Procfile
+Trace.axd
 actions-config.yml
 admin/.env
 admin/.git/config
@@ -73,6 +75,7 @@ appsettings.Staging.json
 appsettings.Test.json
 appsettings.json
 appveyor.yml
+aspnet_client
 auth/aws_auth.json
 auth/azure_auth.json
 auth/secrets.json
@@ -106,6 +109,7 @@ certs/server.crt
 certs/server.key
 certs/ssl.crt
 certs/ssl.key
+cgi-bin
 ci-build-config.json
 ci-configure.sh
 ci-pipeline.yaml
@@ -128,6 +132,7 @@ codepipeline.yml
 composer.json
 composer.lock
 config.json
+config.php
 config/.env
 config/.env.ci
 config/.env.production
@@ -157,6 +162,7 @@ credentials.yml
 custom.config
 database/.env
 db-config.yml
+db.sql
 db_config.json
 deploy-config.json
 deploy-config.yml
@@ -184,6 +190,8 @@ global.asax
 google-service-account.json
 gradle.properties
 helm/values.yaml
+index.zip
+info.php
 jenkins.config
 jenkins/credentials.xml
 jenkins/jenkins.yaml
@@ -237,6 +245,7 @@ ssl/private.key
 startup.cs
 teamcity-settings.xml
 teamcity/config.json
+temp
 terraform.tfstate
 terraform.tfstate.backup
 terraform.tfvars
