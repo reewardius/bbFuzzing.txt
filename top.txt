@@ -365,6 +365,8 @@ pipeline-config.json
 pom.xml
 private.key
 private.pem
+prod.sql
+prod.sqlite3
 prod_config.yaml
 project.json
 properties/launchSettings.json
