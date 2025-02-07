@@ -345,6 +345,8 @@ log4j2.xml
 logback.xml
 logs/debug.log
 logs/error.log
+logs/laravel.log
+logs/laravel.log.old
 machine.config
 manifest.json
 mvnw
