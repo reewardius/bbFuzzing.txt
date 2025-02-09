@@ -88,6 +88,12 @@ api-config.yml
 api.py
 api/.env
 api/.git/config
+api/v1/.env
+api/v1/.git/config
+api/v2/.env
+api/v2/.git/config
+api/v3/.env
+api/v3/.git/config
 api_config.json
 api_keys.json
 app.config
@@ -288,6 +294,7 @@ db_config.json
 debug_secrets.txt
 deploy-config.json
 deploy-config.yml
+deploy.tf
 dev.py
 devops-config.json
 dist/.env
@@ -304,6 +311,7 @@ dump.py
 dump.sql
 elasticsearch.yml
 env
+env.js
 express-config.js
 fastlane/Appfile
 fastlane/Fastfile
@@ -388,6 +396,7 @@ secret.yml
 secret_keys/config.json
 secrets.json
 secrets.txt
+secrets.xml
 secrets.yml
 secrets/.env
 secrets/.env.local
@@ -416,6 +425,8 @@ storage/logs/laravel.log
 storage/logs/laravel.log.old
 storage/oauth-private.key
 storage/oauth-public.key
+swagger
+swagger.json
 teamcity-settings.xml
 teamcity/config.json
 teamcity/secure-settings.xml
