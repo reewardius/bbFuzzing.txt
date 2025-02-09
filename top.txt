@@ -18,6 +18,9 @@
 .env.local
 .env.local.example
 .env.old
+.env.orig
+.env.original
+.env.prod
 .env.production
 .env.production.local
 .env.sample
