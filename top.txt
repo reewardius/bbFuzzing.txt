@@ -737,6 +737,7 @@ htaccess.txt
 html/setup.html
 httpd.conf
 httptrace
+i.php
 id_rsa
 id_rsa.pub
 images/json
@@ -748,7 +749,6 @@ index.html
 index.php/_profiler/empty/search/results?limit=10
 index.php/index/install
 index.php/install
-index.php/install/
 index.php?/installer
 index.php?module=Install&view=Index
 index.php?page=install
@@ -894,6 +894,7 @@ php-opcache-status/
 php.ini
 phpMyAdmin/index.php?db=information_schema
 phpcs.xml
+phpinfo.php
 phpmyadmin/index.php?db=information_schema
 phpspec.yml
 phpstan.neon
@@ -1041,7 +1042,9 @@ store/app/etc/local.xml
 struts2-showcase/showcase.action
 svnserve.conf
 swagger
+swagger-ui.js
 swagger.json
+swagger/index.html
 symfony/_profiler/empty/search/results?limit=10
 system/config_menu.htm
 system/help/support
