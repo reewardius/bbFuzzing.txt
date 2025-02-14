@@ -6,6 +6,7 @@
 .aws/config
 .aws/credentials
 .azure-pipelines.yml
+.bzr
 .bzr/branch/branch.conf
 .chef/config.rb
 .circleci/config.yml
@@ -40,6 +41,7 @@
 .env.old
 .env.orig
 .env.original
+.env.php
 .env.prod
 .env.production
 .env.production.local
@@ -128,6 +130,7 @@
 .well-known/openid-configuration/jwks
 .well-known/openid-configuration/jwks.json
 .wgetrc
+?rest_route=/wp-json/wp/v2/users
 Admin/frmWelcome.aspx
 App_Data/credentials.json
 App_Data/database.mdf
@@ -392,6 +395,7 @@ backend_dev.php/_profiler/empty/search/results?limit=10
 backup.py
 backup.sh
 backup.sql
+backup.zip
 backup/config.xml
 beans
 behat.yml
@@ -684,6 +688,7 @@ env.production.js
 env.test.js
 environment.rb
 equipbid/storage/
+error_log.log
 etc/acs-commons/jcr-compare.html
 etc/acs-commons/oak-index-manager.html
 etc/acs-commons/version-compare.html
@@ -853,6 +858,7 @@ message-api/actuator/env
 metrics
 mvnw
 mysql.initial.sql
+mysql_backup.sql
 mysql_config.ini
 nagiosxi/install.php
 names.nsf/People?OpenView
@@ -893,6 +899,7 @@ php-fpm.conf
 php-opcache-status/
 php.ini
 phpMyAdmin/index.php?db=information_schema
+php_error.log
 phpcs.xml
 phpinfo.php
 phpmyadmin/index.php?db=information_schema
@@ -1122,18 +1129,31 @@ wizard/base.php
 wizard/database/
 wizard/wizard.cs
 wp-cli.yml
+wp-config-backup.php
 wp-config.php-backup
+wp-config.php.old
+wp-config.php.save
+wp-config.php~
+wp-content
 wp-content/backups-dup-lite
 wp-content/backups-dup-lite/tmp/
 wp-content/plugins/.git/config
 wp-content/plugins/user-meta/views/debug.php
 wp-content/themes/.git/config
+wp-content/uploads
 wp-content/uploads/prime-mover-export-files/1/
+wp-json/wp/v2/users
+wp-json/wp/v2/users/1
+wp-login.php?action=register
+wp-register.php
+wp.sql
 wpad.dat
+wpbackup.sql
 ws-config.example.json
 ws-config.json
 www/setup.php
 xmldata?item=CpqKey
+xmlrpc.php
 xprober.php
 yarn-error.log
 yarn.lock
