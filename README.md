@@ -1,6 +1,6 @@
 # bbFuzzing.txt
 
-**bbFuzzing.txt** is a unique vocabulary that is 90% generated with OpenAI ChatGPT. 
+**bbFuzzing.txt** is a unique wordlist that is 90% generated with OpenAI ChatGPT. 
 
 Below are links to tools that allow you to bypass 401/403 status code. 
 
