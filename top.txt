@@ -391,6 +391,7 @@ backup/config.xml
 beans
 behat.yml
 behat.yml.dist
+bin.js
 bitbucket-pipelines.yml
 bitbucket/repos?visibility=public
 bitbucket/secrets.yml
@@ -447,6 +448,7 @@ ci/secrets.yml
 ci/settings.yml
 circle.yml
 classic/graph
+cli.js
 client.conf
 client_secrets.json
 cloud-config.json
@@ -497,6 +499,7 @@ config/api-keys.js
 config/api-keys.json
 config/api-keys.yml
 config/app-keys.json
+config/app.js
 config/app.php
 config/application-security.xml
 config/application.yml
@@ -518,6 +521,7 @@ config/certs/public.pem
 config/ci/.env
 config/ci/secrets.json
 config/ci/secrets.yml
+config/cli.js
 config/cloud-config.json
 config/config.js
 config/config.json
@@ -535,6 +539,7 @@ config/database.properties
 config/database.yml
 config/database_config.json
 config/databases.yml
+config/db.js
 config/default.json
 config/development.json
 config/development.sphinx.conf
@@ -583,6 +588,7 @@ config/secrets.yaml
 config/secrets.yml
 config/security.json
 config/security.yml
+config/server.js
 config/settings.js
 config/settings.old.php
 config/settings.py
@@ -633,6 +639,7 @@ database/secrets.yml
 database_credentials.inc
 db-config.yml
 db.conf
+db.js
 db.php
 db.sql
 db.sqlite3
@@ -751,6 +758,7 @@ helm/values.yaml
 host-manager
 htaccess.txt
 html/setup.html
+http.js
 httpd.conf
 httptrace
 i.php
@@ -763,6 +771,7 @@ includes/.gitignore
 includes/api/interface/collapsed.php
 includes/api/interface/noncollapsed.php
 index.html
+index.js
 index.php/_profiler/empty/search/results?limit=10
 index.php/index/install
 index.php/install
@@ -988,6 +997,7 @@ s3cmd.ini
 sabnzbd/wizard/
 scan.py
 scheduledtasks
+script.js
 scripts/quick_start.sh
 search.php?do[]=[test.dll]
 search/configs/sphinx.conf
@@ -1015,6 +1025,7 @@ server.conf
 server.config
 server.js
 server.py
+server/app.js
 server/app.py
 server/credentials.json
 server/storage/
@@ -1043,6 +1054,7 @@ settings.yml
 settings/settings.py
 settings_local.py
 setup
+setup.js
 setup.php
 setup.sh
 setup/
@@ -1128,6 +1140,7 @@ user.ini
 user/scripts/login_par.js
 user_secrets.yml
 user_secrets.yml.old
+util.js
 v1/cs/configs?export=true&group=&tenant=&appName=&ids=&dataId=
 v1/info
 var/linkchecker.html
@@ -1152,6 +1165,7 @@ web.config.bkp
 web.config.old
 web.debug.config
 web.dev.config
+web.js
 web.old.config
 web.prod.config
 web.release.config
