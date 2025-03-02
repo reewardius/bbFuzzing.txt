@@ -20,6 +20,13 @@ nuclei -l nowaf -t bbfuzzing.yaml -silent -rl 500 -c 100
 ```
 It does not work perfectly, the search is aimed exclusively at finding the response body where there is no html, works until the first finding, but if there is still one, it is recommended to run ffuf on this domain as a separate stream.
 
+# Ffuf (my approach to minimizing fp)
+- **fp_domains.txt** - list of domains that give too much false positives, check them separately with ffuf filters
+- **fuzz_output.txt** - can work with results
+```
+ffuf -u URL/TOP -w domains.txt:URL -w top.txt:TOP -ac -mc 200 -o fuzz_results.json -fs 0
+python delete_falsepositives.py -j fuzz_results.json -o fuzz_output.txt -fp fp_domains.txt
+```
 
 # Ffuf
 ```
