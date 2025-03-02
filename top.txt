@@ -10,7 +10,6 @@
 .bzr/branch/branch.conf
 .chef/config.rb
 .circleci/config.yml
-.circleci/config.yml
 .circleci/keys.json
 .circleci/ssh-config
 .cnf
@@ -31,11 +30,9 @@
 .drone.yml
 .editorconfig
 .env
-.env
 .env.backup
 .env.bak
 .env.bkp
-.env.ci
 .env.ci
 .env.dev
 .env.dev.local
@@ -212,7 +209,6 @@ _vti_bin/Authentication.asmx?op=Mode
 _vti_bin/lists.asmx?WSDL
 _vti_inf.html
 _vti_pvt/service.cnf
-_vti_pvt/service.cnf
 _vti_pvt/service.pwd
 access_tokens.db
 actions-config.yml
@@ -293,6 +289,8 @@ api/liferay
 api/metrics
 api/scheduler/jobs
 api/setup-complete
+api/swagger/index.html
+api/swagger/v1/swagger.json
 api/system
 api/system/content_packs
 api/system/debug/events/cluster
@@ -341,6 +339,7 @@ app/config/security.yml
 app/etc/local.xml
 app/etc/local.xml.additional
 app/settings.py
+appSettings.Local.json
 app_config.json
 app_dev.php/_profiler/empty/search/results?limit=10
 app_test.php/_profiler/empty/search/results?limit=10
@@ -354,10 +353,18 @@ application.yml
 application/down.php?dw=config/config.php
 application/install/index.php
 apps.tidy.infinity.json
+appsettings.Auth0.json
+appsettings.Azure.json
+appsettings.Cloud.json
+appsettings.Dev.json
 appsettings.Development.json
+appsettings.Docker.json
+appsettings.Prod.json
 appsettings.Production.json
+appsettings.Qa.json
 appsettings.Staging.json
 appsettings.Test.json
+appsettings.Windows.json
 appsettings.json
 appspec.yaml
 appspec.yml
@@ -859,12 +866,6 @@ index.js
 index.php/_profiler/empty/search/results?limit=10
 index.php/index/install
 index.php/install
-index.php?/installer
-index.php?module=Install&view=Index
-index.php?page=install
-index.php?r=installer/welcome
-index.php?s=/install/index/index
-index.php?s=example
 index.zip
 index/install
 index_dev.php/_profiler/empty/search/results?limit=10
@@ -1153,7 +1154,6 @@ scm-pipeline.yaml
 screwdriver.yaml
 script.js
 scripts/quick_start.sh
-search.php?do[]=[test.dll]
 search/configs/sphinx.conf
 searchreplacedb2.php
 secret.yml
