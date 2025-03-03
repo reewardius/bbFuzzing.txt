@@ -1132,7 +1132,6 @@ request_para.cgi?parameter=wifi_get_5g_host
 requirements.txt
 resin-ci.yml
 robomongo.json
-robots.txt
 rollup.config.js
 ruby/config/storage.yml
 rudder.yaml
@@ -1154,7 +1153,6 @@ scm-pipeline.yaml
 screwdriver.yaml
 script.js
 scripts/quick_start.sh
-search/configs/sphinx.conf
 searchreplacedb2.php
 secret.yml
 secret_keys/config.json
