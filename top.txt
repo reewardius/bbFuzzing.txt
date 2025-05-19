@@ -192,6 +192,7 @@ README.md
 Rakefile
 Setup/index.php/
 SetupWizard.aspx
+Token/getToken
 Trace.axd
 UI/Dashboard
 Vagrantfile
@@ -308,6 +309,7 @@ api-keys/admin
 api.py
 api/.env
 api/.git/config
+api/Token/getToken
 api/admin
 api/admin/backups
 api/admin/config
@@ -622,6 +624,7 @@ api/users/upload-avatar
 api/users/verify
 api/v1/.env
 api/v1/.git/config
+api/v1/Token/getToken
 api/v1/accounts.json
 api/v1/accounts/1/balance.json
 api/v1/accounts/1/bank-details.json
@@ -684,6 +687,9 @@ api/v1/customers/1/reviews.json
 api/v1/customers/1/reviews/1.json
 api/v1/customers/1/wishlist.json
 api/v1/debug
+api/v1/getToken
+api/v1/getUser
+api/v1/getUsers
 api/v1/graphql
 api/v1/health-check
 api/v1/logsы
@@ -822,12 +828,20 @@ api/v1/users/1/subscriptions.json
 api/v1/users/1/wishlist.json
 api/v2/.env
 api/v2/.git/config
+api/v2/Token/getToken
 api/v2/admin
+api/v2/getToken
+api/v2/getUser
+api/v2/getUsers
 api/v2/graphql
 api/v2/users
 api/v3/.env
 api/v3/.git/config
+api/v3/Token/getToken
 api/v3/admin
+api/v3/getToken
+api/v3/getUser
+api/v3/getUsers
 api/v3/graphql
 api/v3/users
 api/v4/projects
@@ -1518,6 +1532,7 @@ gcp_secrets.yaml
 gcp_service_account.json
 gcp_storage_keys.txt
 gcp_tokens.json
+getToken
 git-hooks/pre-commit
 git.sh
 github
