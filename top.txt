@@ -821,6 +821,7 @@ api/v1/admin/config
 api/v1/admin/logs
 api/v1/admin/settings
 api/v1/admin/users
+api/v1/admin/users.json
 api/v1/canal/config/1/1
 api/v1/client.json
 api/v1/clients.json
@@ -992,6 +993,7 @@ api/v2/.env
 api/v2/.git/config
 api/v2/Token/getToken
 api/v2/admin
+api/v2/admin/users.json
 api/v2/client.json
 api/v2/clients.json
 api/v2/getToken
@@ -1006,6 +1008,7 @@ api/v3/.env
 api/v3/.git/config
 api/v3/Token/getToken
 api/v3/admin
+api/v3/admin/users.json
 api/v3/client.json
 api/v3/clients.json
 api/v3/getToken
