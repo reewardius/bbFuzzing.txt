@@ -1205,6 +1205,15 @@ bitbucket/repos?visibility=public
 bitbucket/secrets.yml
 bitrise.yml
 bitrise/config.yml
+bitrix/components/bitrix/desktop/admin_settings.php
+bitrix/components/bitrix/map.yandex.search/settings/settings.php
+bitrix/components/bitrix/player/player_playlist_edit.php
+bitrix/panel
+bitrix/stats
+bitrix/tools/autosave.php
+bitrix/tools/get_catalog_menu.php
+bitrix/tools/upload.php
+bitrix/web.config
 blacklist
 bonus.json
 bosun.conf
@@ -1800,6 +1809,7 @@ elasticsearch.yml
 elocker_old/storage/
 employee
 employee/login
+employees.json
 endpoints.json
 env
 env.conf
@@ -1854,6 +1864,7 @@ firebase-dump.json
 firebase-secrets.json
 firebase-service-account.json
 firebase.json
+firebasecreds.json
 firewall
 firewall/admin
 flask_config.py
@@ -2607,6 +2618,7 @@ service-discovery
 service-worker.json
 service.cnf
 service/v1/service-details
+serviceAccountCredentials.json
 service_account.json
 services.json
 services/getFile.cmd?userfile=config.xml
@@ -2767,6 +2779,8 @@ test/config/secrets.yml
 testng.xml
 tests/generate.php
 threaddump
+ticket.json
+tickets.json
 tidelift.yaml
 timeline.json
 token.json
