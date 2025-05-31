@@ -15,13 +15,12 @@ There are also examples of how you can extend the fuzzing process to get more in
 # Ffuf (my approach to minimizing fp)
 - **fp_domains.txt** - list of domains that give too much false positives, check them separately with ffuf filters
 - **fuzz_output.txt** - can work with results
-```
-ffuf -u URL/TOP -w domains.txt:URL -w top.txt:TOP -ac -mc 200 -o fuzz_results.json -fs 0
-python delete_falsepositives.py -j fuzz_results.json -o fuzz_output.txt -fp fp_domains.txt
-
-httpx -l fuzz_output.txt -sr -srd responses/ && trufflehog filesystem responses/ > trufflehog_results.txt
-
-httpx -l fp_domains.txt -rl 500 -t 200 -o fp_domains_alive.txt
+```bash
+ffuf -u URL/TOP -w alive_http_services.txt:URL -w top.txt:TOP -ac -mc 200 -o fuzz_results.json -fs 0 && \
+python delete_falsepositives.py -j fuzz_results.json -o fuzz_output.txt -fp fp_domains.txt && \
+httpx -l fuzz_output.txt -sr -srd responses/ && \
+trufflehog filesystem responses/ > trufflehog_results.txt && \
+httpx -l fp_domains.txt -rl 500 -t 200 -o fp_domains_alive.txt && \
 nuclei -l fp_domains_alive.txt -tags config,exposure -es unknown -c 100 -rl 1000 -o nuclei_config_exposures.txt
 ```
 # Ffuf
