@@ -4437,6 +4437,8 @@
 401
 403
 404
+404.asp
+404.aspx
 42
 4DHTMLSTATS
 4DSTATS
@@ -4444,6 +4446,8 @@
 5
 50
 500
+500.asp
+500.aspx
 51
 6
 64
@@ -4475,7 +4479,11 @@ AdminService
 AdminTools
 Administration
 AggreSpy
+App.config
+App_Code
 App_Code.dll
+App_Data
+App_Data/appsettings.json
 App_Data/credentials.json
 App_Data/database.mdf
 App_Data/database_log.ldf
@@ -4491,6 +4499,7 @@ B
 BUILD
 BackOffice
 Base
+Bin
 Blog
 Books
 Browser
@@ -4523,6 +4532,8 @@ ChangeLog
 ClientApp/.env
 CodeGolf.Web/ClientApp/.env
 Computers
+Configuration/appsettings.json
+ConnectionStrings.config
 Contact
 ContactUs
 ContainerRegistry/.env
@@ -4531,6 +4542,7 @@ Creatives
 D
 DB
 DMSDump
+Database.config
 Database_Administration
 Default
 Dockerfile
@@ -4560,6 +4572,7 @@ G
 Games
 Gemfile.lock
 Global
+Global.asax
 Graphics
 H
 HTML
@@ -4597,6 +4610,8 @@ Lotus_Domino_Admin
 M
 MANIFEST.MF
 META-INF
+Machine.config
+MachineKey.config
 Main
 Main_Page
 Makefile
@@ -4636,6 +4651,7 @@ Procfile
 Products
 ProgramFiles
 Projects
+Properties
 Publications
 R
 RCS
@@ -4664,6 +4680,7 @@ Server_with_db/.env
 Services
 Servlet
 Servlets
+Settings/appsettings.json
 Shibboleth.sso/Metadata
 Simple_server/.env
 SiteMap
@@ -4705,6 +4722,7 @@ User_info/.env
 Utilities
 V
 Vagrantfile
+ValidationKey.config
 Video
 W
 W3SVC
@@ -4712,8 +4730,10 @@ W3SVC1
 W3SVC2
 W3SVC3
 WEB-INF
+WEB.CONFIG
 WS_FTP
 WS_FTP.LOG
+Web.config
 Web/siteMariage/.env
 WebAdmin
 WebApplication1.dll
@@ -6133,6 +6153,7 @@ _vti_pvt/service.grp
 _vti_pvt/service.pwd
 _vti_pvt/service.pwt
 _vti_pvt/service/lck
+_vti_pvt/services.cnf
 _vti_pvt/services.org
 _vti_pvt/structure.cnf
 _vti_pvt/svcacl.cnf
@@ -7762,7 +7783,9 @@ admin.
 admin../admin
 admin.7z
 admin.asp
+admin.asp.bak
 admin.aspx
+admin.aspx.bak
 admin.brf
 admin.bz2
 admin.cfm
@@ -7972,6 +7995,8 @@ admin/comments/delete/1
 admin/comments/view/1
 admin/conf.js
 admin/config
+admin/config.asp
+admin/config.inc
 admin/config.js
 admin/config.json
 admin/config.php
@@ -8074,6 +8099,7 @@ admin/debug_toolbar
 admin/debugger
 admin/default
 admin/default.asp
+admin/default.aspx
 admin/default.php
 admin/default/admin.asp
 admin/default/login.asp
@@ -8136,6 +8162,7 @@ admin/forums
 admin/galleries
 admin/gallery.php
 admin/gc
+admin/global.asax
 admin/group-management
 admin/hac/login
 admin/headline.php
@@ -8466,6 +8493,7 @@ admin/vim_settings.xml
 admin/voucher.php
 admin/wc.db
 admin/web
+admin/web.config
 admin/welcome
 admin/welcome.php
 admin/welcomepage.php
@@ -9658,6 +9686,7 @@ adocument.js
 adodb
 adodb-error.inc.php
 adodb.js
+adojavas.inc
 adopters.js
 adorab.js
 adorner.js
@@ -15205,6 +15234,7 @@ app2-static/.env
 appBase
 appContext.xml
 appDevDebugProjectContainerCompiler.log
+appSettings.config
 app_access.log
 app_acl.log
 app_admin
@@ -15257,6 +15287,10 @@ app_credentials.yml
 app_cron.log
 app_csrf.log
 app_data
+app_data/*.accdb
+app_data/*.mdb
+app_data/database.ldf
+app_data/database.mdf
 app_data/diagnostics/configuration_history
 app_data/license.xml
 app_data/sample.mdf
@@ -15899,6 +15933,7 @@ appserv
 appserver
 appservice
 appsettings
+appsettings.Debug.json
 appsettings.Dev.json
 appsettings.DevLocal.json
 appsettings.DevTest.json
@@ -15918,6 +15953,7 @@ appsettings.Produ.json
 appsettings.Production.json
 appsettings.ProductionKubernetes.json
 appsettings.ProductionLocal.json
+appsettings.Release.json
 appsettings.Secrets.json
 appsettings.Staging.json
 appsettings.Student.json
@@ -15943,6 +15979,9 @@ appsettings.gamma.json
 appsettings.ini
 appsettings.integration.json
 appsettings.json
+appsettings.json.backup
+appsettings.json.bak
+appsettings.json.old
 appsettings.jsont
 appsettings.k8s.json
 appsettings.local.ini
@@ -20492,15 +20531,18 @@ bin///wcm/search/gql.json;%0aa.css
 bin///wcm/search/gql.servlet.json
 bin/14all-1.1.cgi
 bin/14all.cgi
+bin/Debug
 bin/FileSeek.cgi
 bin/FileSeek2.cgi
 bin/ImageFolio/admin/admin.cgi
+bin/Release
 bin/RhoBundle
 bin/WebApplication1.dll
 bin/a1disp3.cgi
 bin/a1stats/a1disp3.cgi
 bin/a1stats/a1disp4.cgi
 bin/admin.cgi
+bin/appsettings.json
 bin/auktion.cgi
 bin/backdoor.html?cmd=ifconfig
 bin/catalina-tasks.xml
@@ -20600,6 +20642,7 @@ bin/traffic.cgi
 bin/ttawebtop.cgi
 bin/version.bat
 bin/version.sh
+bin/web.config
 bin/webmail/html/emumail.cgi
 bin/webspirs.cgi
 bin/zkCli.sh
@@ -28908,6 +28951,8 @@ config.acceptance.json
 config.action
 config.appverify
 config.asp
+config.asp.bak
+config.aspx.bak
 config.aws
 config.azure
 config.b
@@ -29577,6 +29622,7 @@ config/application.rb
 config/application.yaml
 config/application.yml
 config/applicationContext.xml
+config/appsettings.json
 config/argo-workflow.yaml
 config/asana-api.json
 config/audit.conf
@@ -33013,6 +33059,8 @@ crystal
 crystal.php
 crystal_shell.php
 crystalreports/viewrpt.cwr
+crystalreportviewers
+crystalreportviewers13
 crystalreportwebformviewer4
 crystalshell.php
 crystalshell_v.1.php
@@ -36917,11 +36965,18 @@ default-svc-controller.yaml
 default-svc.yaml
 default.asp
 default.asp.bak
+default.asp.old
+default.asp.tmp
 default.aspx
+default.aspx.bak
 default.aspx.cs
 default.aspx.designer.vb
+default.aspx.old
 default.aspx.resx
+default.aspx.tmp
 default.aspx.vb
+default.aspx~
+default.asp~
 default.battml
 default.cfg
 default.cgi
@@ -43473,6 +43528,7 @@ error.config
 error.cpp
 error.ctp
 error.h
+error.htm
 error.html
 error.html.php
 error.inc.html
@@ -43638,6 +43694,8 @@ errormessage.tpl
 errormsg
 errorout.txt
 errorpage
+errorpage.asp
+errorpage.aspx
 errorpage.htm
 errorpage.html
 errorpage.jsp
@@ -43650,6 +43708,7 @@ errorresult
 errors
 errors-php.txt
 errors.asp
+errors.aspx
 errors.en.ini
 errors.html
 errors.js
@@ -47267,6 +47326,7 @@ forgot-password
 forgot-password.do
 forgot-password.json
 forgot-password.xhtml
+forgot.asp.bak
 forgotPassword
 forgotPassword.asp
 forgotPassword.aspx
@@ -49743,6 +49803,7 @@ glide.js
 glide.yaml
 glikoz.js
 glimpse
+glimpse.axd
 glines.js
 glisman.js
 glitches.js
@@ -49772,6 +49833,7 @@ global.asax.orig
 global.asax.temp
 global.asax.tmp
 global.asax.vb
+global.asax~
 global.bak
 global.cfg
 global.config
@@ -55210,8 +55272,13 @@ inc-admin
 inc.pl
 inc/conf
 inc/config
+inc/config.asp
 inc/config.inc
 inc/config.php
+inc/connection.asp
+inc/connection.inc
+inc/db.asp
+inc/db.inc
 inc/dft.inc
 inc/fckeditor
 inc/mysql.php
@@ -55443,13 +55510,22 @@ include.ts
 include.txt
 include.yaml
 include/admin.php
+include/common.asp
 include/common.inc
+include/config.asp
+include/config.inc
 include/config.inc.php
 include/config.php
+include/connection.asp
+include/connection.inc
 include/connection.php
 include/database.php
+include/db.asp
+include/db.inc
 include/db.php
 include/fckeditor
+include/functions.asp
+include/functions.inc
 include/mysql.php
 include_admin.php
 includeb.js
@@ -55469,12 +55545,20 @@ includes/adovbs.inc
 includes/application_top.php
 includes/application_top.php.bak
 includes/bootstrap.inc
+includes/common.asp
+includes/common.inc
+includes/config.asp
+includes/config.inc
 includes/config.inc.php
 includes/config.php
 includes/configure.php
 includes/configure.php.bak
 includes/configure.php.dist
+includes/connection.asp
+includes/connection.inc
 includes/database.php
+includes/db.asp
+includes/db.inc
 includes/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
 includes/fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx
 includes/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php
@@ -55541,6 +55625,8 @@ index.7z
 index.BAK
 index.PHP
 index.asp
+index.asp.bak
+index.aspx.bak
 index.backup
 index.bak
 index.battml
@@ -64486,8 +64572,13 @@ login-us
 login.action
 login.asp
 login.asp.bak
+login.asp.old
+login.asp.orig
 login.aspx
+login.aspx.bak
 login.aspx.designer.vb
+login.aspx.old
+login.aspx.orig
 login.aspx.vb
 login.brf
 login.cfm
@@ -65419,6 +65510,7 @@ machine_learning_config.yml
 machine_learning_datafeed_config.json
 machine_learning_model_config.json
 machinecode
+machinekey.config
 machines
 machines.yaml
 machinit.js
@@ -67199,6 +67291,7 @@ member-login
 member-registration
 member-sign-up
 member-signup-now
+member.asp.bak
 member.js
 member.php
 member.sql
@@ -75505,6 +75598,7 @@ password-reset
 password-reset.ts
 password-security
 password.asp
+password.asp.bak
 password.bak
 password.conf
 password.config
@@ -77609,6 +77703,7 @@ pinenode.js
 pinf.js
 pinfo.php
 ping
+ping.aspx
 ping.jsp
 ping.log
 pingback
@@ -83581,6 +83676,7 @@ register-today
 register-today-free
 register-today-service
 register.action
+register.asp.bak
 register.aspx
 register.backup
 register.do
@@ -89985,6 +90081,7 @@ service.ml
 service.php
 service.php/GetAllObjects
 service.ps1
+service.pwd
 service.py
 service.scala
 service.sh
@@ -92018,6 +92115,7 @@ site.gz
 site.js
 site.json
 site.master
+site.master.bak
 site.master.cs
 site.pp
 site.rar
@@ -94637,6 +94735,7 @@ src/app/app.module.ts
 src/app/app.pipe.ts
 src/app/app.resolver.ts
 src/app/app.service.ts
+src/appsettings.json
 src/assembly/.env
 src/assets
 src/auth.js
@@ -102339,6 +102438,7 @@ trace-visualization.json
 trace.asp
 trace.axd
 trace.axd::$data
+trace.axd?id=1
 trace.js
 trace.json
 trace.log
@@ -105032,6 +105132,7 @@ user-signup-now
 user-state
 user-uploads
 user.asp
+user.asp.bak
 user.aspx
 user.brf
 user.cfg
@@ -106481,6 +106582,7 @@ validation2
 validation_errors.log
 validation_library.py
 validationerror.jsp
+validationkey.config
 validationmiddleware.cs
 validationrepository.cs
 validations
@@ -108985,6 +109087,7 @@ web.config3
 web.config::$DATA
 web.config_
 web.config_1
+web.config~
 web.custom.Development.config
 web.custom.Production.config
 web.custom.Test.config
