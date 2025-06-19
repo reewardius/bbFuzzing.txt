@@ -28,7 +28,7 @@ def process_file(input_file, output_file, fp_file):
     domains = [extract_domains(line) for line in lines]
     domain_counts = Counter(filter(None, domains))
     
-    frequent_domains = {domain for domain, count in domain_counts.items() if count > 20}
+    frequent_domains = {domain for domain, count in domain_counts.items() if count > 30}
     
     with open(fp_file, 'w', encoding='utf-8') as fp_out:
         for domain in sorted(frequent_domains):
