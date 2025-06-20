@@ -3942,8 +3942,10 @@ wp-admin/login.php
 wp-cli.local.yml
 wp-cli.yml
 wp-config-backup.php
+wp-config.bkp
 wp-config.php
 wp-config.php-backup
+wp-config.php.bkp
 wp-config.php.old
 wp-config.php.save
 wp-config.php1
