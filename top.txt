@@ -1,4 +1,3 @@
-
 .DS_Store
 .Dockerfile
 .angular-cli.json
@@ -26,7 +25,6 @@
 .bzr/branch/branch.conf
 .chef/config.rb
 .circleci/circle.yml
-.circleci/config.yml
 .circleci/config.yml
 .circleci/keys.json
 .circleci/ssh-config
@@ -56,7 +54,6 @@
 .docker/config.json
 .dockercfg
 .dockerfile
-.dockerignore
 .dockerignore
 .drone.yml
 .editorconfig
@@ -140,7 +137,6 @@
 .github/settings.json
 .github/workflows
 .github/workflows/ci.yml
-.github/workflows/ci.yml
 .github/workflows/deploy.yml
 .github/workflows/dotnet.yml
 .github/workflows/keys.yml
@@ -148,7 +144,6 @@
 .github/workflows/secrets.json
 .github/workflows/secrets.yml
 .gitignore
-.gitlab-ci.yml
 .gitlab-ci.yml
 .gitlab-ci/variables.yml
 .gitlab/secure-variables.yml
@@ -182,7 +177,6 @@
 .keycloak.json
 .keys.yml
 .keys.yml.swp
-.kube/config
 .kube/config
 .lgtm.yml
 .local_settings.py
@@ -235,12 +229,10 @@
 .tfvars
 .tox
 .travis.yml
-.travis.yml
 .travis/config.secrets.yml
 .tugboat
 .user.ini
 .vault.py
-.vault/config.hcl
 .vault/config.hcl
 .viminfo
 .vs
@@ -299,7 +291,6 @@ Directory.Build.props
 Directory.Build.targets
 Directory.Packages.props
 Dockerfile
-Dockerfile
 Dockerfile.1
 Dockerfile.2
 Dockerfile.3
@@ -331,7 +322,6 @@ IIS_Logs
 IdentityServer.json
 InitialCreate.cs
 InsightPluginShowGeneralConfiguration.jspa;
-Jenkinsfile
 Jenkinsfile
 LogFiles
 LogFiles/http/RawLogs
@@ -366,7 +356,6 @@ SetupWizard.aspx
 Token/getToken
 Trace.axd
 UI/Dashboard
-Vagrantfile
 Vagrantfile
 ValidationKey.config
 WEB.CONFIG
@@ -588,7 +577,6 @@ angular.json
 anonymous-cli-metrics.json
 ansible-playbook.yml
 ansible-vault.yml
-ansible.cfg
 ansible.cfg
 ansible/hosts
 ansible/push_ssh_keys.yml
@@ -1772,10 +1760,7 @@ appspec.yml
 appveyor.yml
 argocd-app.yaml
 argocd/application.yaml
-argocd/application.yaml
 argocd/config.yaml
-argocd/config.yaml
-argocd/secret.yaml
 argocd/secret.yaml
 asgi.py
 aspnet_client
@@ -2220,7 +2205,6 @@ config.ts
 config.ts.bak
 config.ts.bkp
 config.ts.old
-config.xml
 config.xml
 config.xml.bak
 config.xml.bkp
@@ -2831,7 +2815,6 @@ docker-compose.staging.yml
 docker-compose.test.yml
 docker-compose.yaml
 docker-compose.yml
-docker-compose.yml
 docker-compose.yml.bak
 docker-config.json
 docker-credentials.json
@@ -3043,7 +3026,6 @@ google-services.json
 google.json
 gradle.properties
 grafana.ini
-grafana.ini
 graph
 graphql
 graphql/admin
@@ -3064,7 +3046,6 @@ helm-values.yaml
 helm.json
 helm/Chart.yaml
 helm/values.yaml
-helmfile.yaml
 helmfile.yaml
 help
 helpapi
@@ -3346,7 +3327,6 @@ kube-controller-manager.log
 kube-proxy.log
 kube-scheduler.log
 kubeconfig
-kubeconfig
 kubernetes.env
 kubernetes.json
 kubernetes.yml
@@ -3356,7 +3336,6 @@ kubernetes/kubeconfig
 kubernetes/secrets.yaml
 kubernetes/service.yaml
 kudu_sync_log.txt
-kustomization.yaml
 kustomization.yaml
 kustomization.yml
 labels.json
@@ -3617,7 +3596,6 @@ packages
 packages.config
 packagr.yaml
 packer.json
-packer.json
 paket.dependencies
 paket.lock
 panel
@@ -3821,7 +3799,6 @@ project.json
 project.lock.json
 project.nuget.cache
 prometheus.json
-prometheus.yml
 prometheus.yml
 properties.ini
 properties/launchSettings.json
@@ -4289,10 +4266,7 @@ terraform-secrets.json
 terraform.json
 terraform.tf
 terraform.tfstate
-terraform.tfstate
 terraform.tfstate.backup
-terraform.tfstate.backup
-terraform.tfvars
 terraform.tfvars
 terraform/terraform.tfstate.backup
 terraform_aws_credentials.json
@@ -4406,8 +4380,6 @@ vault
 vault-config.hcl
 vault-secrets.json
 vault.hcl
-vault.hcl
-vault.json
 vault.json
 vault/admin
 vault/secrets
