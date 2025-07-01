@@ -264,6 +264,7 @@ ARM-template.json
 AccountCredentials.json
 Admin/frmWelcome.aspx
 App.config
+App.js
 App_Code
 App_Data
 App_Data/appsettings.json
@@ -356,10 +357,12 @@ SetupWizard.aspx
 Token/getToken
 Trace.axd
 UI/Dashboard
+Unknown
 Vagrantfile
 ValidationKey.config
 WEB.CONFIG
 WS_FTP.LOG
+WeatherManager.swift
 Web.Debug.config
 Web.Production.config
 Web.Release.config
@@ -584,6 +587,7 @@ ansible/push_ssh_keys_remote.yml
 antiforgery.json
 apache.conf
 apache2.conf
+api-client.ts
 api-config.json
 api-config.yml
 api-credentials.yml
@@ -1691,9 +1695,11 @@ appconfigs
 appeal.json
 appinsights.config
 application-dev.properties
+application-dev.yml
 application-prod.properties
 application-secrets.yml
 application-test.properties
+application.conf
 application.config
 application.log
 application.properties
@@ -1704,6 +1710,7 @@ applicationHost.config
 applicationHost.xdt
 applicationinsights.json
 approval.json
+apps.config
 apps.tidy.infinity.json
 appsettings.Auth0.json
 appsettings.Azure.json
@@ -2586,6 +2593,7 @@ database.config.backup
 database.db
 database.ini
 database.ini.bak
+database.js
 database.json
 database.php
 database.properties
@@ -2747,6 +2755,7 @@ default.aspx.old
 default.aspx.tmp
 default.aspx~
 default.asp~
+default.json
 dependencies.json
 dependency-injection.json
 deploy-config.json
@@ -2829,6 +2838,7 @@ dockerfile.json
 docs
 docs/_config.yml
 documentation/playwright.config.js
+docusaurus.config.js
 domcfg.nsf
 dompdf/dompdf/www/setup.php
 dotnet-tools.json
@@ -2871,6 +2881,7 @@ env.prod.js
 env.production.js
 env.py
 env.test.js
+env/config.js
 environment.rb
 equipbid/storage
 error.aspx
@@ -3035,6 +3046,8 @@ hangfire
 hangfire.json
 haproxy
 haproxy.cfg
+hardhat.config.js
+hardhat.config.ts
 harness.yaml
 health
 health.json
@@ -3128,6 +3141,7 @@ index.php.bak
 index.php/_profiler/empty/search/results?limit=10
 index.php/index/install
 index.php/install
+index.ts
 index.zip
 index/install
 index_dev.php/_profiler/empty/search/results?limit=10
@@ -3422,6 +3436,7 @@ magento_backup.sql
 magnum-ci.yml
 mail.py
 mailsms/s?func=ADMIN:appState&dumpConfig=
+main.js
 main.py
 main.tf
 main/install/index.php
@@ -3599,6 +3614,7 @@ packer.json
 paket.dependencies
 paket.lock
 panel
+panel.bak
 panel/login
 panteon.yml
 pantheon.upstream.yml
@@ -4447,6 +4463,7 @@ webpack.config.js
 webpack.config.json
 webpack.mix.js
 webservice
+webservices
 webstats/awstats.pl
 welcome
 wercker.yml
