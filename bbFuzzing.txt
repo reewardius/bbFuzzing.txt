@@ -10451,6 +10451,7 @@ agent.ini
 agent.json
 agent.properties
 agent/server
+agent/status/.env
 agent_admin
 agentbar.js
 agentbody.js
