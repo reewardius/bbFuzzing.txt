@@ -1424,7 +1424,6 @@
 .envrc
 .envs
 .env~
-.env~ 
 .epf
 .error_log
 .esdoc.json
@@ -1670,7 +1669,7 @@
 .git/config.json
 .git/config.old
 .git/configf
-.git/config~ 
+.git/config~
 .git/credentials
 .git/description
 .git/description.bak
@@ -2395,7 +2394,7 @@
 .htaccess_test
 .htaccessbak
 .htaccessold
-.htaccess~ 
+.htaccess~
 .htav
 .htbin
 .htcert
