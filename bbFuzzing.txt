@@ -1,3 +1,4 @@
+.DS_Store
 .access
 .accessdb
 .ace
@@ -794,6 +795,7 @@
 .config/psi+/profiles/default/accounts.xml
 .config/sftp.json
 .config/stripe/config.toml
+.config/web.config
 .config/yarn/global/package.json
 .config/yarn/global/yarn.lock
 .config1.backup
@@ -1141,12 +1143,14 @@
 .ensime_cache
 .ensime_lucene
 .env
+.env
 .env-example
 .env-sample
 .env.admin.dev
 .env.app.dev
 .env.back
 .env.back.dist
+.env.backup
 .env.backup
 .env.backup.bak
 .env.backup.defaults
@@ -1190,6 +1194,7 @@
 .env.dev.example
 .env.dev.local
 .env.development
+.env.development
 .env.development.ini
 .env.development.js
 .env.development.json
@@ -1216,6 +1221,7 @@
 .env.elk.dev
 .env.enc
 .env.environment
+.env.example
 .env.example
 .env.example.dev
 .env.example.dist
@@ -1256,6 +1262,7 @@
 .env.json
 .env.live
 .env.local
+.env.local
 .env.local.dist
 .env.local.example
 .env.local.ini
@@ -1267,6 +1274,7 @@
 .env.local.yaml
 .env.local.yml
 .env.new
+.env.old
 .env.old
 .env.old.dist
 .env.orig
@@ -1290,6 +1298,7 @@
 .env.prod.dist
 .env.prod.example
 .env.prod.local
+.env.production
 .env.production
 .env.production.dev
 .env.production.dev.local
@@ -1345,6 +1354,7 @@
 .env.stage
 .env.stage.dev
 .env.staging
+.env.staging
 .env.staging.dev
 .env.staging.dev.local
 .env.staging.example
@@ -1371,6 +1381,7 @@
 .env.temp
 .env.temp.dist
 .env.template
+.env.test
 .env.test
 .env.test.dist
 .env.test.example
@@ -1418,6 +1429,7 @@
 .env_testing
 .env_tmp
 .env_tmp.dist
+.environment
 .environment
 .envrc
 .envs
@@ -1591,11 +1603,13 @@
 .gherkin.yml
 .gho
 .git
+.git
 .git-HEAD
 .git-archive
 .git-archive.tar.gz
 .git-archive.zip
 .git-blame-ignore-revs
+.git-credentials
 .git-credentials
 .git-credentials.bak
 .git-credentials.old
@@ -1662,6 +1676,7 @@
 .git/backup.zip
 .git/branches
 .git/commit-msg
+.git/config
 .git/config
 .git/config.backup
 .git/config.bak
@@ -1766,6 +1781,7 @@
 .git_temp1
 .git_test
 .gitalias
+.gitattributes
 .gitattributes
 .gitattributes.bak
 .gitattributes.lock
@@ -1904,6 +1920,7 @@
 .github/workflows/tests.yml
 .githubactions
 .githubapi.json
+.gitignore
 .gitignore
 .gitignore.backup
 .gitignore.bak
@@ -2294,11 +2311,13 @@
 .heroku/jwt-key.pub
 .heroku/token
 .hg
+.hg
 .hg/.hgignore
 .hg/00changelog.i
 .hg/branch
 .hg/branchheads.cache
 .hg/dirstate
+.hg/hgrc
 .hg/hgrc
 .hg/hgrc.d
 .hg/last-message.txt
@@ -2349,6 +2368,7 @@
 .hsenv
 .ht_wsr.txt
 .hta
+.htaccess
 .htaccess
 .htaccess-backup
 .htaccess-dev
@@ -2409,6 +2429,7 @@
 .htmlhintignore
 .htmlhintrc
 .htmllintrc
+.htpasswd
 .htpasswd
 .htpasswd-backup
 .htpasswd-dev
@@ -2473,6 +2494,7 @@
 .ibm_cloud/config.json
 .iceauthority
 .id
+.idea
 .idea
 .idea.name
 .idea/.idea
@@ -3020,6 +3042,7 @@
 .npmpublish.registry
 .npmpublish.tag
 .npmrc
+.npmrc
 .npmrc.bak
 .npmrc.ci
 .npmrc.ci.template
@@ -3047,6 +3070,7 @@
 .nuxtrc
 .nv
 .nvm
+.nvmrc
 .nvmrc
 .nyc-ignore-config.js
 .nyc-ignore.config.js
@@ -3271,6 +3295,7 @@
 .pmtignore
 .pnp
 .pnpm-lock.yaml
+.pnpmfile.cjs
 .pnpmfile.cjs
 .poetry
 .poggit.yaml
@@ -3533,6 +3558,7 @@
 .secret_key
 .secret_token
 .secrets
+.secrets
 .secrets.cfg
 .secrets.env
 .secrets.json
@@ -3769,6 +3795,7 @@
 .subversion/config
 .svc
 .svc?wsdl
+.svn
 .svn
 .svn/all-wcprops
 .svn/auth/svn.simple
@@ -4279,6 +4306,7 @@
 .yarnclean.yml
 .yarnignore
 .yarnrc
+.yarnrc
 .yarnrc.bak
 .yarnrc.example
 .yarnrc.js
@@ -4732,12 +4760,14 @@ AggreSpy
 App.config
 App_Code
 App_Code.dll
+App_Config/web.config
 App_Data
 App_Data/appsettings.json
 App_Data/credentials.json
 App_Data/database.mdf
 App_Data/database_log.ldf
 App_Data/jobs
+App_Data/web.config
 Application.properties
 ApplicationInsights.config
 AppsLocalLogin
@@ -4894,6 +4924,7 @@ Jenkinsfile.xml
 Kubernetes/.env
 L
 LICENSE
+LICENSE
 Legal
 Library/.env
 Links
@@ -4982,6 +5013,8 @@ SQL
 SUNWmc
 Scripts
 Search
+SecLists/web.config
+SecLists/web.config.bak
 Security
 Serve_time_server/.env
 Server
@@ -5049,12 +5082,14 @@ W3SVC2
 W3SVC3
 WEB-INF
 WEB.CONFIG
+WEB.CONFIG
 WS_FTP
 WS_FTP.LOG
 Web.Debug.config
 Web.Production.config
 Web.Release.config
 Web.Staging.config
+Web.config
 Web.config
 Web/siteMariage/.env
 WebAdmin
@@ -6726,6 +6761,7 @@ access.json
 access.jsp
 access.jspx
 access.log
+access.log
 access.log.1
 access.log.2
 access.log.3
@@ -7993,6 +8029,7 @@ admes
 admgr.js
 admi
 admin
+admin
 admin%20
 admin-ANTIGO
 admin-account
@@ -8159,6 +8196,7 @@ admin.gz
 admin.htm
 admin.htm.php
 admin.html
+admin.html
 admin.html.php
 admin.inc
 admin.inc.php
@@ -8177,6 +8215,7 @@ admin.old.php
 admin.ovpn
 admin.pac
 admin.passwd
+admin.php
 admin.php
 admin.php3
 admin.php4
@@ -8199,6 +8238,7 @@ admin.woa
 admin.xz
 admin.yml
 admin.zip
+admin/
 admin/#
 admin/#!
 admin/../admin
@@ -8977,6 +9017,8 @@ admin/vue.config.json
 admin/wc.db
 admin/web
 admin/web.config
+admin/web.config
+admin/web.config.bak
 admin/webhooks
 admin/webhooks/test
 admin/webpack.config.json
@@ -14717,6 +14759,7 @@ api/v1/warranties
 api/v1/wc.db
 api/v1/wealth-management
 api/v1/wearable-technology
+api/v1/web.config
 api/v1/webinars
 api/v1/weight-management
 api/v1/wellness-programs
@@ -16301,6 +16344,7 @@ api/vuln/exports
 api/vuln/scan/results
 api/warehouse
 api/wc.db
+api/web.config
 api/webhook
 api/webhooks
 api/webhooks/list
@@ -16704,6 +16748,7 @@ app.beta.json
 app.cfg
 app.component.ts
 app.conf
+app.config
 app.config
 app.config.coffee
 app.config.conf
@@ -17791,6 +17836,7 @@ appsettings.gamma.json
 appsettings.ini
 appsettings.integration.json
 appsettings.json
+appsettings.json
 appsettings.json.backup
 appsettings.json.bak
 appsettings.json.old
@@ -18560,6 +18606,12 @@ assetman
 assetmanage
 assetmanagement
 assetmodel
+assetnote-discovery/web.config
+assetnote-discovery/web.config.bak
+assetnote/discovery/web-content/web.config
+assetnote/discovery/web-content/web.config.bak
+assetnote/web.config
+assetnote/web.config.bak
 assetpanel
 assets
 assets../.git/config
@@ -20674,6 +20726,7 @@ backtotop
 backtrace
 backtrace_silencers.rb
 backup
+backup
 backup-2010.sql
 backup-2011.sql
 backup-2012.sql
@@ -20780,6 +20833,7 @@ backup.xz
 backup.yaml
 backup.yml
 backup.zip
+backup/
 backup/.env
 backup/.git/config
 backup/alerts
@@ -20847,6 +20901,8 @@ backup/upload
 backup/vendor/phpunit/phpunit/phpunit
 backup/verification
 backup/volume
+backup/web.config
+backup/web.config
 backup/wordpress.sql
 backup/wp-content
 backup0
@@ -21283,12 +21339,14 @@ baiting
 baixactrl.js
 bajie
 bak
+bak
 bak-up
 bak.js
 bak.rar
 bak.sql
 bak.sql.tar.gz
 bak.tar.gz
+bak.zip
 bak.zip
 bak1
 bak2.sql
@@ -21812,6 +21870,8 @@ bb-histlog
 bb-histlog.sh
 bb-rep.sh
 bb-replog.sh
+bb/files/web.config
+bb/paths/web.config
 bb4
 bbadmin
 bbapp
@@ -22546,6 +22606,7 @@ bin/traffic.cgi
 bin/ttawebtop.cgi
 bin/version.bat
 bin/version.sh
+bin/web.config
 bin/web.config
 bin/webmail/html/emumail.cgi
 bin/webspirs.cgi
@@ -30590,11 +30651,13 @@ composep.js
 composer
 composer-bx.json
 composer.json
+composer.json
 composer.json.bak
 composer.json.bkp
 composer.json.dist
 composer.json.old
 composer.json.orig
+composer.lock
 composer.lock
 composer.lock.dist
 composer.lock.json
@@ -30894,6 +30957,7 @@ confidential_schedule_v2.xlsx
 confidential_serverless_architecture.json
 confidential_strategy_v2.xlsx
 config
+config
 config-admin
 config-admin.js
 config-admin.json
@@ -31019,6 +31083,7 @@ config.backup.staging
 config.backup.template
 config.backup.test
 config.backup.txt
+config.bak
 config.bak
 config.bak.php
 config.bak1
@@ -31217,11 +31282,13 @@ config.ini.txt
 config.integration.json
 config.java
 config.js
+config.js
 config.js.bkp
 config.js.dist
 config.js.env
 config.js.example
 config.js.local
+config.json
 config.json
 config.json.cfm
 config.json.dist
@@ -31258,6 +31325,7 @@ config.pacnew
 config.pacsave
 config.part
 config.perf.json
+config.php
 config.php
 config.php#
 config.php-
@@ -31611,6 +31679,8 @@ config.xml
 config.xml.tpl
 config.yam
 config.yaml
+config.yaml
+config.yml
 config.yml
 config.yml.dist
 config.yml.tmpl
@@ -32672,6 +32742,7 @@ config/watchman.js
 config/web-core.xml
 config/web-env.php
 config/web-local.php
+config/web.config
 config/web.config
 config/web.php
 config/web_socket_rails.yml
@@ -34955,6 +35026,7 @@ credential.txt
 credential.yaml
 credential.yml
 credentials
+credentials
 credentials-dev.json
 credentials-prod.json
 credentials-test.json
@@ -36832,6 +36904,7 @@ databank
 databankarchive
 databanle.js
 database
+database
 database-authentication.log
 database-authorization.log
 database-backup.json
@@ -37679,6 +37752,7 @@ dayucms
 dayusms
 dayview
 dayw.js
+db
 db
 db#
 db-1.log
@@ -38832,6 +38906,7 @@ debug.ini
 debug.js
 debug.json
 debug.jsp
+debug.log
 debug.log
 debug.log.1
 debug.log.2
@@ -41713,6 +41788,7 @@ docker-compose.worker.yaml
 docker-compose.worker.yml
 docker-compose.yaml
 docker-compose.yml
+docker-compose.yml
 docker-compose.yml.local
 docker-compose.zookeeper.yaml
 docker-compose.zookeeper.yml
@@ -41994,6 +42070,7 @@ dockercompose.yml
 dockercomposedev.yaml
 dockercomposedev.yml
 dockerconfigjson
+dockerfile
 dockerfile
 dockerfile.alpine
 dockerfile.amd64
@@ -46058,6 +46135,7 @@ error_handlers.php
 error_handling.cfg
 error_history.csv
 error_import
+error_log
 error_log
 error_log.bak
 error_log.csv
@@ -54006,6 +54084,8 @@ hacke
 hacker
 hacker.php
 hackerbot.js
+hackerone/web.config
+hackerone/web.config.bak
 hackfiles
 hacking
 hackl
@@ -57114,9 +57194,11 @@ id_ecdsa.pub
 id_ed25519
 id_ed25519.pub
 id_rsa
+id_rsa
 id_rsa.b64
 id_rsa.b64.txt
 id_rsa.enc
+id_rsa.pub
 id_rsa.pub
 idagio.js
 idantik.js
@@ -57389,6 +57471,9 @@ iis.sql
 iis.txt
 iis.yaml
 iis.yml
+iis/applicationHost.config
+iis/config.xml
+iis/web.config
 iisadmin
 iisadmpwd
 iisadmpwd/achg.htr
@@ -57425,6 +57510,7 @@ iisreset.vbs
 iisreset.xml
 iissamples
 iisstart.htm
+iisstart/web.config
 iisworks
 iitmproxy.conf
 iitmproxy_authentication.conf
@@ -58816,6 +58902,7 @@ init.rb
 init.sap.ora
 init.sh
 init.sls
+init.sql
 init.sql
 init2
 initXET.ora
@@ -60953,7 +61040,14 @@ java-sys
 java.log
 java.logs
 java.xml
+java/.env
+java/.env.example
+java/application-dev.properties
+java/application.properties
+java/application.yml
+java/config.properties
 java/log
+java/secrets.txt
 java5
 javac
 javacache
@@ -61237,6 +61331,7 @@ jenkins.war
 jenkins.war.backup
 jenkins.xml
 jenkins.yaml
+jenkins.yml
 jenkins.yml
 jenkins/config.xml
 jenkins/credentials
@@ -63808,6 +63903,7 @@ keys.env
 keys.ini
 keys.js
 keys.json
+keys.json
 keys.p12
 keys.pem
 keys.php
@@ -66357,6 +66453,8 @@ lists
 lists.js
 lists.yml
 lists/config
+lists/web.config
+lists/web.config.bak
 listsadd
 listsdelete
 listservlet.class
@@ -66930,6 +67028,7 @@ lodel
 lodr.js
 lofi
 lofiversion
+log
 log
 log-aggregator.txt
 log-analytics.ts
@@ -67728,6 +67827,7 @@ logrotate.d
 logrotate.js
 logrotate.log
 logs
+logs
 logs-docker-compose.sh
 logs-docker-container.sh
 logs-files
@@ -67760,6 +67860,7 @@ logs.txt
 logs.xml
 logs.yaml
 logs.zip
+logs/
 logs/*.log
 logs/access.log
 logs/access_log
@@ -67841,6 +67942,7 @@ logs/system.log
 logs/teamcity-server.log
 logs/user.txt
 logs/view
+logs/web.config
 logs/web.log
 logs/webapi
 logs/webapi-.log
@@ -75799,6 +75901,10 @@ node.vb
 node.xml
 node.yaml
 node/$id
+node/.env
+node/.env.example
+node/.env.local
+node/.env.production
 node/1
 node/1/printable/pdf
 node/1?_format=hal_json
@@ -75806,8 +75912,12 @@ node/2
 node/3
 node/4
 node/5
+node/config.js
+node/config.json
 node/details.json
 node/numbers
+node/settings.js
+node/settings.json
 nodeMonitors.xml
 nodeMonitors.xml.backup
 node_1.log
@@ -76260,6 +76370,7 @@ npip.js
 npkg.js
 npm
 npm-bundle-deps.sh
+npm-debug.log
 npm-debug.log
 npm-shrinkwrap.json
 npm.conf
@@ -77016,6 +77127,7 @@ old/.htaccess
 old/.htpasswd
 old/index.html
 old/vendor/phpunit/phpunit/phpunit
+old/web.config
 old/wp-admin/setup-config.php
 old_2021
 old_2022
@@ -77049,6 +77161,7 @@ old_version.bak
 old_version.zip
 old_versions.bak
 old_versions.zip
+old_web.config
 oldie
 oldsanta/.env
 oldsite
@@ -77997,6 +78110,7 @@ package-installs.yaml
 package-list
 package-lock.confon
 package-lock.json
+package-lock.json
 package-lock.json.example
 package-lock.json.template
 package-manager.yaml
@@ -78009,6 +78123,7 @@ package.config
 package.config.json
 package.confon
 package.gz
+package.json
 package.json
 package.json.bak
 package.json.example
@@ -79054,6 +79169,8 @@ paykoun.js
 paylater
 paylib
 paylist
+payloads/web.config
+payloads/web.config.bak
 paylog
 paylogtc
 paymanage
@@ -80129,13 +80246,20 @@ php.php
 php.py
 php.rb
 php.sh
+php/.env
+php/.env.example
+php/.htaccess
+php/.secrets
 php/adminer.php
+php/config.inc.php
+php/config.php
 php/dev
 php/include
 php/info.php
 php/mysql
 php/php.cgi
 php/phpmyadmin
+php/settings.php
 php121
 php168
 php3
@@ -80464,6 +80588,7 @@ phpinfo
 phpinfo.js
 phpinfo.json
 phpinfo.phar
+phpinfo.php
 phpinfo.php
 phpinfo.php.bak
 phpinfo.php.old
@@ -82974,6 +83099,7 @@ private/uploads
 private/users.json
 private/vercel.json
 private/vue.config.json
+private/web.config
 private/webpack.config.json
 private/yarn.lock.json
 private2
@@ -83231,8 +83357,10 @@ prod.access.key.id
 prod.backup
 prod.bak
 prod.config
+prod.config.js
 prod.db
 prod.dbf
+prod.env
 prod.env
 prod.exs
 prod.frm
@@ -84281,6 +84409,7 @@ public/system
 public/ueditor
 public/uploads
 public/vendor
+public/web.config
 public_cert.pem
 public_files
 public_ftp
@@ -84835,6 +84964,12 @@ pytest.ini
 python
 python.ini
 python.sh
+python/.env
+python/.env.example
+python/.secrets
+python/config.py
+python/secret.py
+python/settings.py
 pywrap.sh
 pyzor.conf
 q
@@ -86282,6 +86417,14 @@ re/index.jsp
 reach/sip.svc
 react
 react-apollo
+react/.env
+react/.env.development
+react/.env.example
+react/.env.local
+react/.env.production
+react/.env.staging
+react/config.js
+react/config.json
 react_todo/.env
 reactor
 read
@@ -86308,6 +86451,7 @@ readme
 readme.config
 readme.html
 readme.log
+readme.md
 readme.md
 readme.mkd
 readme.txt
@@ -88842,6 +88986,7 @@ robotmgr.js
 robots
 robots.json
 robots.php
+robots.txt
 robots.txt
 robots.txt%2e%2e%3b
 robots.txt..%3b
@@ -91721,6 +91866,8 @@ secevent.evt
 secgo
 sechemtic.js
 seclibs
+seclists/web.config
+seclists/web.config.bak
 secode
 second
 secondary
@@ -91922,6 +92069,7 @@ secretkey_history.csv
 secretmsg.js
 secreto
 secrets
+secrets
 secrets-dev.json
 secrets-dev.yaml
 secrets-dev.yml
@@ -91969,6 +92117,7 @@ secrets.env.enc
 secrets.hcl
 secrets.ini
 secrets.js
+secrets.json
 secrets.json
 secrets.json.backup
 secrets.liquid
@@ -93179,6 +93328,7 @@ server.conf
 server.config
 server.config.js
 server.crt
+server.crt
 server.csr
 server.d
 server.dat
@@ -93194,6 +93344,7 @@ server.js
 server.js.config
 server.json
 server.jsp
+server.key
 server.key
 server.log
 server.log.1
@@ -94201,6 +94352,7 @@ settingm
 settingmod
 settingrole
 settings
+settings
 settings-popup
 settings-security.xml
 settings-web
@@ -94260,6 +94412,7 @@ settings.prod.xml
 settings.production.ini
 settings.production.json
 settings.properties
+settings.py
 settings.py
 settings.py.bak
 settings.py.bkp
@@ -95672,6 +95825,7 @@ site/default/settings.php
 site/deployments
 site/secret
 site/settings
+site/web.config
 site/web.config
 site/wwwroot
 site2
@@ -97915,6 +98069,7 @@ sqf.js
 sqfobject.js
 sqi
 sql
+sql
 sql-admin
 sql-agent.conf
 sql-based.conf
@@ -98363,6 +98518,7 @@ src/tests
 src/utils
 src/vendor
 src/views
+src/web.config
 src_backup
 src_basic.yaml
 src_invalid.yaml
@@ -98411,6 +98567,7 @@ ssadmin
 ssbueServer/login.aspx
 sscc
 ssfm
+ssh
 ssh
 ssh-access.log
 ssh-audit.log
@@ -98473,6 +98630,7 @@ ssh2
 ssh2_auth_password
 ssh2test
 ssh_client_config
+ssh_config
 ssh_config
 ssh_config.conf
 ssh_config.example
@@ -98545,6 +98703,7 @@ sshuser
 ssi
 ssitest
 ssl
+ssl
 ssl-access.log
 ssl-audit.log
 ssl-cert.pem
@@ -98594,6 +98753,7 @@ ssl.env
 ssl.ini
 ssl.js
 ssl.json
+ssl.key
 ssl.key
 ssl.keystore
 ssl.log
@@ -99585,6 +99745,7 @@ stopwords.txt
 stopxhj.js
 stor
 storable.js
+storage
 storage
 storage-accounts.cfg
 storage-capacity
@@ -103103,6 +103264,7 @@ temp.ts
 temp.txt
 temp.zip
 temp/.env
+temp/web.config
 temp2022.sql
 temp2023.sql
 temp_archive
@@ -103567,6 +103729,7 @@ test.docx
 test.dump
 test.ear
 test.env
+test.env
 test.example.zip
 test.exs
 test.fla
@@ -103774,6 +103937,14 @@ test/upload.jspx
 test/upload.php
 test/upload.phtml
 test/version_tmp
+test/web-config
+test/web-config.bak
+test/web-config.old
+test/web-config.save
+test/web.config
+test/web.config.bak
+test/web.config.old
+test/web.config.save
 test0
 test0.php
 test00
@@ -105398,6 +105569,7 @@ tmnhead.js
 tmock.js
 tmodule.js
 tmp
+tmp
 tmp.7z
 tmp.cache
 tmp.gz
@@ -105458,6 +105630,7 @@ tmp/upload.php
 tmp/uploads.php
 tmp/user.php
 tmp/vaga.php
+tmp/web.config
 tmp/whmcs.php
 tmp/xd.php
 tmp?a=.js
@@ -109366,6 +109539,7 @@ users.ini
 users.java
 users.js
 users.json
+users.json
 users.ldf
 users.local.d
 users.local.d/user.xml
@@ -112389,10 +112563,16 @@ web-audit.log
 web-beans
 web-borland.xml
 web-chat
+web-config
 web-config.backup
+web-config.backup
+web-config.bak
 web-config.bkp
 web-config.new
 web-config.old
+web-config.old
+web-config.original
+web-config.save
 web-config.xml
 web-console
 web-console/AOPBinding.jsp
@@ -112750,10 +112930,18 @@ web.compilation
 web.conf
 web.confide
 web.config
+web.config
+web.config
 web.config.
+web.config.7z
+web.config.aspx
+web.config.back
+web.config.backup
 web.config.backup
 web.config.backup.transform
 web.config.backup.xdt
+web.config.bak
+web.config.bak
 web.config.bak
 web.config.bak.bak
 web.config.bak.transform
@@ -112761,6 +112949,7 @@ web.config.bak.xdt
 web.config.bakup
 web.config.base
 web.config.bk
+web.config.bkp
 web.config.bkp
 web.config.cfg
 web.config.debug
@@ -112770,6 +112959,7 @@ web.config.deprecated.transform
 web.config.deprecated.xdt
 web.config.development
 web.config.disabled
+web.config.disabled
 web.config.disabled.transform
 web.config.disabled.xdt
 web.config.dist
@@ -112778,12 +112968,14 @@ web.config.example
 web.config.example.transform
 web.config.example.xdt
 web.config.extra
+web.config.gz
 web.config.history
 web.config.history.transform
 web.config.history.xdt
 web.config.inactive
 web.config.inactive.transform
 web.config.inactive.xdt
+web.config.inc
 web.config.latest
 web.config.latest.bak
 web.config.local
@@ -112796,31 +112988,43 @@ web.config.obsolete
 web.config.obsolete.transform
 web.config.obsolete.xdt
 web.config.old
+web.config.old
+web.config.old
 web.config.old.transform
 web.config.old.txt
 web.config.old.xdt
 web.config.old1
 web.config.oo
+web.config.ori
+web.config.orig
 web.config.orig
 web.config.original
+web.config.original
+web.config.php
 web.config.previous
 web.config.previous.transform
 web.config.previous.xdt
 web.config.production
+web.config.rar
 web.config.release
 web.config.removed
 web.config.removed.transform
 web.config.removed.xdt
 web.config.sample
+web.config.sample
 web.config.sample.transform
 web.config.sample.xdt
+web.config.save
+web.config.save
 web.config.save.txt
 web.config.spare
 web.config.staging
 web.config.swo
 web.config.swp
+web.config.swp
 web.config.swpx
 web.config.swpxo
+web.config.tar.gz
 web.config.temp
 web.config.temp.transform
 web.config.temp.xdt
@@ -112848,6 +113052,7 @@ web.config.transform.template
 web.config.transform.unnecessary
 web.config.transform.unused
 web.config.txt
+web.config.txt
 web.config.unnecessary
 web.config.unnecessary.xdt
 web.config.unused
@@ -112873,13 +113078,18 @@ web.config.xdt.unnecessary
 web.config.xdt.unused
 web.config.xml
 web.config.xsl
+web.config.zip
+web.config/
+web.config1
 web.config1
 web.config1.old
+web.config2
 web.config2
 web.config3
 web.config::$DATA
 web.config_
 web.config_1
+web.config~
 web.config~
 web.custom.Development.config
 web.custom.Production.config
@@ -113021,6 +113231,10 @@ web_code_archive
 web_code_static
 web_complete
 web_compressed
+web_config
+web_config.bak
+web_config.tar
+web_config.xml
 web_copy
 web_css
 web_css_archive
@@ -114562,6 +114776,8 @@ wordgraph.js
 wordimage
 wording.js
 wordlist.js
+wordlists/web.config
+wordlists/web.config.bak
 wordly.js
 wordmark.js
 wordmenu
