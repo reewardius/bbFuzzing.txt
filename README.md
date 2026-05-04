@@ -26,12 +26,21 @@ nuclei -l fp_domains_alive.txt -tags config,exposure -es unknown -c 100 -rl 1000
 # Ffuf
 ```
 > ffuf -u target.com/FUZZ -w bbFuzzing.txt
-> ffuf -u target.com/FUZZ -H "Host: 127.0.0.1" -w bbFuzzing.txt
-> ffuf -u target.com/FUZZ -H "Host: localhost" -w bbFuzzing.txt
 
-> ffuf -u target.com/FUZZ.example -w bbFuzzing.txt
-> ffuf -u target.com/FUZZ.sample -w bbFuzzing.txt
-> ffuf -u target.com/FUZZ.template -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ.bkp -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ.backup -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ.old -w bbFuzzing.txt
+
+> ffuf -u target.com/FUZZ -H "Host: 127.0.0.1" -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ -H "Host: 192.168.0.1" -w bbFuzzing.txt
+
+> ffuf -u target.com/api/FUZZ -H "X-Original-URL: /admin"
+> ffuf -u target.com/api/FUZZ -H "X-Rewrite-URL: /admin"
+> ffuf -u target.com/api/FUZZ -H "X-Custom-IP-Authorization: 127.0.0.1"
+
+> ffuf -u target.com/api/FUZZ -H "X-Forwarded-For: 127.0.0.1"
+> ffuf -u target.com/api/FUZZ -H "X-Forwarded-Host: localhost"
+> ffuf -u target.com/api/FUZZ -H "X-Host: 127.0.0.1"
 
 > ffuf -u target.com/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/%3B/FUZZ/ -w bbFuzzing.txt
@@ -49,16 +58,18 @@ nuclei -l fp_domains_alive.txt -tags config,exposure -es unknown -c 100 -rl 1000
 > ffuf -u target.com/FUZZ;%2f.. -w bbFuzzing.txt
 > ffuf -u target.com/.FUZZ -w bbFuzzing.txt
 
-> ffuf -u target.com/%0AFUZZ -w bbFuzzing.txt
-> ffuf -u target.com/%0D%0AFUZZ -w bbFuzzing.txt
-> ffuf -u target.com/%0DFUZZ -w bbFuzzing.txt
-
 > ffuf -u target.com/%2e/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ%20 -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ%2520 -w bbFuzzing.txt
 
 > ffuf -u target.com/%u002e%u002e/%u002e%u002e/FUZZ -w bbFuzzing.txt
 > ffuf -u target.com/%2e%2e%2f/FUZZ/ -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ%2f%2e%2e%2f -w bbFuzzing.txt
+
+> ffuf -u target.com/./FUZZ/./ -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ/./ -w bbFuzzing.txt
+> ffuf -u target.com/a/../FUZZ/ -w bbFuzzing.txt
+> ffuf -u target.com/FUZZ/..%2f -w bbFuzzing.txt
 > ffuf -u target.com/%2EFUZZ -w bbFuzzing.txt
 
 > ffuf -u target.com/FUZZ.old -w bbFuzzing.txt
@@ -69,8 +80,8 @@ nuclei -l fp_domains_alive.txt -tags config,exposure -es unknown -c 100 -rl 1000
 > ffuf -u target.com/FUZZ_ -w bbFuzzing.txt
 > ffuf -u target.com/_FUZZ_ -w bbFuzzing.txt
 
-> ffuf -u target.com/..;/FUZZ/ -w bbFuzzing.txt
-> ffuf -u target.com/..;/..;/FUZZ/ -w bbFuzzing.txt
+> ffuf -u target.com/..;/FUZZ -w bbFuzzing.txt
+> ffuf -u target.com/..;/..;/FUZZ -w bbFuzzing.txt
 > ffuf -u target.com/../FUZZ -w bbFuzzing.txt
 
 > ffuf -u target.com/-FUZZ -w bbFuzzing.txt
@@ -78,23 +89,18 @@ nuclei -l fp_domains_alive.txt -tags config,exposure -es unknown -c 100 -rl 1000
 > ffuf -u target.com/FUZZ..;/ -w bbFuzzing.txt
 
 > ffuf -u target.com/FUZZ;/ -w bbFuzzing.txt
-> ffuf -u target.com/FUZZ# -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ/~ -w bbFuzzing.txt
 
 > ffuf -u target.com/!FUZZ -w bbFuzzing.txt
-> ffuf -u target.com/#/FUZZ/ -w bbFuzzing.txt
 > ffuf -u target.com/-/FUZZ/ -w bbFuzzing.txt
-
 > ffuf -u target.com/FUZZ~ -w bbFuzzing.txt
-> ffuf -u target.com/FUZZ/.git/config -w bbFuzzing.txt
-> ffuf -u target.com/FUZZ/.env -w bbFuzzing.txt
 
+> ffuf -u target.com/FUZZ/.env -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ. -w bbFuzzing.txt
-> ffuf -u target.com/FUZZ/* -w bbFuzzing.txt
 > ffuf -u target.com/FUZZ/? -w bbFuzzing.txt
 
 > ffuf -u target.com/FUZZ -recursive -w fuzzing.txt
-> ffuf -u target.com/FUZZ -recursive -w fuzzing.txt -e .asp,.aspx,.ashx,.ash,.jsp,.jspx,.php,.js,.dll,.json,.bak,.bkp,.conf,.txt,.py,.zip,.tar.gz,.tar,.7z,.old
+> ffuf -u target.com/FUZZ -recursive -w fuzzing.txt -e .asp,.aspx,.ashx,.ash,.jsp,.jspx,.php,.py,.js,.yml,.yaml,.dll,.json,.bak,.bkp,.conf,.txt,.zip,.tar.gz,.tar,.7z,.old,.db
 
 Any special occasions (cookieless) - IIS + ASP
 > ffuf -u target.com/(A(ABCD))/FUZZ
