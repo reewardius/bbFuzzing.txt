@@ -16,7 +16,7 @@ There are also examples of how you can extend the fuzzing process to get more in
 - **fp_domains.txt** - list of domains that give too much false positives, check them separately with ffuf filters
 - **fuzz_output.txt** - can work with results
 ```bash
-ffuf -u URL/TOP -w alive_http_services.txt:URL -w top.txt:TOP -ac -mc 200 -o fuzz_results.json -fs 0 && \
+ffuf -u URL/TOP -w alive_http_services.txt:URL -w top.txt:TOP -ac -mc 200 -o fuzz_results.json -fs 0 -r && \
 python delete_falsepositives.py -j fuzz_results.json -o fuzz_output.txt -fp fp_domains.txt && \
 httpx -l fuzz_output.txt -sr -srd responses/ && \
 trufflehog filesystem responses/ > trufflehog_results.txt && \
