@@ -13866,6 +13866,7 @@ api/v1.0
 api/v1.0/.git
 api/v1.0/.git/config
 api/v1.0/.json
+api/v1.0/employees
 api/v1.0/reg
 api/v1.0/register
 api/v1.0/swagger/swagger.json
@@ -15318,6 +15319,7 @@ api/v2.0/.git
 api/v2.0/.git/config
 api/v2.0/.json
 api/v2.0/configuration
+api/v2.0/employees
 api/v2.0/health
 api/v2.0/preference
 api/v2.0/projects
@@ -16093,6 +16095,7 @@ api/v3.0
 api/v3.0/.git
 api/v3.0/.git/config
 api/v3.0/.json
+api/v3.0/employees
 api/v3.0/reg
 api/v3.0/register
 api/v3.0/swagger/swagger.json
@@ -16831,6 +16834,7 @@ api/v3?page=1
 api/v4
 api/v4.0
 api/v4.0/.git/config
+api/v4.0/employees
 api/v4.0/users?page=1
 api/v4/.git/config
 api/v4/_admin
@@ -16841,6 +16845,7 @@ api/v4/actuator/heapdump
 api/v4/application/settings
 api/v4/docs
 api/v4/download
+api/v4/employees
 api/v4/groups
 api/v4/internal/allowed
 api/v4/internal/check
@@ -16858,6 +16863,7 @@ api/v5.0/users?page=1
 api/v5/.git/config
 api/v5/actuator/dump
 api/v5/actuator/heapdump
+api/v5/employees
 api/v5/projects
 api/v5/users?page=1
 api/v6
@@ -110567,6 +110573,7 @@ v0
 v0.1
 v1
 v1.0
+v1.0/employees
 v1.0/swagger-ui.html
 v1.0/users
 v1.1
@@ -110638,6 +110645,7 @@ v1/data
 v1/docs
 v1/dump
 v1/dump.json
+v1/employees
 v1/event
 v1/event/list
 v1/event/permission
@@ -110805,6 +110813,7 @@ v10
 v1beta1.yaml
 v2
 v2.0
+v2.0/employees
 v2.0/swagger-ui.html
 v2.0/users
 v2.js
@@ -110833,6 +110842,7 @@ v2/credentials
 v2/docs
 v2/dump
 v2/dump.json
+v2/employees
 v2/event
 v2/events
 v2/exchange/callback/adx
@@ -110887,6 +110897,7 @@ v2/visitors/post
 v25
 v3
 v3-public/localProviders/local?action=login
+v3.0/employees
 v3.0/swagger-ui.html
 v3.0/users
 v3.js
@@ -110903,6 +110914,7 @@ v3/credentials
 v3/docs
 v3/dump
 v3/dump.json
+v3/employees
 v3/explorer
 v3/graph
 v3/graphiql
@@ -110928,8 +110940,10 @@ v3alpha
 v3alpha/auth/authenticate
 v3chat
 v4
+v4.0/employees
 v4/altair
 v4/api/graphql
+v4/employees
 v4/explorer
 v4/graph
 v4/graphiql
@@ -110949,6 +110963,7 @@ v4/playground
 v4/subscriptions
 v4sql
 v5
+v5/employees
 v6
 v7
 v8
