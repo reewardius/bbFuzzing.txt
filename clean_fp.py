@@ -1,21 +1,23 @@
 #!/usr/bin/env python3
 """
-clean_fp.py — відсів false positives зі списку знайдених ендпоінтів.
+clean_fp.py - filter false positives from a list of discovered endpoints.
 
-Формат вхідного рядка (як у виводі httpx/dirb-подібних сканерів):
+Input line format (typical httpx / dirb-like scanner output):
     http://host/path [200] [412] [text/html] [host] [nginx]
-    тобто:  URL  [status] [content-length] [content-type] [host] [server]
+    i.e.:  URL  [status] [content-length] [content-type] [host] [server]
 
-Правила відсіву (можна вмикати/вимикати прапорцями):
-  1. content-type == text/html            -> FP            (--keep-html вимикає)
-  2. content-length повторюється часто     -> шаблон/FP     (--threshold, --keep-dupes вимикає)
-  3. status у списку «нецікавих»           -> FP            (--bad-status)
+Filtering rules (toggleable via flags):
+  1. content-type == text/html             -> FP   (disable with --keep-html)
+  2. content-length that repeats often     -> boilerplate/FP
+                                              (--threshold, disable with --keep-dupes)
+  3. status in the "uninteresting" list    -> FP   (--bad-status)
+  4. keep only application/json            -> optional (--only-json)
 
-Приклади:
+Examples:
     python3 clean_fp.py scan.txt
     python3 clean_fp.py scan.txt -o clean.txt --threshold 5
-    python3 clean_fp.py scan.txt --keep-html --json-only
-    cat scan.txt | python3 clean_fp.py -           # зі stdin
+    python3 clean_fp.py scan.txt --keep-html --only-json
+    cat scan.txt | python3 clean_fp.py -           # read from stdin
 """
 import argparse
 import collections
@@ -26,13 +28,13 @@ BRACKET_RE = re.compile(r"\[([^\]]*)\]")
 
 
 def parse_line(line):
-    """Повертає dict або None, якщо рядок не парситься."""
+    """Return a dict for one line, or None if it does not parse."""
     line = line.rstrip("\n")
     if not line.strip():
         return None
     url = line.split(None, 1)[0]
     fields = BRACKET_RE.findall(line)
-    # нормалізуємо: прибираємо хвостові пробіли та анотації типу (PII)
+    # normalize: strip trailing spaces and annotations like (PII)
     clean = lambda s: re.sub(r"\(.*?\)$", "", s).strip()
     return {
         "url": url.strip(),
@@ -61,29 +63,29 @@ def load(path):
 
 def main():
     ap = argparse.ArgumentParser(
-        description="Відсів false positives зі списку ендпоінтів.")
-    ap.add_argument("input", help="файл виводу сканера, або '-' для stdin")
+        description="Filter false positives from an endpoint list.")
+    ap.add_argument("input", help="scanner output file, or '-' for stdin")
     ap.add_argument("-o", "--output",
-                    help="куди записати чисті хіти (за замовч. — stdout)")
+                    help="write clean hits here (default: stdout)")
     ap.add_argument("-t", "--threshold", type=int, default=5,
-                    help="content-length, що зустрічається БІЛЬШЕ за N разів, "
-                         "вважається шаблоном/FP (за замовч. 5)")
+                    help="a content-length seen MORE than N times is treated "
+                         "as boilerplate/FP (default: 5)")
     ap.add_argument("--keep-html", action="store_true",
-                    help="не відкидати text/html")
+                    help="do not drop text/html")
     ap.add_argument("--keep-dupes", action="store_true",
-                    help="не відкидати повторювані content-length")
+                    help="do not drop repeated content-length")
     ap.add_argument("--bad-status", default="",
-                    help="кома-перелік статусів, які теж вважати FP, напр. '404,400,403'")
+                    help="comma-separated statuses to treat as FP, e.g. '404,400,403'")
     ap.add_argument("--only-json", action="store_true",
-                    help="лишити тільки application/json")
+                    help="keep only application/json")
     ap.add_argument("--stats", action="store_true",
-                    help="показати статистику у stderr")
+                    help="print statistics to stderr")
     args = ap.parse_args()
 
     rows = load(args.input)
     total = len(rows)
     if total == 0:
-        print("Порожній або нерозпізнаний ввід.", file=sys.stderr)
+        print("Empty or unrecognized input.", file=sys.stderr)
         sys.exit(1)
 
     len_counts = collections.Counter(r["length"] for r in rows)
@@ -105,7 +107,7 @@ def main():
             continue
         kept.append(r)
 
-    # json першим, далі за рідкістю довжини, далі за url
+    # json first, then by rarity of length, then by url
     kept.sort(key=lambda r: (r["ctype"] != "application/json",
                              len_counts[r["length"]], r["url"]))
 
@@ -119,16 +121,16 @@ def main():
 
     if args.stats or args.output:
         e = sys.stderr
-        print(f"[*] Всього рядків:        {total}", file=e)
+        print(f"[*] Total lines:        {total}", file=e)
         for reason, n in dropped.most_common():
-            print(f"[-] Відкинуто ({reason}): {n}", file=e)
-        print(f"[+] Залишилось хітів:     {len(kept)}", file=e)
-        print(f"[*] Топ content-length (шаблони):", file=e)
+            print(f"[-] Dropped ({reason}): {n}", file=e)
+        print(f"[+] Hits kept:          {len(kept)}", file=e)
+        print(f"[*] Top content-length (boilerplate):", file=e)
         for l, c in len_counts.most_common(5):
             mark = "  <-- FP" if c > args.threshold else ""
             print(f"      len={l:>8}  x{c}{mark}", file=e)
         if args.output:
-            print(f"[+] Записано у: {args.output}", file=e)
+            print(f"[+] Written to: {args.output}", file=e)
 
 
 if __name__ == "__main__":
