@@ -23,6 +23,16 @@ trufflehog filesystem responses/ > trufflehog_results.txt && \
 httpx -l fp_domains.txt -rl 500 -t 200 -o fp_domains_alive.txt && \
 nuclei -l fp_domains_alive.txt -tags config,exposure -es unknown -c 100 -rl 1000 -o nuclei_config_exposures.txt
 ```
+
+Sometimes, for some reason, ffuf refuses to match results; in that case, it is recommended to use httpx
+```
+httpx -l alive -path top.txt -sc -cl -t 200 -rl 1000 -title -ct -server -mc 200 -H "Authorization: Bearer eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJzdWIiOiIxIiwibmFtZSI6IlRlc3QgVXNlciIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc5MzEyODk1NywiZXhwIjoxNzkzMTMyNTU3fQ." -o httpx_results.txt
+
+python3 clean_fp.py httpx_results.txt
+```
+
+
+
 # Ffuf
 ```
 > ffuf -u target.com/FUZZ -w bbFuzzing.txt
